@@ -1,0 +1,104 @@
+{
+  "uuid": "81622a3a90204e8685b9f33b56559349",
+  "path": "pankanwen/wu-kou-qian-zhao-jiao-huan-ji-_yt9215s_v2_0",
+  "name": "基于裕太微YT9215S的五口千兆交换机",
+  "content": "<p>[9.12更新]修正网口部分电阻阻值错误</p>\n<p>[10.26更新]更新实物照片</p>\n<p><strong>0.本工程原理图及软件仅供学习交流使用，不得用于任何商业用途，请遵守相关开源协议！</strong></p>\n<p>1.本人为初学者，请各位不吝赐教</p>\n<p>2.工程描述</p>\n<p>这是一款基于YT9215S的千兆傻瓜交换机，以太网交换芯片采用裕太微电子的YT9215S（理论上Pin2Pin兼容瑞昱RTL8367S，实测boot不了？很奇怪 看了数据手册没找出问题），接口为5电口，支持TYPE-C供电并预留了DC 12V输入</p>\n<p><img src=\"//image.lceda.cn/pullimage/uOBYPDxmM6dWQ9PpfdDnA6Mf9QetUpRSTLbUkPMi.jpeg\" alt=\"\" width=\"1200\" height=\"1200\"></p>\n<p><img src=\"//image.lceda.cn/pullimage/AIrIrnAeolJn3vIR062m4adCtKXhlTBiSRBCFTox.jpeg\" alt=\"\" width=\"1200\" height=\"1200\"></p>\n<p><img src=\"//image.lceda.cn/pullimage/i7AJHBv1EBCofV6zD4BjKF6naxb917jQUmtgQexW.png\" alt=\"\" width=\"1200\" height=\"1200\"></p>\n<p>3.已实测无问题</p>\n<p>4.配置电阻</p>\n<p><img src=\"//image.lceda.cn/pullimage/tSWtnBFdPQaP7SAP6lXnycyyjS7KfCel5Npd1qTk.png\" alt=\"\" width=\"1083\" height=\"1200\"></p>\n<p><img src=\"//image.lceda.cn/pullimage/D8V9Y3GJpEbcJg9oACqIgv42bysUGJwPBjD3pYzA.png\" alt=\"\" width=\"1078\" height=\"561\"></p>\n<p>复用引脚在上电时读取电平</p>\n<p>5.实测</p>\n<p><img src=\"//image.lceda.cn/pullimage/AozlHBymK3GdTND7hMh8voyoYNGglIv94TelUFAD.jpeg\" alt=\"\" width=\"1080\" height=\"1200\"></p>\n<p><img src=\"//image.lceda.cn/pullimage/nZK3NriirJlx9eUShfQlTpzHPEHGwEUTswzZl72T.jpeg\" alt=\"\" width=\"240\" height=\"320\"></p>\n<p>上图为两个口功耗及温度（贴了散热），三个口功耗1.6W左右</p>\n<p><img src=\"//image.lceda.cn/pullimage/brRXu7fgV7GGd28SbG8YsbGMumhxbHzH2HUuDFoj.jpeg\" alt=\"\" width=\"556\" height=\"336\"></p>\n<p><img src=\"//image.lceda.cn/pullimage/8igjs4XwPYlVqYG9WED2lKqTvKtBcck55e7qZ343.jpeg\" alt=\"\" width=\"402\" height=\"226\"></p>\n<p><img src=\"//image.lceda.cn/pullimage/vga6WYLqpLHeh6dmYR0ulI75CMkcDq8eKbj0rlNg.jpeg\" alt=\"\" width=\"1200\" height=\"914\"></p>\n<p>（最好贴个散热，1.6W功耗不贴散热的话芯片有75度+）</p>\n<p>6.价格</p>\n<p>以太网芯片淘宝15块，网口淘宝寨版2块多一个</p>",
+  "grade": 1,
+  "public": true,
+  "license": "CC BY-NC-SA 3.0",
+  "creator": {
+    "uuid": "3f2b8adcf0ef481684e2f6c30d9c1600",
+    "username": "pankanwen",
+    "nickname": "pankanwen",
+    "avatar": "//image.lceda.cn/avatars/2023/9/fJrFcoBT4o7PgznGuv5JTZ4dtlaNRg1gd31wA4Ov.png"
+  },
+  "text_editor_type": "richText",
+  "owner": {
+    "uuid": "3f2b8adcf0ef481684e2f6c30d9c1600",
+    "username": "pankanwen",
+    "nickname": "pankanwen",
+    "avatar": "//image.lceda.cn/avatars/2023/9/fJrFcoBT4o7PgznGuv5JTZ4dtlaNRg1gd31wA4Ov.png",
+    "team": false
+  },
+  "count": {
+    "views": 9521,
+    "star": 34,
+    "fork": 0,
+    "watch": 0,
+    "like": 24
+  },
+  "members": [
+    {
+      "uuid": "3f2b8adcf0ef481684e2f6c30d9c1600",
+      "username": "pankanwen",
+      "nickname": "pankanwen",
+      "avatar": "//image.lceda.cn/avatars/2023/9/fJrFcoBT4o7PgznGuv5JTZ4dtlaNRg1gd31wA4Ov.png",
+      "role": 1
+    }
+  ],
+  "no": 0,
+  "origin": "pro",
+  "archive": false,
+  "allow_comment": true,
+  "cover": {
+    "name": "",
+    "src": ""
+  },
+  "version": "",
+  "thumb": "//image.lceda.cn/pullimage/QS4ywcazwIp08a5glJIDoEEjnW6VVZuLH2adkkBa.jpeg",
+  "updated_at": "2023-09-12 10:08:08",
+  "created_at": "2023-09-04 15:40:03",
+  "introduction": "一款基于YT9215S的千兆傻瓜交换机，以太网交换芯片采用裕太微电子的YT9215S，接口为5电口，支持TYPE-C供电",
+  "is_draft": false,
+  "project_tags": [
+    "f2beb30a80134f3e9595b51148f55cf8"
+  ],
+  "publish": true,
+  "oshwhub_publish_at": "2023-10-26 10:46:21",
+  "allow_reprint": true,
+  "store": false,
+  "updated_time": "2026-10-23 06:13:12",
+  "oshwhub_first_publish_at": {
+    "$date": {
+      "$numberLong": "1694156807000"
+    }
+  },
+  "tags": [],
+  "bom": "",
+  "allowComment": true,
+  "permissions": [
+    "project.read",
+    "project.copy",
+    "project.backup",
+    "project.file.export",
+    "project.document.copy",
+    "project.attachment.download",
+    "design.file.export",
+    "manufacture.file.export",
+    "structure.file.export",
+    "report.file.export"
+  ],
+  "must_public": 0,
+  "workspace_jump": "",
+  "title": "基于裕太微YT9215S的五口千兆交换机",
+  "folder": null,
+  "block_symbol_attrs_groups": [],
+  "boards": [
+    {
+      "sch": "9c5dfa1dc4b44acb91ae1438899e2367",
+      "name": "Board1",
+      "pcb": "b9e08c11d6c84941885968ccaa8b1dac"
+    }
+  ],
+  "cbb_project": false,
+  "default_sheet": "033606186a0d415fbced9ceff6260570",
+  "g_ticket": 871,
+  "modifier": {
+    "uuid": "3f2b8adcf0ef481684e2f6c30d9c1600",
+    "username": "pankanwen",
+    "nickname": "pankanwen"
+  },
+  "ticket": 10,
+  "pcb_count": 1,
+  "editorVersion": "2.1.30.c6721c40.b3cfa9"
+}

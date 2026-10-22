@@ -1,0 +1,96 @@
+{
+  "uuid": "81622a3a90204e8685b9f33b56559349",
+  "path": "pankanwen/wu-kou-qian-zhao-jiao-huan-ji-_yt9215s_v2_0",
+  "name": "基于裕太微YT9215S的五口千兆交换机",
+  "content": "$97",
+  "grade": 1,
+  "public": true,
+  "license": "CC BY-NC-SA 3.0",
+  "creator": {
+    "uuid": "3f2b8adcf0ef481684e2f6c30d9c1600",
+    "username": "pankanwen",
+    "nickname": "pankanwen",
+    "avatar": "//image.lceda.cn/avatars/2023/9/fJrFcoBT4o7PgznGuv5JTZ4dtlaNRg1gd31wA4Ov.png"
+  },
+  "text_editor_type": "richText",
+  "owner": {
+    "uuid": "3f2b8adcf0ef481684e2f6c30d9c1600",
+    "username": "pankanwen",
+    "nickname": "pankanwen",
+    "avatar": "//image.lceda.cn/avatars/2023/9/fJrFcoBT4o7PgznGuv5JTZ4dtlaNRg1gd31wA4Ov.png",
+    "team": false
+  },
+  "count": {
+    "views": 9521,
+    "star": 34,
+    "fork": 0,
+    "watch": 0,
+    "like": 24
+  },
+  "members": [
+    {
+      "uuid": "3f2b8adcf0ef481684e2f6c30d9c1600",
+      "username": "pankanwen",
+      "nickname": "pankanwen",
+      "avatar": "//image.lceda.cn/avatars/2023/9/fJrFcoBT4o7PgznGuv5JTZ4dtlaNRg1gd31wA4Ov.png",
+      "role": 1
+    }
+  ],
+  "attachments": [
+    {
+      "id": 1,
+      "uuid": "b48d9e422a1645b9aa8a8d0d2bd75fab",
+      "name": "YT9215S_Datasheet_draft_V0.1.pdf",
+      "src": "/attachments/2023/9/5lbyyrYJKuimPYzS6Jf9sessbg7DwGa3va7vHh06.pdf",
+      "mime": "application/pdf",
+      "ext": "pdf",
+      "size": 1375191,
+      "md5": "b3e4347a85bf0c4a828ef7f092006c6f",
+      "download_count": 294
+    },
+    {
+      "id": 1,
+      "uuid": "ba2a37ca8ee74d16ac82d8cc331b5430",
+      "name": "裕太微电子产品选型20230308.pdf",
+      "src": "/attachments/2023/9/bScFWqxbdaMDWs0WcZjsRqi4oNpon4GywKqx12HU.pdf",
+      "mime": "application/pdf",
+      "ext": "pdf",
+      "size": 242491,
+      "md5": "5025e54d6e6ca72b76c5ba4b840ccbba",
+      "download_count": 271
+    }
+  ],
+  "no": 0,
+  "origin": "pro",
+  "archive": false,
+  "allow_comment": true,
+  "cover": {
+    "name": "",
+    "src": ""
+  },
+  "version": "",
+  "thumb": "//image.lceda.cn/pullimage/QS4ywcazwIp08a5glJIDoEEjnW6VVZuLH2adkkBa.jpeg",
+  "updated_at": "2023-10-26T01:48:28.000Z",
+  "created_at": "2023-09-04T07:40:03.000Z",
+  "introduction": "一款基于YT9215S的千兆傻瓜交换机，以太网交换芯片采用裕太微电子的YT9215S，接口为5电口，支持TYPE-C供电",
+  "is_draft": false,
+  "project_tags": [
+    "f2beb30a80134f3e9595b51148f55cf8"
+  ],
+  "publish": true,
+  "oshwhub_publish_at": "2023-10-26T02:46:21.000Z",
+  "allow_reprint": true,
+  "store": false,
+  "updated_time": "2026-10-22T22:13:12.307Z",
+  "oshwhub_first_publish_at": "2023-09-08T07:06:47.000Z",
+  "fork_from": null,
+  "sale_info": null,
+  "competition": null,
+  "version_documents": [],
+  "audit_logs": "",
+  "comments_count": 19,
+  "albumCollect": false,
+  "has_vote": false,
+  "allow_vote": false,
+  "vote_count": 0
+}
