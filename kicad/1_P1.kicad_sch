@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:C0402_NEW"
+			(property "Footprint" "YT9215S-5-port-switch:C0402_NEW"
 				(at 0 0 0)
 				(effects
 					(font
@@ -161,7 +161,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:C0603"
+			(property "Footprint" "YT9215S-5-port-switch:C0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -342,7 +342,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:C0603"
+			(property "Footprint" "YT9215S-5-port-switch:C0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -523,7 +523,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:C0603"
+			(property "Footprint" "YT9215S-5-port-switch:C0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -704,7 +704,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:C0603"
+			(property "Footprint" "YT9215S-5-port-switch:C0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -885,7 +885,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:C0603"
+			(property "Footprint" "YT9215S-5-port-switch:C0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1066,7 +1066,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:R0603"
+			(property "Footprint" "YT9215S-5-port-switch:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1210,7 +1210,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:R0603"
+			(property "Footprint" "YT9215S-5-port-switch:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1354,7 +1354,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:R0603"
+			(property "Footprint" "YT9215S-5-port-switch:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1498,7 +1498,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:C0805"
+			(property "Footprint" "YT9215S-5-port-switch:C0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1678,7 +1678,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:R0402"
+			(property "Footprint" "YT9215S-5-port-switch:R0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1776,7 +1776,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:C0402_NEW"
+			(property "Footprint" "YT9215S-5-port-switch:C0402_NEW"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1911,7 +1911,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:R0402"
+			(property "Footprint" "YT9215S-5-port-switch:R0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2009,7 +2009,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:SOD-123_L2.7-W1.6-LS3.7-RD-1"
+			(property "Footprint" "YT9215S-5-port-switch:SOD-123_L2.7-W1.6-LS3.7-RD-1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2180,7 +2180,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:C0402_NEW"
+			(property "Footprint" "YT9215S-5-port-switch:C0402_NEW"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2315,7 +2315,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:C0402_NEW"
+			(property "Footprint" "YT9215S-5-port-switch:C0402_NEW"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2450,7 +2450,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:R0402"
+			(property "Footprint" "YT9215S-5-port-switch:R0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2548,7 +2548,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:IND-SMD_L4.0-W4.0"
+			(property "Footprint" "YT9215S-5-port-switch:IND-SMD_L4.0-W4.0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2731,7 +2731,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2824,7 +2824,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:L0603"
+			(property "Footprint" "YT9215S-5-port-switch:L0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3004,7 +3004,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:F1206"
+			(property "Footprint" "YT9215S-5-port-switch:F1206"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3159,7 +3159,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:DC-IN-TH_DC-005-20A"
+			(property "Footprint" "YT9215S-5-port-switch:DC-IN-TH_DC-005-20A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3404,7 +3404,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:LED0603-RD"
+			(property "Footprint" "YT9215S-5-port-switch:LED0603-RD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3618,7 +3618,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3756,7 +3756,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3873,7 +3873,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
+			(property "Footprint" "YT9215S-5-port-switch:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4079,7 +4079,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:HDR-TH_2P-P2.54-V-M"
+			(property "Footprint" "YT9215S-5-port-switch:HDR-TH_2P-P2.54-V-M"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4242,7 +4242,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -4336,7 +4336,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:R0402"
+			(property "Footprint" "YT9215S-5-port-switch:R0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4480,7 +4480,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:R1206"
+			(property "Footprint" "YT9215S-5-port-switch:R1206"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4623,7 +4623,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:LQFP-128_L14.0-W14.0-P0.40-LS16.0-BL"
+			(property "Footprint" "YT9215S-5-port-switch:LQFP-128_L14.0-W14.0-P0.40-LS16.0-BL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7046,7 +7046,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD"
+			(property "Footprint" "YT9215S-5-port-switch:CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7251,7 +7251,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:IND-SMD_L4.0-W4.0_SWPA4018S"
+			(property "Footprint" "YT9215S-5-port-switch:IND-SMD_L4.0-W4.0_SWPA4018S"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7431,7 +7431,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -8120,7 +8120,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:USB-C-SMD_TYPE-C-6P"
+			(property "Footprint" "YT9215S-5-port-switch:USB-C-SMD_TYPE-C-6P"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8382,7 +8382,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:Test-Point-0.5mm"
+			(property "Footprint" "YT9215S-5-port-switch:Test-Point-0.5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8489,7 +8489,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "YT9215S-5--easyedapro:CRYSTAL-SMD_4P-L2.0-W1.6-BL"
+			(property "Footprint" "YT9215S-5-port-switch:CRYSTAL-SMD_4P-L2.0-W1.6-BL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -13055,7 +13055,8 @@
 		)
 		(uuid "0068671a-ecad-4913-a807-ba437dab24e1")
 	)
-	(label "P1_LED0"
+	(global_label "P1_LED0"
+		(shape passive)
 		(at 160.02 67.945 90)
 		(effects
 			(font
@@ -13064,8 +13065,18 @@
 			(justify left bottom)
 		)
 		(uuid "040cbc30-1d6f-41c7-9efd-c8a3e299f078")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.02 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "P1_LED1"
+	(global_label "P1_LED1"
+		(shape passive)
 		(at 162.56 67.945 90)
 		(effects
 			(font
@@ -13074,8 +13085,18 @@
 			(justify left bottom)
 		)
 		(uuid "0b324581-c429-47e2-8e3f-0e235569c4a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "P3_LED1"
+	(global_label "P3_LED1"
+		(shape passive)
 		(at 177.8 67.945 90)
 		(effects
 			(font
@@ -13084,6 +13105,15 @@
 			(justify left bottom)
 		)
 		(uuid "0e899b27-1f92-4666-a41d-42cd051943d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.8 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(label "PLLGND"
 		(at 85.725 129.54 0)
@@ -13105,7 +13135,8 @@
 		)
 		(uuid "1f4a8970-ae47-491a-a49b-a32e0bbbe965")
 	)
-	(label "P2_LED0"
+	(global_label "P2_LED0"
+		(shape passive)
 		(at 170.18 67.945 90)
 		(effects
 			(font
@@ -13114,6 +13145,15 @@
 			(justify left bottom)
 		)
 		(uuid "397e45c5-a605-434d-9adf-d5faf0391d5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.18 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(label "PLLGND"
 		(at 462.28 218.44 180)
@@ -13125,7 +13165,8 @@
 		)
 		(uuid "4b235830-0ad0-4971-a00b-63636c3dbfb7")
 	)
-	(label "P0_LED1"
+	(global_label "P0_LED1"
+		(shape passive)
 		(at 157.48 67.945 90)
 		(effects
 			(font
@@ -13134,6 +13175,15 @@
 			(justify left bottom)
 		)
 		(uuid "4f13e2c9-f0a9-45f1-a3f5-da722d7bc7c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.48 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(label "PLLVDDL"
 		(at 85.725 127 0)
@@ -13145,7 +13195,8 @@
 		)
 		(uuid "51a7bc60-404a-403c-9ee2-1fe749bcb4b4")
 	)
-	(label "P3_LED0"
+	(global_label "P3_LED0"
+		(shape passive)
 		(at 172.72 67.945 90)
 		(effects
 			(font
@@ -13154,6 +13205,15 @@
 			(justify left bottom)
 		)
 		(uuid "62e7e33a-1355-4e20-b638-5960f6a2d080")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.72 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(label "XTAL_OUT"
 		(at 149.86 67.945 90)
@@ -13165,7 +13225,8 @@
 		)
 		(uuid "723684d8-33a8-4cba-ac93-c9aa31cbab1c")
 	)
-	(label "P4_LED1"
+	(global_label "P4_LED1"
+		(shape passive)
 		(at 180.34 67.945 90)
 		(effects
 			(font
@@ -13174,8 +13235,18 @@
 			(justify left bottom)
 		)
 		(uuid "739fef5d-fde7-4572-b597-d8014718e8b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.34 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "P2_LED1"
+	(global_label "P2_LED1"
+		(shape passive)
 		(at 165.1 67.945 90)
 		(effects
 			(font
@@ -13184,6 +13255,15 @@
 			(justify left bottom)
 		)
 		(uuid "8fa1c468-e0ec-4dee-8baa-13671287334e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.1 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(label "XTAL_IN"
 		(at 147.32 67.945 90)
@@ -13205,7 +13285,8 @@
 		)
 		(uuid "9bad5b5b-575b-4a75-ba17-2f7dbdd31e64")
 	)
-	(label "P4_LED0"
+	(global_label "P4_LED0"
+		(shape passive)
 		(at 182.88 67.945 90)
 		(effects
 			(font
@@ -13214,6 +13295,15 @@
 			(justify left bottom)
 		)
 		(uuid "9ea8cbdd-ca38-4fad-bc61-efa9d12758db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.88 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(label "NRST"
 		(at 58.42 372.11 0)
@@ -13305,7 +13395,8 @@
 		)
 		(uuid "e6cf95c1-a240-48fd-b8cd-cecf77b36e04")
 	)
-	(label "P0_LED0"
+	(global_label "P0_LED0"
+		(shape passive)
 		(at 154.94 67.945 90)
 		(effects
 			(font
@@ -13314,6 +13405,15 @@
 			(justify left bottom)
 		)
 		(uuid "fa765444-c992-49d3-b311-072b2c530eb3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.94 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "P4MDIC_P"
 		(shape input)
@@ -14141,7 +14241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 519.43 182.88 0)
 			(effects
 				(font
@@ -14206,7 +14306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:Test-Point-0.5mm"
+		(property "Footprint" "YT9215S-5-port-switch:Test-Point-0.5mm"
 			(at 525.78 30.48 0)
 			(effects
 				(font
@@ -14281,7 +14381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 499.11 114.3 0)
 			(effects
 				(font
@@ -14346,7 +14446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 255.27 162.56 0)
 			(effects
 				(font
@@ -14412,7 +14512,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 400.05 210.82 0)
 			(effects
 				(font
@@ -14526,7 +14626,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 548.64 121.92 0)
 			(effects
 				(font
@@ -14640,7 +14740,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:R0402"
+		(property "Footprint" "YT9215S-5-port-switch:R0402"
 			(at 430.53 58.42 0)
 			(effects
 				(font
@@ -14787,7 +14887,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 469.9 97.79 0)
 			(effects
 				(font
@@ -14900,7 +15000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 424.18 92.71 0)
 			(effects
 				(font
@@ -14966,7 +15066,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 535.94 121.92 0)
 			(effects
 				(font
@@ -15079,7 +15179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 497.84 298.45 0)
 			(effects
 				(font
@@ -15145,7 +15245,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 478.79 186.69 0)
 			(effects
 				(font
@@ -15259,7 +15359,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:R1206"
+		(property "Footprint" "YT9215S-5-port-switch:R1206"
 			(at 412.75 116.84 0)
 			(effects
 				(font
@@ -15372,7 +15472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 508 295.91 0)
 			(effects
 				(font
@@ -15438,7 +15538,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:F1206"
+		(property "Footprint" "YT9215S-5-port-switch:F1206"
 			(at 341.63 387.35 0)
 			(effects
 				(font
@@ -15552,7 +15652,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 435.61 143.51 0)
 			(effects
 				(font
@@ -15665,7 +15765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 400.05 182.88 0)
 			(effects
 				(font
@@ -15730,7 +15830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 468.63 182.88 0)
 			(effects
 				(font
@@ -15796,7 +15896,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:LQFP-128_L14.0-W14.0-P0.40-LS16.0-BL"
+		(property "Footprint" "YT9215S-5-port-switch:LQFP-128_L14.0-W14.0-P0.40-LS16.0-BL"
 			(at 171.45 123.19 0)
 			(effects
 				(font
@@ -16298,7 +16398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 500.38 64.77 0)
 			(effects
 				(font
@@ -16364,7 +16464,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:L0603"
+		(property "Footprint" "YT9215S-5-port-switch:L0603"
 			(at 412.75 182.88 0)
 			(effects
 				(font
@@ -16477,7 +16577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 523.24 115.57 0)
 			(effects
 				(font
@@ -16542,7 +16642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 519.43 189.23 0)
 			(effects
 				(font
@@ -16608,7 +16708,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0805"
+		(property "Footprint" "YT9215S-5-port-switch:C0805"
 			(at 68.58 377.19 0)
 			(effects
 				(font
@@ -16722,7 +16822,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 292.1 87.63 0)
 			(effects
 				(font
@@ -16835,7 +16935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 251.46 167.64 0)
 			(effects
 				(font
@@ -16901,7 +17001,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 149.86 200.66 0)
 			(effects
 				(font
@@ -16966,7 +17066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 255.27 96.52 0)
 			(effects
 				(font
@@ -17032,7 +17132,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
+		(property "Footprint" "YT9215S-5-port-switch:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 474.98 49.53 0)
 			(effects
 				(font
@@ -17201,7 +17301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 527.05 30.48 0)
 			(effects
 				(font
@@ -17267,7 +17367,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 280.67 87.63 0)
 			(effects
 				(font
@@ -17381,7 +17481,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 458.47 120.65 0)
 			(effects
 				(font
@@ -17495,7 +17595,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 66.04 132.08 0)
 			(effects
 				(font
@@ -17560,7 +17660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 63.5 278.13 0)
 			(effects
 				(font
@@ -17625,7 +17725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 424.18 115.57 0)
 			(effects
 				(font
@@ -17690,7 +17790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 400.05 160.02 0)
 			(effects
 				(font
@@ -17756,7 +17856,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 190.5 43.18 0)
 			(effects
 				(font
@@ -17821,7 +17921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 480.06 303.53 0)
 			(effects
 				(font
@@ -17887,7 +17987,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:IND-SMD_L4.0-W4.0"
+		(property "Footprint" "YT9215S-5-port-switch:IND-SMD_L4.0-W4.0"
 			(at 494.03 46.99 0)
 			(effects
 				(font
@@ -18034,7 +18134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 424.18 182.88 0)
 			(effects
 				(font
@@ -18100,7 +18200,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:L0603"
+		(property "Footprint" "YT9215S-5-port-switch:L0603"
 			(at 501.65 182.88 0)
 			(effects
 				(font
@@ -18214,7 +18314,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 481.33 120.65 0)
 			(effects
 				(font
@@ -18327,7 +18427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 255.27 152.4 0)
 			(effects
 				(font
@@ -18392,7 +18492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 461.01 49.53 0)
 			(effects
 				(font
@@ -18458,7 +18558,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:R0603"
+		(property "Footprint" "YT9215S-5-port-switch:R0603"
 			(at 480.06 298.45 0)
 			(effects
 				(font
@@ -18571,7 +18671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:Test-Point-0.5mm"
+		(property "Footprint" "YT9215S-5-port-switch:Test-Point-0.5mm"
 			(at 452.12 201.93 0)
 			(effects
 				(font
@@ -18647,7 +18747,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:CRYSTAL-SMD_4P-L2.0-W1.6-BL"
+		(property "Footprint" "YT9215S-5-port-switch:CRYSTAL-SMD_4P-L2.0-W1.6-BL"
 			(at 69.85 280.67 0)
 			(effects
 				(font
@@ -18777,7 +18877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 400.05 201.93 0)
 			(effects
 				(font
@@ -18843,7 +18943,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:R0402"
+		(property "Footprint" "YT9215S-5-port-switch:R0402"
 			(at 147.32 187.96 0)
 			(effects
 				(font
@@ -18956,7 +19056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:Test-Point-0.5mm"
+		(property "Footprint" "YT9215S-5-port-switch:Test-Point-0.5mm"
 			(at 292.1 83.82 0)
 			(effects
 				(font
@@ -19031,7 +19131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 444.5 182.88 0)
 			(effects
 				(font
@@ -19096,7 +19196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 424.18 138.43 0)
 			(effects
 				(font
@@ -19162,7 +19262,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0805"
+		(property "Footprint" "YT9215S-5-port-switch:C0805"
 			(at 523.24 121.92 0)
 			(effects
 				(font
@@ -19275,7 +19375,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 81.28 372.11 0)
 			(effects
 				(font
@@ -19340,7 +19440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 424.18 101.6 0)
 			(effects
 				(font
@@ -19406,7 +19506,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0402_NEW"
+		(property "Footprint" "YT9215S-5-port-switch:C0402"
 			(at 511.81 58.42 0)
 			(effects
 				(font
@@ -19553,7 +19653,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0805"
+		(property "Footprint" "YT9215S-5-port-switch:C0805"
 			(at 424.18 165.1 0)
 			(effects
 				(font
@@ -19667,7 +19767,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:R0402"
+		(property "Footprint" "YT9215S-5-port-switch:R0402"
 			(at 494.03 52.07 0)
 			(effects
 				(font
@@ -19813,7 +19913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 255.27 90.17 0)
 			(effects
 				(font
@@ -19879,7 +19979,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:R0603"
+		(property "Footprint" "YT9215S-5-port-switch:R0603"
 			(at 330.2 285.75 0)
 			(effects
 				(font
@@ -19993,7 +20093,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0805"
+		(property "Footprint" "YT9215S-5-port-switch:C0805"
 			(at 468.63 186.69 0)
 			(effects
 				(font
@@ -20107,7 +20207,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 53.34 288.29 0)
 			(effects
 				(font
@@ -20221,7 +20321,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 424.18 143.51 0)
 			(effects
 				(font
@@ -20335,7 +20435,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:SOD-123_L2.7-W1.6-LS3.7-RD-1"
+		(property "Footprint" "YT9215S-5-port-switch:SOD-123_L2.7-W1.6-LS3.7-RD-1"
 			(at 74.93 363.22 0)
 			(effects
 				(font
@@ -20493,7 +20593,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:L0603"
+		(property "Footprint" "YT9215S-5-port-switch:L0603"
 			(at 511.81 116.84 0)
 			(effects
 				(font
@@ -20607,7 +20707,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:USB-C-SMD_TYPE-C-6P"
+		(property "Footprint" "YT9215S-5-port-switch:USB-C-SMD_TYPE-C-6P"
 			(at 520.7 293.37 0)
 			(effects
 				(font
@@ -20738,7 +20838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 90.17 165.1 0)
 			(effects
 				(font
@@ -20804,7 +20904,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0805"
+		(property "Footprint" "YT9215S-5-port-switch:C0805"
 			(at 424.18 97.79 0)
 			(effects
 				(font
@@ -20918,7 +21018,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0402_NEW"
+		(property "Footprint" "YT9215S-5-port-switch:C0402"
 			(at 474.98 38.1 0)
 			(effects
 				(font
@@ -21065,7 +21165,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 504.19 97.79 0)
 			(effects
 				(font
@@ -21178,7 +21278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 424.18 168.91 0)
 			(effects
 				(font
@@ -21244,7 +21344,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:R0603"
+		(property "Footprint" "YT9215S-5-port-switch:R0603"
 			(at 74.93 372.11 0)
 			(effects
 				(font
@@ -21358,7 +21458,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:HDR-TH_2P-P2.54-V-M"
+		(property "Footprint" "YT9215S-5-port-switch:HDR-TH_2P-P2.54-V-M"
 			(at 204.47 287.02 0)
 			(effects
 				(font
@@ -21471,7 +21571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:Test-Point-0.5mm"
+		(property "Footprint" "YT9215S-5-port-switch:Test-Point-0.5mm"
 			(at 186.69 392.43 0)
 			(effects
 				(font
@@ -21547,7 +21647,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 165.1 200.66 0)
 			(effects
 				(font
@@ -21612,7 +21712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:Test-Point-0.5mm"
+		(property "Footprint" "YT9215S-5-port-switch:Test-Point-0.5mm"
 			(at 450.85 218.44 0)
 			(effects
 				(font
@@ -21688,7 +21788,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 469.9 143.51 0)
 			(effects
 				(font
@@ -21802,7 +21902,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:R1206"
+		(property "Footprint" "YT9215S-5-port-switch:R1206"
 			(at 412.75 139.7 0)
 			(effects
 				(font
@@ -21915,7 +22015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 514.35 41.91 0)
 			(effects
 				(font
@@ -21981,7 +22081,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0805"
+		(property "Footprint" "YT9215S-5-port-switch:C0805"
 			(at 424.18 186.69 0)
 			(effects
 				(font
@@ -22095,7 +22195,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 66.04 111.76 0)
 			(effects
 				(font
@@ -22161,7 +22261,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 323.85 387.35 0)
 			(effects
 				(font
@@ -22227,7 +22327,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 458.47 97.79 0)
 			(effects
 				(font
@@ -22340,7 +22440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 113.03 69.85 0)
 			(effects
 				(font
@@ -22406,7 +22506,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 447.04 120.65 0)
 			(effects
 				(font
@@ -22519,7 +22619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:Test-Point-0.5mm"
+		(property "Footprint" "YT9215S-5-port-switch:Test-Point-0.5mm"
 			(at 430.53 139.7 0)
 			(effects
 				(font
@@ -22595,7 +22695,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:DC-IN-TH_DC-005-20A"
+		(property "Footprint" "YT9215S-5-port-switch:DC-IN-TH_DC-005-20A"
 			(at 487.68 334.01 0)
 			(effects
 				(font
@@ -22712,7 +22812,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 492.76 97.79 0)
 			(effects
 				(font
@@ -22825,7 +22925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 224.79 347.98 0)
 			(effects
 				(font
@@ -22891,7 +22991,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 519.43 186.69 0)
 			(effects
 				(font
@@ -23005,7 +23105,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:L0603"
+		(property "Footprint" "YT9215S-5-port-switch:L0603"
 			(at 412.75 161.29 0)
 			(effects
 				(font
@@ -23118,7 +23218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 255.27 99.06 0)
 			(effects
 				(font
@@ -23184,7 +23284,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:L0603"
+		(property "Footprint" "YT9215S-5-port-switch:L0603"
 			(at 457.2 182.88 0)
 			(effects
 				(font
@@ -23297,7 +23397,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 400.05 115.57 0)
 			(effects
 				(font
@@ -23362,7 +23462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:Test-Point-0.5mm"
+		(property "Footprint" "YT9215S-5-port-switch:Test-Point-0.5mm_1"
 			(at 508 182.88 0)
 			(effects
 				(font
@@ -23437,7 +23537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 212.09 285.75 0)
 			(effects
 				(font
@@ -23503,7 +23603,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 440.69 210.82 0)
 			(effects
 				(font
@@ -23617,7 +23717,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 66.04 147.32 0)
 			(effects
 				(font
@@ -23683,7 +23783,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:R0402"
+		(property "Footprint" "YT9215S-5-port-switch:R0402"
 			(at 439.42 58.42 0)
 			(effects
 				(font
@@ -23829,7 +23929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:Test-Point-0.5mm"
+		(property "Footprint" "YT9215S-5-port-switch:Test-Point-0.5mm"
 			(at 530.86 116.84 0)
 			(effects
 				(font
@@ -23905,7 +24005,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:R0603"
+		(property "Footprint" "YT9215S-5-port-switch:R0603"
 			(at 480.06 285.75 0)
 			(effects
 				(font
@@ -24018,7 +24118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 520.7 332.74 0)
 			(effects
 				(font
@@ -24083,7 +24183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 530.86 285.75 0)
 			(effects
 				(font
@@ -24149,7 +24249,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 194.31 45.72 0)
 			(effects
 				(font
@@ -24215,7 +24315,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:LED0603-RD"
+		(property "Footprint" "YT9215S-5-port-switch:LED0603-RD"
 			(at 344.17 285.75 0)
 			(effects
 				(font
@@ -24329,7 +24429,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 152.4 45.72 0)
 			(effects
 				(font
@@ -24394,7 +24494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 523.24 127 0)
 			(effects
 				(font
@@ -24460,7 +24560,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 182.88 200.66 0)
 			(effects
 				(font
@@ -24526,7 +24626,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 185.42 45.72 0)
 			(effects
 				(font
@@ -24591,7 +24691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:Test-Point-0.5mm"
+		(property "Footprint" "YT9215S-5-port-switch:Test-Point-0.5mm"
 			(at 180.34 347.98 0)
 			(effects
 				(font
@@ -24666,7 +24766,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 255.27 139.7 0)
 			(effects
 				(font
@@ -24732,7 +24832,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 434.34 186.69 0)
 			(effects
 				(font
@@ -24846,7 +24946,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 66.04 96.52 0)
 			(effects
 				(font
@@ -24912,7 +25012,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:L0603"
+		(property "Footprint" "YT9215S-5-port-switch:L0603"
 			(at 412.75 218.44 0)
 			(effects
 				(font
@@ -25026,7 +25126,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0805"
+		(property "Footprint" "YT9215S-5-port-switch:C0805"
 			(at 447.04 97.79 0)
 			(effects
 				(font
@@ -25139,7 +25239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 361.95 345.44 0)
 			(effects
 				(font
@@ -25205,7 +25305,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0402_NEW"
+		(property "Footprint" "YT9215S-5-port-switch:C0402"
 			(at 524.51 36.83 0)
 			(effects
 				(font
@@ -25351,7 +25451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 280.67 91.44 0)
 			(effects
 				(font
@@ -25417,7 +25517,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0805"
+		(property "Footprint" "YT9215S-5-port-switch:C0805"
 			(at 435.61 165.1 0)
 			(effects
 				(font
@@ -25531,7 +25631,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 86.36 288.29 0)
 			(effects
 				(font
@@ -25645,7 +25745,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 481.33 143.51 0)
 			(effects
 				(font
@@ -25758,7 +25858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 212.09 288.29 0)
 			(effects
 				(font
@@ -25824,7 +25924,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 119.38 45.72 0)
 			(effects
 				(font
@@ -25888,7 +25988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 0 420.37 0)
 			(effects
 				(font
@@ -26033,7 +26133,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 142.24 200.66 0)
 			(effects
 				(font
@@ -26098,7 +26198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:Test-Point-0.5mm"
+		(property "Footprint" "YT9215S-5-port-switch:Test-Point-0.5mm"
 			(at 501.65 49.53 0)
 			(effects
 				(font
@@ -26174,7 +26274,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 447.04 143.51 0)
 			(effects
 				(font
@@ -26288,7 +26388,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 515.62 97.79 0)
 			(effects
 				(font
@@ -26402,7 +26502,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 425.45 210.82 0)
 			(effects
 				(font
@@ -26515,7 +26615,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 468.63 190.5 0)
 			(effects
 				(font
@@ -26580,7 +26680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 424.18 124.46 0)
 			(effects
 				(font
@@ -26646,7 +26746,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 66.04 162.56 0)
 			(effects
 				(font
@@ -26711,7 +26811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 424.18 147.32 0)
 			(effects
 				(font
@@ -26777,7 +26877,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 469.9 120.65 0)
 			(effects
 				(font
@@ -26891,7 +26991,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0402_NEW"
+		(property "Footprint" "YT9215S-5-port-switch:C0402"
 			(at 449.58 44.45 0)
 			(effects
 				(font
@@ -27038,7 +27138,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0805"
+		(property "Footprint" "YT9215S-5-port-switch:C0805"
 			(at 435.61 97.79 0)
 			(effects
 				(font
@@ -27151,7 +27251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 497.84 285.75 0)
 			(effects
 				(font
@@ -27216,7 +27316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 217.17 392.43 0)
 			(effects
 				(font
@@ -27282,7 +27382,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:IND-SMD_L4.0-W4.0_SWPA4018S"
+		(property "Footprint" "YT9215S-5-port-switch:IND-SMD_L4.0-W4.0_SWPA4018S"
 			(at 260.35 83.82 0)
 			(effects
 				(font
@@ -27395,7 +27495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 530.86 298.45 0)
 			(effects
 				(font
@@ -27461,7 +27561,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:L0603"
+		(property "Footprint" "YT9215S-5-port-switch:L0603"
 			(at 412.75 201.93 0)
 			(effects
 				(font
@@ -27574,7 +27674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:Test-Point-0.5mm"
+		(property "Footprint" "YT9215S-5-port-switch:Test-Point-0.5mm"
 			(at 474.98 182.88 0)
 			(effects
 				(font
@@ -27650,7 +27750,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:R0603"
+		(property "Footprint" "YT9215S-5-port-switch:R0603"
 			(at 204.47 392.43 0)
 			(effects
 				(font
@@ -27763,7 +27863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 488.95 182.88 0)
 			(effects
 				(font
@@ -27828,7 +27928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 77.47 283.21 0)
 			(effects
 				(font
@@ -27894,7 +27994,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD"
+		(property "Footprint" "YT9215S-5-port-switch:CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD"
 			(at 500.38 58.42 0)
 			(effects
 				(font
@@ -28007,7 +28107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:Test-Point-0.5mm"
+		(property "Footprint" "YT9215S-5-port-switch:Test-Point-0.5mm"
 			(at 57.15 372.11 0)
 			(effects
 				(font
@@ -28083,7 +28183,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 359.41 387.35 0)
 			(effects
 				(font
@@ -28149,7 +28249,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 132.08 45.72 0)
 			(effects
 				(font
@@ -28215,7 +28315,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 481.33 97.79 0)
 			(effects
 				(font
@@ -28329,7 +28429,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:R0603"
+		(property "Footprint" "YT9215S-5-port-switch:R0603"
 			(at 205.74 347.98 0)
 			(effects
 				(font
@@ -28442,7 +28542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 360.68 285.75 0)
 			(effects
 				(font
@@ -28507,7 +28607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 147.32 204.47 0)
 			(effects
 				(font
@@ -28572,7 +28672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 53.34 293.37 0)
 			(effects
 				(font
@@ -28637,7 +28737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:Test-Point-0.5mm"
+		(property "Footprint" "YT9215S-5-port-switch:Test-Point-0.5mm"
 			(at 430.53 93.98 0)
 			(effects
 				(font
@@ -28713,7 +28813,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 129.54 200.66 0)
 			(effects
 				(font
@@ -28778,7 +28878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 424.18 161.29 0)
 			(effects
 				(font
@@ -28844,7 +28944,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:R0603"
+		(property "Footprint" "YT9215S-5-port-switch:R0603"
 			(at 342.9 345.44 0)
 			(effects
 				(font
@@ -28958,7 +29058,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 538.48 97.79 0)
 			(effects
 				(font
@@ -29072,7 +29172,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 424.18 120.65 0)
 			(effects
 				(font
@@ -29186,7 +29286,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 458.47 143.51 0)
 			(effects
 				(font
@@ -29299,7 +29399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 424.18 190.5 0)
 			(effects
 				(font
@@ -29365,7 +29465,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 435.61 120.65 0)
 			(effects
 				(font
@@ -29478,7 +29578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 508 288.29 0)
 			(effects
 				(font
@@ -29543,7 +29643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 400.05 92.71 0)
 			(effects
 				(font
@@ -29608,7 +29708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:Test-Point-0.5mm"
+		(property "Footprint" "YT9215S-5-port-switch:Test-Point-0.5mm"
 			(at 429.26 182.88 0)
 			(effects
 				(font
@@ -29684,7 +29784,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 458.47 165.1 0)
 			(effects
 				(font
@@ -29797,7 +29897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 86.36 293.37 0)
 			(effects
 				(font
@@ -29862,7 +29962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:Test-Point-0.5mm"
+		(property "Footprint" "YT9215S-5-port-switch:Test-Point-0.5mm"
 			(at 429.26 116.84 0)
 			(effects
 				(font
@@ -29938,7 +30038,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0805"
+		(property "Footprint" "YT9215S-5-port-switch:C0805"
 			(at 269.24 87.63 0)
 			(effects
 				(font
@@ -30051,7 +30151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 400.05 218.44 0)
 			(effects
 				(font
@@ -30116,7 +30216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 106.68 176.53 0)
 			(effects
 				(font
@@ -30182,7 +30282,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 527.05 97.79 0)
 			(effects
 				(font
@@ -30296,7 +30396,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD"
+		(property "Footprint" "YT9215S-5-port-switch:CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD"
 			(at 504.19 35.56 0)
 			(effects
 				(font
@@ -30409,7 +30509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:Test-Point-0.5mm"
+		(property "Footprint" "YT9215S-5-port-switch:Test-Point-0.5mm"
 			(at 430.53 161.29 0)
 			(effects
 				(font
@@ -30485,7 +30585,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:R0402"
+		(property "Footprint" "YT9215S-5-port-switch:R0402"
 			(at 439.42 43.18 0)
 			(effects
 				(font
@@ -30631,7 +30731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 400.05 138.43 0)
 			(effects
 				(font
@@ -30696,7 +30796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 269.24 83.82 0)
 			(effects
 				(font
@@ -30762,7 +30862,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 167.64 204.47 0)
 			(effects
 				(font
@@ -30828,7 +30928,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0402_NEW"
+		(property "Footprint" "YT9215S-5-port-switch:C0402"
 			(at 514.35 36.83 0)
 			(effects
 				(font
@@ -30974,7 +31074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 320.04 285.75 0)
 			(effects
 				(font
@@ -31040,7 +31140,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:C0603"
+		(property "Footprint" "YT9215S-5-port-switch:C0603"
 			(at 447.04 165.1 0)
 			(effects
 				(font
@@ -31155,7 +31255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 68.58 382.27 0)
 			(effects
 				(font
@@ -31220,7 +31320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 430.53 63.5 0)
 			(effects
 				(font
@@ -31285,7 +31385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 480.06 280.67 0)
 			(effects
 				(font
@@ -31350,7 +31450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 255.27 142.24 0)
 			(effects
 				(font
@@ -31416,7 +31516,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:L0603"
+		(property "Footprint" "YT9215S-5-port-switch:L0603"
 			(at 412.75 93.98 0)
 			(effects
 				(font
@@ -31529,7 +31629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 520.7 337.82 0)
 			(effects
 				(font
@@ -31595,7 +31695,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "YT9215S-5--easyedapro:"
+		(property "Footprint" ""
 			(at 157.48 200.66 0)
 			(effects
 				(font

@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "88d91086-07d7-41f2-93e6-78dbebc49c16")
+		(uuid "49c8a570-1c2c-467e-9fd1-5a84783f5998")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" ""
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "84cd07b3-d65a-4f96-a87e-4fcde0308922")
+		(uuid "21daf7ad-57af-472c-86b4-b91fb1ff8d24")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2853a4f4-21c9-44b3-b6f0-74b29ee65e57")
+		(uuid "168a0c0b-b982-4f7e-8875-00ad79d2bdfc")
 		(effects
 			(font
 				(size 1 1)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "26d0eb3c-f3a5-4bef-a4ce-634f4c713630")
+		(uuid "f9d9e329-1f0a-4f64-8165-c61224c02076")
 		(effects
 			(font
 				(size 1 1)
@@ -58,12 +58,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "8a493642-9309-4ab7-a6c1-cb67ff740d9b")
+		(uuid "493b44c9-a614-4b90-889a-659c5cd0edc9")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "dd9ff87e-c97a-476e-8366-9750ba118014")
+		(uuid "844f75e3-e27d-4d90-8659-0258e2422714")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -71,14 +71,12 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" smd circle
 		(at 0 0)
 		(size 0.5 0.5)
-		(drill 0.001)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 90)
-		(uuid "e7dfcba9-66c8-497e-9cdd-4d8b21a7c2e0")
+		(uuid "75542bbc-8207-4e7e-bad7-44d6957566d6")
 	)
 	(embedded_fonts no)
 )

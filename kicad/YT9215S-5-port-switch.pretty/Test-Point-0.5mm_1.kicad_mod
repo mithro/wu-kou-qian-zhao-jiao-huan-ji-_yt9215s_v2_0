@@ -1,4 +1,4 @@
-(footprint "test-point-0.5mm"
+(footprint "Test-Point-0.5mm_1"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "b89093cb-1827-4dd1-8ca1-414ecb82137d")
+		(uuid "a46189b6-c3aa-4097-b291-fbc9cef98a9b")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" ""
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "a8fb3667-c58d-4913-9ac8-a4702757e1ca")
+		(uuid "78c3c3a2-48d0-4b39-9ef9-473da148854a")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7a5c5a79-f956-49db-a9c6-f10709bcfd59")
+		(uuid "cfd9dcf5-1eb3-4d19-895b-87460804cd93")
 		(effects
 			(font
 				(size 1 1)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f358f9c5-ac82-4c69-a7e8-d38eec259219")
+		(uuid "6844e2f7-d441-4a5f-a866-31a18c59b236")
 		(effects
 			(font
 				(size 1 1)
@@ -58,12 +58,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "88b596df-bc4c-421b-8518-e7626b94b1ad")
+		(uuid "cc695045-7136-4349-95a7-a6611681f71f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "fff17584-6d82-47ba-aef3-42d5232f316c")
+		(uuid "5ba14a34-6665-4033-90c7-33430029e1e8")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -71,14 +71,12 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" smd circle
 		(at 0 0 135)
 		(size 0.5 0.5)
-		(drill 0.001)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 90)
-		(uuid "266144c9-4299-4854-bd20-1810de32e8ba")
+		(uuid "d75fc89e-ce73-4898-9728-7dfd1aae48c0")
 	)
 	(embedded_fonts no)
 )

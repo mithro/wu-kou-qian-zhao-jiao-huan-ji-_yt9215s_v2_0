@@ -1,0 +1,1002 @@
+** Drc report for YT9215S-5-port-switch.kicad_pcb **
+** Created on 2026-11-17T05:10:45+0000 **
+** Report includes: Errors, Warnings **
+
+** Found 140 DRC violations **
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(193.6290 mm, 109.7490 mm): Track [GND] on Top Layer, length 1.6810 mm
+    @(193.6290 mm, 109.7490 mm): PTH pad 2 [<no net>] of USB1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(193.6290 mm, 109.7490 mm): Track [GND] on Top Layer, length 1.4940 mm
+    @(193.6290 mm, 109.7490 mm): PTH pad 2 [<no net>] of USB1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(193.6290 mm, 111.3180 mm): Track [GND] on Top Layer, length 1.5690 mm
+    @(193.6290 mm, 109.7490 mm): PTH pad 2 [<no net>] of USB1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(193.6290 mm, 118.3890 mm): Track [GND] on Top Layer, length 1.8080 mm
+    @(193.6290 mm, 118.3890 mm): PTH pad 1 [<no net>] of USB1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(193.6290 mm, 118.3890 mm): Track [GND] on Top Layer, length 1.0140 mm
+    @(193.6290 mm, 118.3890 mm): PTH pad 1 [<no net>] of USB1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(193.6290 mm, 118.3890 mm): Track [GND] on Top Layer, length 1.5710 mm
+    @(193.6290 mm, 118.3890 mm): PTH pad 1 [<no net>] of USB1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer Top Layer; zone min spoke count 2; actual 1)
+    Local override; error
+    @(97.5870 mm, 119.6570 mm): Zone [GND] on Top Layer, priority 499
+    @(184.7090 mm, 120.8905 mm): PTH pad SHIELD0 [GND] of RJ5
+[starved_thermal]: Thermal relief connection to zone incomplete (layer Top Layer; zone min spoke count 2; actual 1)
+    Local override; error
+    @(97.7140 mm, 67.8410 mm): Zone [GND] on Top Layer, priority 500
+    @(133.8062 mm, 87.8800 mm): Pad 2 [GND] of X1 on Top Layer
+[starved_thermal]: Thermal relief connection to zone incomplete (layer Bottom Layer; 1 spokes connected to isolated island)
+    Local override; error
+    @(97.3135 mm, 119.6570 mm): Zone [GND] on Bottom Layer, priority 497
+    @(184.7090 mm, 120.8905 mm): PTH pad SHIELD0 [GND] of RJ5
+[starved_thermal]: Thermal relief connection to zone incomplete (layer Bottom Layer; zone min spoke count 2; actual 1)
+    Local override; error
+    @(98.6030 mm, 69.2380 mm): Zone [GND] on Bottom Layer, priority 498
+    @(136.3350 mm, 91.0690 mm): Pad 1 [GND] of C21 on Bottom Layer
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3954 mm)
+    Rule: board setup constraints edge; error
+    @(116.7800 mm, 124.0685 mm): Polygon of RJ1 on Multi-Layer
+    @(115.2400 mm, 123.7210 mm): Track [3V3] on Bottom Layer, length 5.7474 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3051 mm)
+    Rule: board setup constraints edge; error
+    @(132.7820 mm, 124.0685 mm): Polygon of RJ2 on Multi-Layer
+    @(135.3060 mm, 127.6570 mm): Track [3V3] on Bottom Layer, length 5.5851 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3954 mm)
+    Rule: board setup constraints edge; error
+    @(180.7880 mm, 124.0685 mm): Polygon of RJ5 on Multi-Layer
+    @(179.1210 mm, 123.5940 mm): Track [3V3] on Bottom Layer, length 5.9270 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3056 mm)
+    Rule: board setup constraints edge; error
+    @(121.3820 mm, 124.0685 mm): Polygon of RJ2 on Multi-Layer
+    @(122.0980 mm, 127.6580 mm): Track [3V3] on Bottom Layer, length 5.5861 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3056 mm)
+    Rule: board setup constraints edge; error
+    @(169.3880 mm, 124.0685 mm): Polygon of RJ5 on Multi-Layer
+    @(170.1040 mm, 127.6580 mm): Track [3V3] on Bottom Layer, length 5.7474 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3049 mm)
+    Rule: board setup constraints edge; error
+    @(105.3800 mm, 124.0685 mm): Polygon of RJ1 on Multi-Layer
+    @(110.0320 mm, 123.7210 mm): Track [3V3] on Bottom Layer, length 5.5663 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3570 mm)
+    Rule: board setup constraints edge; error
+    @(103.0000 mm, 135.0000 mm): Segment on Multi-Layer
+    @(184.5820 mm, 134.3890 mm): Track [GND] on Bottom Layer, length 0.6350 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3051 mm)
+    Rule: board setup constraints edge; error
+    @(148.7500 mm, 124.0685 mm): Polygon of RJ3 on Multi-Layer
+    @(147.3245 mm, 123.7080 mm): Track [$2N6555] on Bottom Layer, length 5.5851 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3296 mm)
+    Rule: board setup constraints edge; error
+    @(137.3500 mm, 124.0685 mm): Polygon of RJ3 on Multi-Layer
+    @(142.0500 mm, 123.7080 mm): Track [$2N6448] on Bottom Layer, length 5.6342 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3954 mm)
+    Rule: board setup constraints edge; error
+    @(164.7860 mm, 124.0685 mm): Polygon of RJ4 on Multi-Layer
+    @(163.1315 mm, 123.6065 mm): Track [$2N6593] on Bottom Layer, length 5.9093 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3049 mm)
+    Rule: board setup constraints edge; error
+    @(153.3860 mm, 124.0685 mm): Polygon of RJ4 on Multi-Layer
+    @(158.1525 mm, 123.6065 mm): Track [$2N6531] on Bottom Layer, length 5.7283 mm
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(128.7020 mm, 121.9430 mm): Footprint RJ2
+    @(112.7000 mm, 121.9430 mm): Footprint RJ1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(128.7020 mm, 121.9430 mm): Footprint RJ2
+    @(144.6700 mm, 121.9430 mm): Footprint RJ3
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(174.5490 mm, 95.8430 mm): Footprint TP10
+    @(174.5490 mm, 98.0670 mm): Footprint C43
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(137.9390 mm, 105.8010 mm): Footprint TP12
+    @(139.6240 mm, 106.7030 mm): Footprint C16
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(176.7080 mm, 121.9430 mm): Footprint RJ5
+    @(192.0750 mm, 124.2645 mm): Footprint DC1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(176.7080 mm, 121.9430 mm): Footprint RJ5
+    @(160.7060 mm, 121.9430 mm): Footprint RJ4
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(189.5025 mm, 100.1490 mm): Footprint TP2
+    @(184.7225 mm, 97.4320 mm): Footprint C6
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(198.6790 mm, 105.5600 mm): Footprint TP1
+    @(198.6790 mm, 107.4650 mm): Footprint R8
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(193.7690 mm, 94.8920 mm): Footprint C2
+    @(184.7225 mm, 97.4320 mm): Footprint C6
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(144.6700 mm, 121.9430 mm): Footprint RJ3
+    @(160.7060 mm, 121.9430 mm): Footprint RJ4
+[shorting_items]: Items shorting two nets (nets GND and )
+    Local override; error
+    @(193.6290 mm, 109.7490 mm): Track [GND] on Top Layer, length 1.6810 mm
+    @(193.6290 mm, 109.7490 mm): PTH pad 2 [<no net>] of USB1
+[shorting_items]: Items shorting two nets (nets GND and )
+    Local override; error
+    @(193.6290 mm, 109.7490 mm): Track [GND] on Top Layer, length 1.4940 mm
+    @(193.6290 mm, 109.7490 mm): PTH pad 2 [<no net>] of USB1
+[shorting_items]: Items shorting two nets (nets  and GND)
+    Local override; error
+    @(193.6290 mm, 109.7490 mm): PTH pad 2 [<no net>] of USB1
+    @(193.6290 mm, 111.3180 mm): Track [GND] on Top Layer, length 1.5690 mm
+[shorting_items]: Items shorting two nets (nets  and GND)
+    Local override; error
+    @(193.6290 mm, 118.3890 mm): PTH pad 1 [<no net>] of USB1
+    @(193.6290 mm, 118.3890 mm): Track [GND] on Top Layer, length 1.8080 mm
+[shorting_items]: Items shorting two nets (nets  and GND)
+    Local override; error
+    @(193.6290 mm, 118.3890 mm): PTH pad 1 [<no net>] of USB1
+    @(193.6290 mm, 118.3890 mm): Track [GND] on Top Layer, length 1.0140 mm
+[shorting_items]: Items shorting two nets (nets  and GND)
+    Local override; error
+    @(193.6290 mm, 118.3890 mm): PTH pad 1 [<no net>] of USB1
+    @(193.6290 mm, 118.3890 mm): Track [GND] on Top Layer, length 1.5710 mm
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(188.8485 mm, 106.8300 mm): Track [3V3] on Top Layer, length 2.7185 mm
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(192.4825 mm, 102.7660 mm): Track [GND] on Top Layer, length 0.7355 mm
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(187.6680 mm, 102.7660 mm): Track [VBUS] on Top Layer, length 2.5165 mm
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(190.1845 mm, 103.7160 mm): Track [$1N4949] on Top Layer, length 4.0125 mm
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(190.4240 mm, 105.2095 mm): Track [$1N4949] on Top Layer, length 1.2540 mm
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(190.4240 mm, 103.9555 mm): Track [$1N4949] on Top Layer, length 0.3387 mm
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(185.5980 mm, 106.7795 mm): Track [$1N4949] on Top Layer, length 0.0714 mm
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(185.5980 mm, 104.2900 mm): Track [$1N4949] on Top Layer, length 2.4895 mm
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(192.4825 mm, 105.3015 mm): Track [$1N4948] on Top Layer, length 1.5855 mm
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(192.4825 mm, 101.8160 mm): Track [$1N4945] on Top Layer, length 1.7098 mm
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(190.1845 mm, 101.8160 mm): Track [$1N4947] on Top Layer, length 0.7750 mm
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(185.6485 mm, 106.8300 mm): Pad 1 [$1N4949] of L1 on Top Layer
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(188.8485 mm, 106.8300 mm): Pad 2 [3V3] of L1 on Top Layer
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(192.4825 mm, 103.7160 mm): Pad 1 [$1N4948] of U1 on Top Layer
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(192.4825 mm, 102.7660 mm): Pad 2 [GND] of U1 on Top Layer
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(192.4825 mm, 101.8160 mm): Pad 3 [$1N4945] of U1 on Top Layer
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(190.1845 mm, 101.8160 mm): Pad 4 [$1N4947] of U1 on Top Layer
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(190.1845 mm, 102.7660 mm): Pad 5 [VBUS] of U1 on Top Layer
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(190.1845 mm, 103.7160 mm): Pad 6 [$1N4949] of U1 on Top Layer
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(147.1298 mm, 84.7192 mm): Pad 1 [$1N2999] of L2 on Top Layer
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(149.6442 mm, 82.2048 mm): Pad 2 [VDDL] of L2 on Top Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(104.6990 mm, 113.1460 mm): Segment of RJ1 on Top Silkscreen Layer
+    @(120.7010 mm, 113.1460 mm): Segment of RJ2 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(120.7010 mm, 134.7360 mm): Segment of RJ2 on Top Silkscreen Layer
+    @(104.6990 mm, 113.1460 mm): Segment of RJ1 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(120.7010 mm, 113.1460 mm): Segment of RJ1 on Top Silkscreen Layer
+    @(120.7010 mm, 113.1460 mm): Segment of RJ2 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(120.7010 mm, 134.7360 mm): Segment of RJ2 on Top Silkscreen Layer
+    @(120.7010 mm, 113.1460 mm): Segment of RJ1 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(136.7030 mm, 134.7360 mm): Segment of RJ2 on Top Silkscreen Layer
+    @(120.7010 mm, 113.1460 mm): Segment of RJ1 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(120.7010 mm, 134.7360 mm): Segment of RJ2 on Top Silkscreen Layer
+    @(120.7010 mm, 134.7360 mm): Segment of RJ1 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(136.7030 mm, 134.7360 mm): Segment of RJ2 on Top Silkscreen Layer
+    @(120.7010 mm, 134.7360 mm): Segment of RJ1 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(136.6690 mm, 113.1460 mm): Segment of RJ3 on Top Silkscreen Layer
+    @(120.7010 mm, 113.1460 mm): Segment of RJ2 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(136.7030 mm, 113.1460 mm): Segment of RJ2 on Top Silkscreen Layer
+    @(136.6690 mm, 113.1460 mm): Segment of RJ3 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(136.6690 mm, 113.1460 mm): Segment of RJ3 on Top Silkscreen Layer
+    @(152.7050 mm, 113.1460 mm): Segment of RJ4 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(136.6690 mm, 113.1460 mm): Segment of RJ3 on Top Silkscreen Layer
+    @(152.7050 mm, 134.7360 mm): Segment of RJ4 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(136.6690 mm, 134.7360 mm): Segment of RJ3 on Top Silkscreen Layer
+    @(120.7010 mm, 113.1460 mm): Segment of RJ2 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(136.7030 mm, 113.1460 mm): Segment of RJ2 on Top Silkscreen Layer
+    @(136.6690 mm, 134.7360 mm): Segment of RJ3 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(152.6710 mm, 134.7360 mm): Segment of RJ3 on Top Silkscreen Layer
+    @(136.7030 mm, 113.1460 mm): Segment of RJ2 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(136.7030 mm, 134.7360 mm): Segment of RJ2 on Top Silkscreen Layer
+    @(136.6690 mm, 134.7360 mm): Segment of RJ3 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(152.6710 mm, 134.7360 mm): Segment of RJ3 on Top Silkscreen Layer
+    @(136.7030 mm, 134.7360 mm): Segment of RJ2 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(152.6710 mm, 113.1460 mm): Segment of RJ3 on Top Silkscreen Layer
+    @(152.7050 mm, 113.1460 mm): Segment of RJ4 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(152.6710 mm, 113.1460 mm): Segment of RJ3 on Top Silkscreen Layer
+    @(152.7050 mm, 134.7360 mm): Segment of RJ4 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(152.6710 mm, 113.1460 mm): Segment of RJ3 on Top Silkscreen Layer
+    @(168.7070 mm, 134.7360 mm): Segment of RJ4 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(152.6710 mm, 134.7360 mm): Segment of RJ3 on Top Silkscreen Layer
+    @(152.7050 mm, 134.7360 mm): Segment of RJ4 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(152.6710 mm, 134.7360 mm): Segment of RJ3 on Top Silkscreen Layer
+    @(168.7070 mm, 134.7360 mm): Segment of RJ4 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(168.7070 mm, 113.1460 mm): Segment of RJ5 on Top Silkscreen Layer
+    @(152.7050 mm, 113.1460 mm): Segment of RJ4 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(168.7070 mm, 113.1460 mm): Segment of RJ5 on Top Silkscreen Layer
+    @(168.7070 mm, 113.1460 mm): Segment of RJ4 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(168.7070 mm, 134.7360 mm): Segment of RJ5 on Top Silkscreen Layer
+    @(152.7050 mm, 113.1460 mm): Segment of RJ4 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(184.7090 mm, 134.7360 mm): Segment of RJ5 on Top Silkscreen Layer
+    @(168.7070 mm, 113.1460 mm): Segment of RJ4 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(184.7090 mm, 134.7360 mm): Segment of RJ5 on Top Silkscreen Layer
+    @(168.7070 mm, 134.7360 mm): Segment of RJ4 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(168.7070 mm, 134.7360 mm): Segment of RJ5 on Top Silkscreen Layer
+    @(168.7070 mm, 113.1460 mm): Segment of RJ4 on Top Silkscreen Layer
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(168.7070 mm, 134.7360 mm): Segment of RJ5 on Top Silkscreen Layer
+    @(168.7070 mm, 134.7360 mm): Segment of RJ4 on Top Silkscreen Layer
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(138.1000 mm, 99.2100 mm): PCB text 'JLCJLCJLCJLC' on Top Silkscreen Layer
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(120.7010 mm, 134.7360 mm): Segment of RJ2 on Top Silkscreen Layer
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(136.7030 mm, 113.1460 mm): Segment of RJ2 on Top Silkscreen Layer
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.6990 mm, 134.7360 mm): Segment of RJ1 on Top Silkscreen Layer
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(120.7010 mm, 113.1460 mm): Segment of RJ1 on Top Silkscreen Layer
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(175.3000 mm, 96.1035 mm): Segment of C43 on Top Silkscreen Layer
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(168.7070 mm, 134.7360 mm): Segment of RJ5 on Top Silkscreen Layer
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(184.7090 mm, 113.1460 mm): Segment of RJ5 on Top Silkscreen Layer
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(185.2990 mm, 120.5645 mm): Segment of DC1 on Top Silkscreen Layer
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(185.3020 mm, 134.7755 mm): Segment of DC1 on Top Silkscreen Layer
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(136.6690 mm, 134.7360 mm): Segment of RJ3 on Top Silkscreen Layer
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(152.6710 mm, 113.1460 mm): Segment of RJ3 on Top Silkscreen Layer
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(152.7050 mm, 134.7360 mm): Segment of RJ4 on Top Silkscreen Layer
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(168.7070 mm, 113.1460 mm): Segment of RJ4 on Top Silkscreen Layer
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(106.4770 mm, 80.4140 mm): PCB text '5-Port Gigabit Ethernet Switch' on Top Silkscreen Layer
+[lib_footprint_issues]: Footprint 'Pad_e346' not found in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(144.9705 mm, 97.9400 mm): Footprint <no reference designator>
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(156.1340 mm, 94.6380 mm): Footprint C20
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(130.8610 mm, 107.9730 mm): Footprint C46
+[lib_footprint_mismatch]: Footprint 'C0402' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(104.9530 mm, 117.4980 mm): Footprint C52
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(148.7680 mm, 102.0040 mm): Footprint C25
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(151.1810 mm, 99.5910 mm): Footprint C33
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(157.6580 mm, 93.1140 mm): Footprint C45
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(134.7980 mm, 107.8460 mm): Footprint C48
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(137.8460 mm, 98.7020 mm): Footprint C22
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(149.7840 mm, 95.4000 mm): Footprint C40
+[lib_footprint_mismatch]: Footprint 'C0402' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(136.9570 mm, 117.4980 mm): Footprint C54
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(129.8450 mm, 101.7500 mm): Footprint C15
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(146.3550 mm, 104.2900 mm): Footprint C24
+[lib_footprint_mismatch]: Footprint 'C0402' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(121.0820 mm, 117.4980 mm): Footprint C53
+[lib_footprint_mismatch]: Footprint 'C0402' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(168.9610 mm, 117.4980 mm): Footprint C56
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(153.7210 mm, 92.2250 mm): Footprint C44
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(140.0050 mm, 87.2720 mm): Footprint C36
+[lib_footprint_mismatch]: Footprint 'C0402' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(153.0860 mm, 117.4980 mm): Footprint C55
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(150.0380 mm, 88.1610 mm): Footprint C39
+[lib_footprint_mismatch]: Footprint 'SOD-123_L2.7-W1.6-LS3.7-RD-1' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(124.3840 mm, 89.6850 mm): Footprint D1
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(140.3860 mm, 101.1150 mm): Footprint C23
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(152.0700 mm, 106.8300 mm): Footprint C18
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(136.0680 mm, 109.1160 mm): Footprint C47
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(153.9750 mm, 104.9250 mm): Footprint C19
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(139.6240 mm, 106.7030 mm): Footprint C16
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(141.1480 mm, 111.4020 mm): Footprint C17
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(137.8460 mm, 85.2400 mm): Footprint C42
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(152.3240 mm, 85.8750 mm): Footprint C35
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(133.9090 mm, 93.2410 mm): Footprint C14
+[lib_footprint_mismatch]: Footprint 'C0603' does not match copy in library 'YT9215S-5-port-switch'.
+    Local override; warning
+    @(136.8300 mm, 90.5740 mm): Footprint C21
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(155.8800 mm, 95.9080 mm): Via [AVDDH] on Top Layer - Bottom Layer
+    @(155.8800 mm, 95.9080 mm): Via [AVDDH] on Top Layer - Bottom Layer
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(128.0670 mm, 79.5250 mm): Via [P0_LED1] on Top Layer - Bottom Layer
+    @(128.0670 mm, 79.5250 mm): Via [P0_LED1] on Top Layer - Bottom Layer
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; warning
+    @(136.6690 mm, 120.8905 mm): PTH pad SHIELD1 [GND] of RJ3
+    @(136.7030 mm, 120.8905 mm): PTH pad SHIELD0 [GND] of RJ2
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(120.7010 mm, 120.8905 mm): PTH pad SHIELD0 [GND] of RJ1
+    @(120.7010 mm, 120.8905 mm): PTH pad SHIELD1 [GND] of RJ2
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(168.7070 mm, 120.8905 mm): PTH pad SHIELD1 [GND] of RJ5
+    @(168.7070 mm, 120.8905 mm): PTH pad SHIELD0 [GND] of RJ4
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0000 mm)
+    Rule: board setup constraints; warning
+    @(152.6710 mm, 120.8905 mm): PTH pad SHIELD0 [GND] of RJ3
+    @(152.7050 mm, 120.8905 mm): PTH pad SHIELD1 [GND] of RJ4
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(200.0000 mm, 73.0000 mm): Segment on Multi-Layer
+    @(200.0290 mm, 109.5990 mm): Segment of USB1 on Top Silkscreen Layer
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(200.0000 mm, 73.0000 mm): Segment on Multi-Layer
+    @(200.0290 mm, 109.5990 mm): Segment of USB1 on Top Silkscreen Layer
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(200.0000 mm, 73.0000 mm): Segment on Multi-Layer
+    @(200.0290 mm, 118.5390 mm): Segment of USB1 on Top Silkscreen Layer
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(98.6030 mm, 69.2380 mm): Zone [GND] on Bottom Layer, priority 498
+    @(97.7140 mm, 67.8410 mm): Zone [GND] on Top Layer, priority 500
+
+** Found 165 Footprint errors **
+[missing_footprint]: Missing footprint ? (~)
+    Local override; warning
+[net_conflict]: Pad net ($1N4948) doesn't match net given by schematic (Net-(U1-BS)).
+    Local override; warning
+    @(192.0445 mm, 105.7400 mm): Pad 1 [$1N4948] of C1 on Top Layer
+[net_conflict]: Pad net ($1N4949) doesn't match net given by schematic (Net-(U1-SW)).
+    Local override; warning
+    @(190.9545 mm, 105.7400 mm): Pad 2 [$1N4949] of C1 on Top Layer
+[net_conflict]: Pad net ($1N4945) doesn't match net given by schematic (Net-(U1-FB)).
+    Local override; warning
+    @(194.1970 mm, 99.2100 mm): Pad 2 [$1N4945] of C5 on Top Layer
+[net_conflict]: Pad net (PLLGND) doesn't match net given by schematic (/P1/PLLGND).
+    Local override; warning
+    @(136.5630 mm, 108.6210 mm): Pad 1 [PLLGND] of C47 on Bottom Layer
+[net_conflict]: Pad net (PLLVDDL) doesn't match net given by schematic (/P1/PLLVDDL).
+    Local override; warning
+    @(135.5730 mm, 109.6110 mm): Pad 2 [PLLVDDL] of C47 on Bottom Layer
+[net_conflict]: Pad net (PLLGND) doesn't match net given by schematic (/P1/PLLGND).
+    Local override; warning
+    @(135.2930 mm, 107.3510 mm): Pad 1 [PLLGND] of C48 on Bottom Layer
+[net_conflict]: Pad net (PLLVDDL) doesn't match net given by schematic (/P1/PLLVDDL).
+    Local override; warning
+    @(134.3030 mm, 108.3410 mm): Pad 2 [PLLVDDL] of C48 on Bottom Layer
+[net_conflict]: Pad net (XTAL_OUT) doesn't match net given by schematic (/P1/XTAL_OUT).
+    Local override; warning
+    @(132.4990 mm, 85.9890 mm): Pad 2 [XTAL_OUT] of C49 on Top Layer
+[net_conflict]: Pad net (XTAL_IN) doesn't match net given by schematic (/P1/XTAL_IN).
+    Local override; warning
+    @(131.1020 mm, 87.3860 mm): Pad 2 [XTAL_IN] of C50 on Top Layer
+[net_conflict]: Pad net (NRST) doesn't match net given by schematic (/P1/NRST).
+    Local override; warning
+    @(127.4169 mm, 92.3511 mm): Pad 2 [NRST] of C51 on Bottom Layer
+[net_conflict]: Pad net (NRST) doesn't match net given by schematic (/P1/NRST).
+    Local override; warning
+    @(125.5861 mm, 90.8871 mm): Pad 2 [NRST] of D1 on Bottom Layer
+[net_conflict]: Pad net ($1N4949) doesn't match net given by schematic (Net-(U1-SW)).
+    Local override; warning
+    @(185.6485 mm, 106.8300 mm): Pad 1 [$1N4949] of L1 on Top Layer
+[net_conflict]: Pad net ($1N2999) doesn't match net given by schematic (Net-(L2-Pad1)).
+    Local override; warning
+    @(147.1298 mm, 84.7192 mm): Pad 1 [$1N2999] of L2 on Top Layer
+[net_conflict]: Pad net (PLLVDDL) doesn't match net given by schematic (/P1/PLLVDDL).
+    Local override; warning
+    @(132.7530 mm, 107.0710 mm): Pad 2 [PLLVDDL] of L9 on Bottom Layer
+[net_conflict]: Pad net (PLLGND) doesn't match net given by schematic (/P1/PLLGND).
+    Local override; warning
+    @(134.0230 mm, 105.8010 mm): Pad 2 [PLLGND] of L10 on Bottom Layer
+[net_conflict]: Pad net ($1N10186) doesn't match net given by schematic (Net-(LED1-+)).
+    Local override; warning
+    @(190.1980 mm, 110.3825 mm): Pad 2 [$1N10186] of LED1 on Top Layer
+[net_conflict]: Pad net ($1N4945) doesn't match net given by schematic (Net-(U1-FB)).
+    Local override; warning
+    @(194.3090 mm, 100.6070 mm): Pad 2 [$1N4945] of R1 on Top Layer
+[net_conflict]: Pad net ($1N4947) doesn't match net given by schematic (Net-(U1-EN)).
+    Local override; warning
+    @(188.5545 mm, 101.6230 mm): Pad 2 [$1N4947] of R2 on Top Layer
+[net_conflict]: Pad net ($1N4938) doesn't match net given by schematic (Net-(R3-Pad1)).
+    Local override; warning
+    @(195.1750 mm, 103.4010 mm): Pad 1 [$1N4938] of R3 on Top Layer
+[net_conflict]: Pad net ($1N4945) doesn't match net given by schematic (Net-(U1-FB)).
+    Local override; warning
+    @(194.3090 mm, 102.0040 mm): Pad 1 [$1N4945] of R4 on Top Layer
+[net_conflict]: Pad net ($1N4938) doesn't match net given by schematic (Net-(R3-Pad1)).
+    Local override; warning
+    @(195.1750 mm, 102.0040 mm): Pad 2 [$1N4938] of R4 on Top Layer
+[net_conflict]: Pad net ($1N2005) doesn't match net given by schematic (Net-(U2-MDIREF)).
+    Local override; warning
+    @(151.1288 mm, 106.1428 mm): Pad 2 [$1N2005] of R7 on Top Layer
+[net_conflict]: Pad net ($1N10186) doesn't match net given by schematic (Net-(LED1-+)).
+    Local override; warning
+    @(198.6790 mm, 108.2185 mm): Pad 2 [$1N10186] of R8 on Top Layer
+[net_conflict]: Pad net ($1N9816) doesn't match net given by schematic (Net-(USB1-CC1)).
+    Local override; warning
+    @(190.1560 mm, 113.8150 mm): Pad 1 [$1N9816] of R9 on Top Layer
+[net_conflict]: Pad net ($1N9819) doesn't match net given by schematic (Net-(USB1-CC2)).
+    Local override; warning
+    @(190.1560 mm, 112.1640 mm): Pad 2 [$1N9819] of R10 on Top Layer
+[net_conflict]: Pad net (DISAUTOLOAD) doesn't match net given by schematic (/P1/DISAUTOLOAD).
+    Local override; warning
+    @(131.7748 mm, 85.0108 mm): Pad 1 [DISAUTOLOAD] of R11 on Bottom Layer
+[net_conflict]: Pad net (EN_PWRLIGHT) doesn't match net given by schematic (/P1/EN_PWRLIGHT).
+    Local override; warning
+    @(134.3148 mm, 82.7248 mm): Pad 1 [EN_PWRLIGHT] of R12 on Bottom Layer
+[net_conflict]: Pad net (NRST) doesn't match net given by schematic (/P1/NRST).
+    Local override; warning
+    @(127.1328 mm, 87.8588 mm): Pad 1 [NRST] of R13 on Bottom Layer
+[net_conflict]: Pad net (EN_SWR) doesn't match net given by schematic (/P1/EN_SWR).
+    Local override; warning
+    @(150.6482 mm, 85.8998 mm): Pad 1 [EN_SWR] of R14 on Top Layer
+[footprint_symbol_mismatch]: Value (TP1) doesn't match symbol value ().
+    Local override; warning
+    @(198.6790 mm, 105.5600 mm): Footprint TP1
+[footprint_symbol_mismatch]: Value (TP2) doesn't match symbol value ().
+    Local override; warning
+    @(189.5025 mm, 100.1490 mm): Footprint TP2
+[footprint_symbol_mismatch]: Value (TP3) doesn't match symbol value ().
+    Local override; warning
+    @(155.3545 mm, 83.2265 mm): Footprint TP3
+[footprint_symbol_mismatch]: Value (TP4) doesn't match symbol value ().
+    Local override; warning
+    @(176.8825 mm, 75.3225 mm): Footprint TP4
+[footprint_symbol_mismatch]: Value (TP5) doesn't match symbol value ().
+    Local override; warning
+    @(167.3580 mm, 80.3900 mm): Footprint TP5
+[footprint_symbol_mismatch]: Value (TP6) doesn't match symbol value ().
+    Local override; warning
+    @(156.5655 mm, 73.4140 mm): Footprint TP6
+[footprint_symbol_mismatch]: Value (TP7) doesn't match symbol value ().
+    Local override; warning
+    @(176.8540 mm, 85.8100 mm): Footprint TP7
+[footprint_symbol_mismatch]: Value (TP8) doesn't match symbol value ().
+    Local override; warning
+    @(173.3060 mm, 92.3680 mm): Footprint TP8
+[footprint_symbol_mismatch]: Value (TP9) doesn't match symbol value ().
+    Local override; warning
+    @(170.5740 mm, 101.6240 mm): Footprint TP9
+[footprint_symbol_mismatch]: Value (TP10) doesn't match symbol value ().
+    Local override; warning
+    @(174.5490 mm, 95.8430 mm): Footprint TP10
+[footprint_symbol_mismatch]: Value (TP11) doesn't match symbol value ().
+    Local override; warning
+    @(155.9900 mm, 91.4640 mm): Footprint TP11
+[footprint_symbol_mismatch]: Value (TP12) doesn't match symbol value ().
+    Local override; warning
+    @(137.9390 mm, 105.8010 mm): Footprint TP12
+[net_conflict]: Pad net (PLLVDDL) doesn't match net given by schematic (/P1/PLLVDDL).
+    Local override; warning
+    @(137.9390 mm, 105.8010 mm): Pad 1 [PLLVDDL] of TP12 on Bottom Layer
+[footprint_symbol_mismatch]: Value (TP13) doesn't match symbol value ().
+    Local override; warning
+    @(139.3490 mm, 110.6400 mm): Footprint TP13
+[net_conflict]: Pad net (PLLGND) doesn't match net given by schematic (/P1/PLLGND).
+    Local override; warning
+    @(139.3490 mm, 110.6400 mm): Pad 1 [PLLGND] of TP13 on Bottom Layer
+[footprint_symbol_mismatch]: Value (TP14) doesn't match symbol value ().
+    Local override; warning
+    @(128.1425 mm, 84.2060 mm): Footprint TP14
+[net_conflict]: Pad net (DISAUTOLOAD) doesn't match net given by schematic (/P1/DISAUTOLOAD).
+    Local override; warning
+    @(128.1425 mm, 84.2060 mm): Pad 1 [DISAUTOLOAD] of TP14 on Bottom Layer
+[footprint_symbol_mismatch]: Value (TP15) doesn't match symbol value ().
+    Local override; warning
+    @(130.0900 mm, 89.8790 mm): Footprint TP15
+[net_conflict]: Pad net (NRST) doesn't match net given by schematic (/P1/NRST).
+    Local override; warning
+    @(130.0900 mm, 89.8790 mm): Pad 1 [NRST] of TP15 on Bottom Layer
+[footprint_symbol_mismatch]: Value (TP16) doesn't match symbol value ().
+    Local override; warning
+    @(152.2465 mm, 87.3600 mm): Footprint TP16
+[net_conflict]: Pad net (EN_SWR) doesn't match net given by schematic (/P1/EN_SWR).
+    Local override; warning
+    @(152.2465 mm, 87.3600 mm): Pad 1 [EN_SWR] of TP16 on Top Layer
+[net_conflict]: Pad net ($1N4948) doesn't match net given by schematic (Net-(U1-BS)).
+    Local override; warning
+    @(192.4825 mm, 103.7160 mm): Pad 1 [$1N4948] of U1 on Top Layer
+[net_conflict]: Pad net ($1N4945) doesn't match net given by schematic (Net-(U1-FB)).
+    Local override; warning
+    @(192.4825 mm, 101.8160 mm): Pad 3 [$1N4945] of U1 on Top Layer
+[net_conflict]: Pad net ($1N4947) doesn't match net given by schematic (Net-(U1-EN)).
+    Local override; warning
+    @(190.1845 mm, 101.8160 mm): Pad 4 [$1N4947] of U1 on Top Layer
+[net_conflict]: Pad net ($1N4949) doesn't match net given by schematic (Net-(U1-SW)).
+    Local override; warning
+    @(190.1845 mm, 103.7160 mm): Pad 6 [$1N4949] of U1 on Top Layer
+[net_conflict]: Pad net ($1N2005) doesn't match net given by schematic (Net-(U2-MDIREF)).
+    Local override; warning
+    @(149.3633 mm, 104.3252 mm): Pad 13 [$1N2005] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-RTT1-Pad15)).
+    Local override; warning
+    @(149.9290 mm, 103.7595 mm): Pad 15 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-RTT2-Pad16)).
+    Local override; warning
+    @(150.2118 mm, 103.4766 mm): Pad 16 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-INTERRUPT{slash}GPIO57-Pad19)).
+    Local override; warning
+    @(151.0603 mm, 102.6281 mm): Pad 19 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-HSON-Pad35)).
+    Local override; warning
+    @(154.1716 mm, 96.3632 mm): Pad 35 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-HSOP-Pad36)).
+    Local override; warning
+    @(153.8888 mm, 96.0803 mm): Pad 36 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-HSIP-Pad38)).
+    Local override; warning
+    @(153.3231 mm, 95.5146 mm): Pad 38 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-HSIN-Pad39)).
+    Local override; warning
+    @(153.0402 mm, 95.2318 mm): Pad 39 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-UART_RX{slash}M2P_RXD3{slash}M2M_TXD3{slash}RG2_TXD3{slash}GPIO01-Pad45)).
+    Local override; warning
+    @(151.3432 mm, 93.5347 mm): Pad 45 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-UART_TX{slash}M2P_RXD2{slash}M2M_TXD2{slash}RG2_TXD2{slash}GPIO02-Pad46)).
+    Local override; warning
+    @(151.0603 mm, 93.2519 mm): Pad 46 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-M2P_RXD1{slash}M2M_TXD1{slash}RG2_TXD1{slash}GPIO03-Pad47)).
+    Local override; warning
+    @(150.7775 mm, 92.9690 mm): Pad 47 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-SPIF_CLK{slash}M2P_RXD0{slash}M2M_TXD0{slash}RG2_TXD0{slash}GPIO04-Pad48)).
+    Local override; warning
+    @(150.4946 mm, 92.6862 mm): Pad 48 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-SPIF_D0{slash}M2P_RXDV{slash}M2M_TXEN{slash}RG2_TXCTL{slash}GPIO05-Pad49)).
+    Local override; warning
+    @(150.2118 mm, 92.4034 mm): Pad 49 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-M2P_RXCLK{slash}M2M_TXCLK{slash}RG2_TXCLK{slash}GPIO06-Pad50)).
+    Local override; warning
+    @(149.9290 mm, 92.1205 mm): Pad 50 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-M2P_TXCLK{slash}M2M_RXCLK{slash}RG2_RXCLK{slash}GPIO07-Pad51)).
+    Local override; warning
+    @(149.6461 mm, 91.8377 mm): Pad 51 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-M2P_TXEN{slash}M2M_RXDV{slash}RG2_RXCTL{slash}GPIO08-Pad52)).
+    Local override; warning
+    @(149.3633 mm, 91.5548 mm): Pad 52 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-SPIF_D1{slash}M2P_TXD0{slash}M2M_RXD0{slash}RG2_RXD0{slash}GPIO09-Pad53)).
+    Local override; warning
+    @(149.0804 mm, 91.2720 mm): Pad 53 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-SPIF_CS{slash}M2P_TXD1{slash}M2M_RXD1{slash}RG2_RXD1{slash}GPIO10-Pad54)).
+    Local override; warning
+    @(148.7976 mm, 90.9891 mm): Pad 54 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-M2P_TXD2{slash}M2M_RXD2{slash}RG2_RXD2{slash}GPIO11-Pad55)).
+    Local override; warning
+    @(148.5147 mm, 90.7063 mm): Pad 55 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-M2P_TXD3{slash}M2M_RXD3{slash}RG2_RXD3{slash}GPIO12-Pad56)).
+    Local override; warning
+    @(148.2319 mm, 90.4235 mm): Pad 56 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad net (EN_SWR) doesn't match net given by schematic (/P1/EN_SWR).
+    Local override; warning
+    @(147.1005 mm, 89.2921 mm): Pad 60 [EN_SWR] of U2 on Top Layer
+[net_conflict]: Pad net ($1N2999) doesn't match net given by schematic (Net-(L2-Pad1)).
+    Local override; warning
+    @(146.2520 mm, 88.4436 mm): Pad 63 [$1N2999] of U2 on Top Layer
+[net_conflict]: Pad net ($1N2999) doesn't match net given by schematic (Net-(L2-Pad1)).
+    Local override; warning
+    @(145.9692 mm, 88.1607 mm): Pad 64 [$1N2999] of U2 on Top Layer
+[net_conflict]: Pad net (EN_PWRLIGHT) doesn't match net given by schematic (/P1/EN_PWRLIGHT).
+    Local override; warning
+    @(141.6841 mm, 90.4235 mm): Pad 73 [EN_PWRLIGHT] of U2 on Top Layer
+[net_conflict]: Pad net (DISAUTOLOAD) doesn't match net given by schematic (/P1/DISAUTOLOAD).
+    Local override; warning
+    @(140.8356 mm, 91.2720 mm): Pad 76 [DISAUTOLOAD] of U2 on Top Layer
+[net_conflict]: Pad net (XTAL_OUT) doesn't match net given by schematic (/P1/XTAL_OUT).
+    Local override; warning
+    @(138.8557 mm, 93.2519 mm): Pad 83 [XTAL_OUT] of U2 on Top Layer
+[net_conflict]: Pad net (XTAL_IN) doesn't match net given by schematic (/P1/XTAL_IN).
+    Local override; warning
+    @(138.5728 mm, 93.5347 mm): Pad 84 [XTAL_IN] of U2 on Top Layer
+[net_conflict]: Pad net (NRST) doesn't match net given by schematic (/P1/NRST).
+    Local override; warning
+    @(138.0071 mm, 94.1004 mm): Pad 86 [NRST] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-SCK{slash}GPIO54-Pad87)).
+    Local override; warning
+    @(137.7243 mm, 94.3833 mm): Pad 87 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (unconnected-(U2-SDA{slash}GPIO55-Pad88)).
+    Local override; warning
+    @(137.4415 mm, 94.6661 mm): Pad 88 [<no net>] of U2 on Top Layer
+[net_conflict]: Pad net (PLLVDDL) doesn't match net given by schematic (/P1/PLLVDDL).
+    Local override; warning
+    @(139.9870 mm, 103.7595 mm): Pad 114 [PLLVDDL] of U2 on Top Layer
+[net_conflict]: Pad net (PLLGND) doesn't match net given by schematic (/P1/PLLGND).
+    Local override; warning
+    @(140.2699 mm, 104.0423 mm): Pad 115 [PLLGND] of U2 on Top Layer
+[net_conflict]: Pad missing net given by schematic (GND).
+    Local override; warning
+    @(193.6290 mm, 118.3890 mm): PTH pad 1 [<no net>] of USB1
+[net_conflict]: Pad missing net given by schematic (GND).
+    Local override; warning
+    @(193.6290 mm, 109.7490 mm): PTH pad 2 [<no net>] of USB1
+[net_conflict]: Pad net ($1N9816) doesn't match net given by schematic (Net-(USB1-CC1)).
+    Local override; warning
+    @(193.5790 mm, 114.5680 mm): Pad A5 [$1N9816] of USB1 on Top Layer
+[net_conflict]: Pad net ($1N9819) doesn't match net given by schematic (Net-(USB1-CC2)).
+    Local override; warning
+    @(193.5790 mm, 113.5680 mm): Pad B5 [$1N9819] of USB1 on Top Layer
+[net_conflict]: Pad net (XTAL_OUT) doesn't match net given by schematic (/P1/XTAL_OUT).
+    Local override; warning
+    @(135.0790 mm, 89.1528 mm): Pad 1 [XTAL_OUT] of X1 on Top Layer
+[net_conflict]: Pad net (XTAL_IN) doesn't match net given by schematic (/P1/XTAL_IN).
+    Local override; warning
+    @(132.9930 mm, 88.6932 mm): Pad 3 [XTAL_IN] of X1 on Top Layer
+[missing_footprint]: Missing footprint ? (~)
+    Local override; warning
+[net_conflict]: Pad net ($2N653) doesn't match net given by schematic (Net-(C52-Pad2)).
+    Local override; warning
+    @(105.4980 mm, 117.4980 mm): Pad 2 [$2N653] of C52 on Bottom Layer
+[net_conflict]: Pad net ($2N1084) doesn't match net given by schematic (Net-(C53-Pad2)).
+    Local override; warning
+    @(121.6270 mm, 117.4980 mm): Pad 2 [$2N1084] of C53 on Bottom Layer
+[net_conflict]: Pad net ($2N1523) doesn't match net given by schematic (Net-(C54-Pad2)).
+    Local override; warning
+    @(137.5020 mm, 117.4980 mm): Pad 2 [$2N1523] of C54 on Bottom Layer
+[net_conflict]: Pad net ($2N1954) doesn't match net given by schematic (Net-(C55-Pad2)).
+    Local override; warning
+    @(153.6310 mm, 117.4980 mm): Pad 2 [$2N1954] of C55 on Bottom Layer
+[net_conflict]: Pad net ($2N2385) doesn't match net given by schematic (Net-(C56-Pad2)).
+    Local override; warning
+    @(169.5060 mm, 117.4980 mm): Pad 2 [$2N2385] of C56 on Bottom Layer
+[net_conflict]: Pad net ($2N645) doesn't match net given by schematic (Net-(R21-Pad2)).
+    Local override; warning
+    @(111.0430 mm, 126.1340 mm): Pad 2 [$2N645] of R21 on Bottom Layer
+[net_conflict]: Pad net ($2N647) doesn't match net given by schematic (Net-(R22-Pad1)).
+    Local override; warning
+    @(114.2760 mm, 126.1340 mm): Pad 1 [$2N647] of R22 on Bottom Layer
+[net_conflict]: Pad net ($2N1076) doesn't match net given by schematic (Net-(R23-Pad2)).
+    Local override; warning
+    @(127.0680 mm, 126.1340 mm): Pad 2 [$2N1076] of R23 on Bottom Layer
+[net_conflict]: Pad net ($2N1078) doesn't match net given by schematic (Net-(R24-Pad1)).
+    Local override; warning
+    @(130.2780 mm, 126.1340 mm): Pad 1 [$2N1078] of R24 on Bottom Layer
+[net_conflict]: Pad net ($2N6448) doesn't match net given by schematic (Net-(R25-Pad2)).
+    Local override; warning
+    @(143.1280 mm, 123.7080 mm): Pad 2 [$2N6448] of R25 on Bottom Layer
+[net_conflict]: Pad net ($2N6555) doesn't match net given by schematic (Net-(R26-Pad1)).
+    Local override; warning
+    @(146.2800 mm, 123.7080 mm): Pad 1 [$2N6555] of R26 on Bottom Layer
+[net_conflict]: Pad net ($2N6531) doesn't match net given by schematic (Net-(R31-Pad2)).
+    Local override; warning
+    @(159.0490 mm, 123.6065 mm): Pad 2 [$2N6531] of R31 on Bottom Layer
+[net_conflict]: Pad net ($2N6593) doesn't match net given by schematic (Net-(R32-Pad1)).
+    Local override; warning
+    @(162.3000 mm, 123.6065 mm): Pad 1 [$2N6593] of R32 on Bottom Layer
+[net_conflict]: Pad net ($2N2377) doesn't match net given by schematic (Net-(R33-Pad2)).
+    Local override; warning
+    @(175.0050 mm, 126.1340 mm): Pad 2 [$2N2377] of R33 on Bottom Layer
+[net_conflict]: Pad net ($2N2379) doesn't match net given by schematic (Net-(R34-Pad1)).
+    Local override; warning
+    @(178.2840 mm, 126.1340 mm): Pad 1 [$2N2379] of R34 on Bottom Layer
+[net_conflict]: Pad net ($2N645) doesn't match net given by schematic (Net-(R21-Pad2)).
+    Local override; warning
+    @(108.6360 mm, 128.8410 mm): PTH pad 12 [$2N645] of RJ1
+[net_conflict]: Pad net ($2N647) doesn't match net given by schematic (Net-(R22-Pad1)).
+    Local override; warning
+    @(116.7640 mm, 128.8410 mm): PTH pad 13 [$2N647] of RJ1
+[net_conflict]: Pad net ($2N653) doesn't match net given by schematic (Net-(C52-Pad2)).
+    Local override; warning
+    @(106.8675 mm, 115.0450 mm): PTH pad P1 [$2N653] of RJ1
+[net_conflict]: Pad net (P0MDIA_P) doesn't match net given by schematic (/P2/P0MDIA_P).
+    Local override; warning
+    @(108.1510 mm, 117.5910 mm): PTH pad P2 [P0MDIA_P] of RJ1
+[net_conflict]: Pad net (P0MDIA_N) doesn't match net given by schematic (/P2/P0MDIA_N).
+    Local override; warning
+    @(109.5200 mm, 115.0510 mm): PTH pad P3 [P0MDIA_N] of RJ1
+[net_conflict]: Pad net (P0MDIB_P) doesn't match net given by schematic (/P2/P0MDIB_P).
+    Local override; warning
+    @(110.6910 mm, 117.5910 mm): PTH pad P4 [P0MDIB_P] of RJ1
+[net_conflict]: Pad net (P0MDIC_P) doesn't match net given by schematic (/P2/P0MDIC_P).
+    Local override; warning
+    @(112.0600 mm, 115.0510 mm): PTH pad P5 [P0MDIC_P] of RJ1
+[net_conflict]: Pad net (P0MDIC_N) doesn't match net given by schematic (/P2/P0MDIC_N).
+    Local override; warning
+    @(113.2310 mm, 117.5910 mm): PTH pad P6 [P0MDIC_N] of RJ1
+[net_conflict]: Pad net (P0MDIB_N) doesn't match net given by schematic (/P2/P0MDIB_N).
+    Local override; warning
+    @(114.6000 mm, 115.0510 mm): PTH pad P7 [P0MDIB_N] of RJ1
+[net_conflict]: Pad net (P0MDID_P) doesn't match net given by schematic (/P2/P0MDID_P).
+    Local override; warning
+    @(115.7710 mm, 117.5910 mm): PTH pad P8 [P0MDID_P] of RJ1
+[net_conflict]: Pad net (P0MDID_N) doesn't match net given by schematic (/P2/P0MDID_N).
+    Local override; warning
+    @(117.1400 mm, 115.0510 mm): PTH pad P9 [P0MDID_N] of RJ1
+[net_conflict]: Pad net ($2N1076) doesn't match net given by schematic (Net-(R23-Pad2)).
+    Local override; warning
+    @(124.6380 mm, 128.8410 mm): PTH pad 12 [$2N1076] of RJ2
+[net_conflict]: Pad net ($2N1078) doesn't match net given by schematic (Net-(R24-Pad1)).
+    Local override; warning
+    @(132.7660 mm, 128.8410 mm): PTH pad 13 [$2N1078] of RJ2
+[net_conflict]: Pad net ($2N1084) doesn't match net given by schematic (Net-(C53-Pad2)).
+    Local override; warning
+    @(122.8695 mm, 115.0450 mm): PTH pad P1 [$2N1084] of RJ2
+[net_conflict]: Pad net (P1MDIA_P) doesn't match net given by schematic (/P2/P1MDIA_P).
+    Local override; warning
+    @(124.1530 mm, 117.5910 mm): PTH pad P2 [P1MDIA_P] of RJ2
+[net_conflict]: Pad net (P1MDIA_N) doesn't match net given by schematic (/P2/P1MDIA_N).
+    Local override; warning
+    @(125.5220 mm, 115.0510 mm): PTH pad P3 [P1MDIA_N] of RJ2
+[net_conflict]: Pad net (P1MDIB_P) doesn't match net given by schematic (/P2/P1MDIB_P).
+    Local override; warning
+    @(126.6930 mm, 117.5910 mm): PTH pad P4 [P1MDIB_P] of RJ2
+[net_conflict]: Pad net (P1MDIC_P) doesn't match net given by schematic (/P2/P1MDIC_P).
+    Local override; warning
+    @(128.0620 mm, 115.0510 mm): PTH pad P5 [P1MDIC_P] of RJ2
+[net_conflict]: Pad net (P1MDIC_N) doesn't match net given by schematic (/P2/P1MDIC_N).
+    Local override; warning
+    @(129.2330 mm, 117.5910 mm): PTH pad P6 [P1MDIC_N] of RJ2
+[net_conflict]: Pad net (P1MDIB_N) doesn't match net given by schematic (/P2/P1MDIB_N).
+    Local override; warning
+    @(130.6020 mm, 115.0510 mm): PTH pad P7 [P1MDIB_N] of RJ2
+[net_conflict]: Pad net (P1MDID_P) doesn't match net given by schematic (/P2/P1MDID_P).
+    Local override; warning
+    @(131.7730 mm, 117.5910 mm): PTH pad P8 [P1MDID_P] of RJ2
+[net_conflict]: Pad net (P1MDID_N) doesn't match net given by schematic (/P2/P1MDID_N).
+    Local override; warning
+    @(133.1420 mm, 115.0510 mm): PTH pad P9 [P1MDID_N] of RJ2
+[net_conflict]: Pad net ($2N6448) doesn't match net given by schematic (Net-(R25-Pad2)).
+    Local override; warning
+    @(138.0660 mm, 128.8410 mm): PTH pad 11 [$2N6448] of RJ3
+[net_conflict]: Pad net ($2N6555) doesn't match net given by schematic (Net-(R26-Pad1)).
+    Local override; warning
+    @(151.2740 mm, 128.8410 mm): PTH pad 14 [$2N6555] of RJ3
+[net_conflict]: Pad net ($2N1523) doesn't match net given by schematic (Net-(C54-Pad2)).
+    Local override; warning
+    @(138.8375 mm, 115.0450 mm): PTH pad P1 [$2N1523] of RJ3
+[net_conflict]: Pad net (P2MDIA_P) doesn't match net given by schematic (/P2/P2MDIA_P).
+    Local override; warning
+    @(140.1210 mm, 117.5910 mm): PTH pad P2 [P2MDIA_P] of RJ3
+[net_conflict]: Pad net (P2MDIA_N) doesn't match net given by schematic (/P2/P2MDIA_N).
+    Local override; warning
+    @(141.4900 mm, 115.0510 mm): PTH pad P3 [P2MDIA_N] of RJ3
+[net_conflict]: Pad net (P2MDIB_P) doesn't match net given by schematic (/P2/P2MDIB_P).
+    Local override; warning
+    @(142.6610 mm, 117.5910 mm): PTH pad P4 [P2MDIB_P] of RJ3
+[net_conflict]: Pad net (P2MDIC_P) doesn't match net given by schematic (/P2/P2MDIC_P).
+    Local override; warning
+    @(144.0300 mm, 115.0510 mm): PTH pad P5 [P2MDIC_P] of RJ3
+[net_conflict]: Pad net (P2MDIC_N) doesn't match net given by schematic (/P2/P2MDIC_N).
+    Local override; warning
+    @(145.2010 mm, 117.5910 mm): PTH pad P6 [P2MDIC_N] of RJ3
+[net_conflict]: Pad net (P2MDIB_N) doesn't match net given by schematic (/P2/P2MDIB_N).
+    Local override; warning
+    @(146.5700 mm, 115.0510 mm): PTH pad P7 [P2MDIB_N] of RJ3
+[net_conflict]: Pad net (P2MDID_P) doesn't match net given by schematic (/P2/P2MDID_P).
+    Local override; warning
+    @(147.7410 mm, 117.5910 mm): PTH pad P8 [P2MDID_P] of RJ3
+[net_conflict]: Pad net (P2MDID_N) doesn't match net given by schematic (/P2/P2MDID_N).
+    Local override; warning
+    @(149.1100 mm, 115.0510 mm): PTH pad P9 [P2MDID_N] of RJ3
+[net_conflict]: Pad net ($2N6531) doesn't match net given by schematic (Net-(R31-Pad2)).
+    Local override; warning
+    @(154.1020 mm, 128.8410 mm): PTH pad 11 [$2N6531] of RJ4
+[net_conflict]: Pad net ($2N6593) doesn't match net given by schematic (Net-(R32-Pad1)).
+    Local override; warning
+    @(167.3100 mm, 128.8410 mm): PTH pad 14 [$2N6593] of RJ4
+[net_conflict]: Pad net ($2N1954) doesn't match net given by schematic (Net-(C55-Pad2)).
+    Local override; warning
+    @(154.8735 mm, 115.0450 mm): PTH pad P1 [$2N1954] of RJ4
+[net_conflict]: Pad net (P3MDIA_P) doesn't match net given by schematic (/P2/P3MDIA_P).
+    Local override; warning
+    @(156.1570 mm, 117.5910 mm): PTH pad P2 [P3MDIA_P] of RJ4
+[net_conflict]: Pad net (P3MDIA_N) doesn't match net given by schematic (/P2/P3MDIA_N).
+    Local override; warning
+    @(157.5260 mm, 115.0510 mm): PTH pad P3 [P3MDIA_N] of RJ4
+[net_conflict]: Pad net (P3MDIB_P) doesn't match net given by schematic (/P2/P3MDIB_P).
+    Local override; warning
+    @(158.6970 mm, 117.5910 mm): PTH pad P4 [P3MDIB_P] of RJ4
+[net_conflict]: Pad net (P3MDIC_P) doesn't match net given by schematic (/P2/P3MDIC_P).
+    Local override; warning
+    @(160.0660 mm, 115.0510 mm): PTH pad P5 [P3MDIC_P] of RJ4
+[net_conflict]: Pad net (P3MDIC_N) doesn't match net given by schematic (/P2/P3MDIC_N).
+    Local override; warning
+    @(161.2370 mm, 117.5910 mm): PTH pad P6 [P3MDIC_N] of RJ4
+[net_conflict]: Pad net (P3MDIB_N) doesn't match net given by schematic (/P2/P3MDIB_N).
+    Local override; warning
+    @(162.6060 mm, 115.0510 mm): PTH pad P7 [P3MDIB_N] of RJ4
+[net_conflict]: Pad net (P3MDID_P) doesn't match net given by schematic (/P2/P3MDID_P).
+    Local override; warning
+    @(163.7770 mm, 117.5910 mm): PTH pad P8 [P3MDID_P] of RJ4
+[net_conflict]: Pad net (P3MDID_N) doesn't match net given by schematic (/P2/P3MDID_N).
+    Local override; warning
+    @(165.1460 mm, 115.0510 mm): PTH pad P9 [P3MDID_N] of RJ4
+[net_conflict]: Pad net ($2N2377) doesn't match net given by schematic (Net-(R33-Pad2)).
+    Local override; warning
+    @(172.6440 mm, 128.8410 mm): PTH pad 12 [$2N2377] of RJ5
+[net_conflict]: Pad net ($2N2379) doesn't match net given by schematic (Net-(R34-Pad1)).
+    Local override; warning
+    @(180.7720 mm, 128.8410 mm): PTH pad 13 [$2N2379] of RJ5
+[net_conflict]: Pad net ($2N2385) doesn't match net given by schematic (Net-(C56-Pad2)).
+    Local override; warning
+    @(170.8755 mm, 115.0450 mm): PTH pad P1 [$2N2385] of RJ5
+[net_conflict]: Pad net (P4MDIA_P) doesn't match net given by schematic (/P2/P4MDIA_P).
+    Local override; warning
+    @(172.1590 mm, 117.5910 mm): PTH pad P2 [P4MDIA_P] of RJ5
+[net_conflict]: Pad net (P4MDIA_N) doesn't match net given by schematic (/P2/P4MDIA_N).
+    Local override; warning
+    @(173.5280 mm, 115.0510 mm): PTH pad P3 [P4MDIA_N] of RJ5
+[net_conflict]: Pad net (P4MDIB_P) doesn't match net given by schematic (/P2/P4MDIB_P).
+    Local override; warning
+    @(174.6990 mm, 117.5910 mm): PTH pad P4 [P4MDIB_P] of RJ5
+[net_conflict]: Pad net (P4MDIC_P) doesn't match net given by schematic (/P2/P4MDIC_P).
+    Local override; warning
+    @(176.0680 mm, 115.0510 mm): PTH pad P5 [P4MDIC_P] of RJ5
+[net_conflict]: Pad net (P4MDIC_N) doesn't match net given by schematic (/P2/P4MDIC_N).
+    Local override; warning
+    @(177.2390 mm, 117.5910 mm): PTH pad P6 [P4MDIC_N] of RJ5
+[net_conflict]: Pad net (P4MDIB_N) doesn't match net given by schematic (/P2/P4MDIB_N).
+    Local override; warning
+    @(178.6080 mm, 115.0510 mm): PTH pad P7 [P4MDIB_N] of RJ5
+[net_conflict]: Pad net (P4MDID_P) doesn't match net given by schematic (/P2/P4MDID_P).
+    Local override; warning
+    @(179.7790 mm, 117.5910 mm): PTH pad P8 [P4MDID_P] of RJ5
+[net_conflict]: Pad net (P4MDID_N) doesn't match net given by schematic (/P2/P4MDID_N).
+    Local override; warning
+    @(181.1480 mm, 115.0510 mm): PTH pad P9 [P4MDID_N] of RJ5
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(144.9705 mm, 97.9400 mm): Footprint <no reference designator>
+
+** End of Report **
