@@ -1,0 +1,1082 @@
+ERC report (2026-11-17T05:10:44+0000, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /P1/
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 83.82 mm): Symbol U2 Pin 97 [P0MDICP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 86.36 mm): Symbol U2 Pin 98 [P0MDICN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 91.44 mm): Symbol U2 Pin 100 [P0MDIDP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 93.98 mm): Symbol U2 Pin 101 [P0MDIDN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 99.06 mm): Symbol U2 Pin 103 [P1MDIAP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 101.60 mm): Symbol U2 Pin 104 [P1MDIAN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(121.92 mm, 78.74 mm): Symbol U2 Pin 94 [P0MDIBN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 106.68 mm): Symbol U2 Pin 106 [P1MDIBP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(124.46 mm, 78.74 mm): Symbol U2 Pin 93 [P0MDIBP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 109.22 mm): Symbol U2 Pin 107 [P1MDIBN, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(66.04 mm, 132.08 mm): Symbol #PWR0130 Pin 1 [AVDDH, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(127.00 mm, 78.74 mm): Symbol U2 Pin 92 [P0MDIAN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 114.30 mm): Symbol U2 Pin 109 [P1MDICP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(129.54 mm, 78.74 mm): Symbol U2 Pin 91 [P0MDIAP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 116.84 mm): Symbol U2 Pin 110 [P1MDICN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 121.92 mm): Symbol U2 Pin 112 [P1MDIDP, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(137.16 mm, 78.74 mm): Symbol U2 Pin 88 [SDA/GPIO55, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(137.16 mm, 78.74 mm): Symbol U2 Pin 88 [SDA/GPIO55, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 124.46 mm): Symbol U2 Pin 113 [P1MDIDN, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(139.70 mm, 78.74 mm): Symbol U2 Pin 87 [SCK/GPIO54, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(139.70 mm, 78.74 mm): Symbol U2 Pin 87 [SCK/GPIO54, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 134.62 mm): Symbol U2 Pin 117 [P2MDIAP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 137.16 mm): Symbol U2 Pin 118 [P2MDIAN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 142.24 mm): Symbol U2 Pin 120 [P2MDIBP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 144.78 mm): Symbol U2 Pin 121 [P2MDIBN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 149.86 mm): Symbol U2 Pin 123 [P2MDICP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 152.40 mm): Symbol U2 Pin 124 [P2MDICN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 157.48 mm): Symbol U2 Pin 126 [P2MDIDP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(99.06 mm, 160.02 mm): Symbol U2 Pin 127 [P2MDIDN, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(194.31 mm, 45.72 mm): Symbol #PWR0180 Pin 1 [AVDDH, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(119.38 mm, 167.64 mm): Symbol U2 Pin 2 [P3MDIAP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(121.92 mm, 167.64 mm): Symbol U2 Pin 3 [P3MDIAN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(124.46 mm, 167.64 mm): Symbol U2 Pin 4 [P3MDIBP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(127.00 mm, 167.64 mm): Symbol U2 Pin 5 [P3MDIBN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(132.08 mm, 167.64 mm): Symbol U2 Pin 7 [P3MDICP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(134.62 mm, 167.64 mm): Symbol U2 Pin 8 [P3MDICN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(137.16 mm, 167.64 mm): Symbol U2 Pin 9 [P3MDIDP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(139.70 mm, 167.64 mm): Symbol U2 Pin 10 [P3MDIDN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(147.32 mm, 182.88 mm): Symbol R7 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(170.18 mm, 167.64 mm): Symbol U2 Pin 22 [P4MDIAP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(172.72 mm, 167.64 mm): Symbol U2 Pin 23 [P4MDIAN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(177.80 mm, 167.64 mm): Symbol U2 Pin 25 [P4MDIBP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(180.34 mm, 167.64 mm): Symbol U2 Pin 26 [P4MDIBN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(185.42 mm, 167.64 mm): Symbol U2 Pin 28 [P4MDICP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(187.96 mm, 167.64 mm): Symbol U2 Pin 29 [P4MDICN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(190.50 mm, 167.64 mm): Symbol U2 Pin 30 [P4MDIDP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(193.04 mm, 167.64 mm): Symbol U2 Pin 31 [P4MDIDN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(255.27 mm, 83.82 mm): Symbol L2 Pin 1 [1, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(242.57 mm, 147.32 mm): Symbol U2 Pin 39 [HSIN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(242.57 mm, 147.32 mm): Symbol U2 Pin 39 [HSIN, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(242.57 mm, 149.86 mm): Symbol U2 Pin 38 [HSIP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(242.57 mm, 149.86 mm): Symbol U2 Pin 38 [HSIP, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(242.57 mm, 154.94 mm): Symbol U2 Pin 36 [HSOP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(242.57 mm, 154.94 mm): Symbol U2 Pin 36 [HSOP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(53.34 mm, 283.21 mm): Symbol C49 Pin 2 [2, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(242.57 mm, 157.48 mm): Symbol U2 Pin 35 [HSON, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(242.57 mm, 157.48 mm): Symbol U2 Pin 35 [HSON, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(86.36 mm, 283.21 mm): Symbol C50 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(68.58 mm, 373.38 mm): Symbol C51 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(200.66 mm, 347.98 mm): Symbol R11 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(430.53 mm, 53.34 mm): Symbol R3 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(199.39 mm, 392.43 mm): Symbol R14 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(339.09 mm, 285.75 mm): Symbol LED1 Pin 2 [+, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(424.18 mm, 138.43 mm): Symbol #PWR0122 Pin 1 [AVDDL, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(400.05 mm, 201.93 mm): Symbol #PWR0102 Pin 1 [AVDDL, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(449.58 mm, 49.53 mm): Symbol C5 Pin 2 [2, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(424.18 mm, 161.29 mm): Symbol #PWR0119 Pin 1 [AVDDL, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(400.05 mm, 218.44 mm): Symbol #PWR0101 Pin 1 [GND, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(424.18 mm, 182.88 mm): Symbol #PWR0105 Pin 1 [AVDDL, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(469.90 mm, 38.10 mm): Symbol C1 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(425.45 mm, 205.74 mm): Symbol C47 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(425.45 mm, 215.90 mm): Symbol C47 Pin 1 [1, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(444.50 mm, 182.88 mm): Symbol #PWR0104 Pin 1 [AVDDL, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(480.06 mm, 38.10 mm): Symbol C1 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(337.82 mm, 345.44 mm): Symbol R12 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(488.95 mm, 52.07 mm): Symbol R2 Pin 2 [2, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(468.63 mm, 182.88 mm): Symbol #PWR0108 Pin 1 [AVDDL, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(323.85 mm, 387.35 mm): Symbol #PWR0134 Pin 1 [AVDDH, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(488.95 mm, 182.88 mm): Symbol #PWR0110 Pin 1 [AVDDL, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(359.41 mm, 387.35 mm): Symbol #PWR0136 Pin 1 [AVDDH, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(519.43 mm, 182.88 mm): Symbol #PWR0112 Pin 1 [AVDDL, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(480.06 mm, 290.83 mm): Symbol R9 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(480.06 mm, 293.37 mm): Symbol R10 Pin 2 [2, Input, Line]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(46.99 mm, 93.98 mm): Label 'P0MDID_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(46.99 mm, 101.60 mm): Label 'P0MDID_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(46.99 mm, 104.14 mm): Label 'P0MDIC_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(46.99 mm, 111.76 mm): Label 'P0MDIC_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(46.99 mm, 114.30 mm): Label 'P0MDIB_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(46.99 mm, 121.92 mm): Label 'P0MDIB_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(46.99 mm, 127.00 mm): Label 'P0MDIA_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(46.99 mm, 134.62 mm): Label 'P0MDIA_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(247.65 mm, 93.98 mm): Label 'P1MDID_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(247.65 mm, 101.60 mm): Label 'P1MDID_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(247.65 mm, 104.14 mm): Label 'P1MDIC_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(247.65 mm, 111.76 mm): Label 'P1MDIC_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(247.65 mm, 114.30 mm): Label 'P1MDIB_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(247.65 mm, 121.92 mm): Label 'P1MDIB_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(247.65 mm, 127.00 mm): Label 'P1MDIA_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(247.65 mm, 134.62 mm): Label 'P1MDIA_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(54.61 mm, 297.18 mm): Label 'P3MDID_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(54.61 mm, 304.80 mm): Label 'P3MDID_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(54.61 mm, 307.34 mm): Label 'P3MDIC_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(54.61 mm, 314.96 mm): Label 'P3MDIC_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(54.61 mm, 317.50 mm): Label 'P3MDIB_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(54.61 mm, 325.12 mm): Label 'P3MDIB_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(54.61 mm, 330.20 mm): Label 'P3MDIA_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(54.61 mm, 337.82 mm): Label 'P3MDIA_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(264.16 mm, 298.45 mm): Label 'P4MDID_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(264.16 mm, 306.07 mm): Label 'P4MDID_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(264.16 mm, 308.61 mm): Label 'P4MDIC_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(264.16 mm, 316.23 mm): Label 'P4MDIC_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(264.16 mm, 318.77 mm): Label 'P4MDIB_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(264.16 mm, 326.39 mm): Label 'P4MDIB_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(264.16 mm, 331.47 mm): Label 'P4MDIA_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(264.16 mm, 339.09 mm): Label 'P4MDIA_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(448.31 mm, 93.98 mm): Label 'P2MDID_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(448.31 mm, 101.60 mm): Label 'P2MDID_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(448.31 mm, 104.14 mm): Label 'P2MDIC_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(448.31 mm, 111.76 mm): Label 'P2MDIC_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(448.31 mm, 114.30 mm): Label 'P2MDIB_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(448.31 mm, 121.92 mm): Label 'P2MDIB_P'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(448.31 mm, 127.00 mm): Label 'P2MDIA_N'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(448.31 mm, 134.62 mm): Label 'P2MDIA_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 83.82 mm): Global Label 'P0MDIC_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 83.82 mm): Global Label 'P0MDIC_P'
+    @(46.99 mm, 111.76 mm): Label 'P0MDIC_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 86.36 mm): Global Label 'P0MDIC_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 86.36 mm): Global Label 'P0MDIC_N'
+    @(46.99 mm, 104.14 mm): Label 'P0MDIC_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 91.44 mm): Global Label 'P0MDID_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 91.44 mm): Global Label 'P0MDID_P'
+    @(46.99 mm, 101.60 mm): Label 'P0MDID_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 93.98 mm): Global Label 'P0MDID_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 93.98 mm): Global Label 'P0MDID_N'
+    @(46.99 mm, 93.98 mm): Label 'P0MDID_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 99.06 mm): Global Label 'P1MDIA_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 99.06 mm): Global Label 'P1MDIA_P'
+    @(247.65 mm, 134.62 mm): Label 'P1MDIA_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 101.60 mm): Global Label 'P1MDIA_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 101.60 mm): Global Label 'P1MDIA_N'
+    @(247.65 mm, 127.00 mm): Label 'P1MDIA_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 106.68 mm): Global Label 'P1MDIB_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 106.68 mm): Global Label 'P1MDIB_P'
+    @(247.65 mm, 121.92 mm): Label 'P1MDIB_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(121.92 mm, 67.31 mm): Global Label 'P0MDIB_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(121.92 mm, 67.31 mm): Global Label 'P0MDIB_N'
+    @(46.99 mm, 114.30 mm): Label 'P0MDIB_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 109.22 mm): Global Label 'P1MDIB_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 109.22 mm): Global Label 'P1MDIB_N'
+    @(247.65 mm, 114.30 mm): Label 'P1MDIB_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(124.46 mm, 67.31 mm): Global Label 'P0MDIB_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(124.46 mm, 67.31 mm): Global Label 'P0MDIB_P'
+    @(46.99 mm, 121.92 mm): Label 'P0MDIB_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(127.00 mm, 67.31 mm): Global Label 'P0MDIA_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(127.00 mm, 67.31 mm): Global Label 'P0MDIA_N'
+    @(46.99 mm, 127.00 mm): Label 'P0MDIA_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 114.30 mm): Global Label 'P1MDIC_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 114.30 mm): Global Label 'P1MDIC_P'
+    @(247.65 mm, 111.76 mm): Label 'P1MDIC_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(129.54 mm, 67.31 mm): Global Label 'P0MDIA_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(129.54 mm, 67.31 mm): Global Label 'P0MDIA_P'
+    @(46.99 mm, 134.62 mm): Label 'P0MDIA_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 116.84 mm): Global Label 'P1MDIC_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 116.84 mm): Global Label 'P1MDIC_N'
+    @(247.65 mm, 104.14 mm): Label 'P1MDIC_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 121.92 mm): Global Label 'P1MDID_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 121.92 mm): Global Label 'P1MDID_P'
+    @(247.65 mm, 101.60 mm): Label 'P1MDID_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 124.46 mm): Global Label 'P1MDID_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 124.46 mm): Global Label 'P1MDID_N'
+    @(247.65 mm, 93.98 mm): Label 'P1MDID_N'
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(99.06 mm, 127.00 mm): Horizontal Wire, length 13.97 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(142.24 mm, 78.74 mm): Vertical Wire, length 21.59 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(99.06 mm, 129.54 mm): Horizontal Wire, length 13.97 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(147.32 mm, 78.74 mm): Vertical Wire, length 21.59 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(149.86 mm, 78.74 mm): Vertical Wire, length 21.59 mm
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 134.62 mm): Global Label 'P2MDIA_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 134.62 mm): Global Label 'P2MDIA_P'
+    @(448.31 mm, 134.62 mm): Label 'P2MDIA_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 137.16 mm): Global Label 'P2MDIA_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 137.16 mm): Global Label 'P2MDIA_N'
+    @(448.31 mm, 127.00 mm): Label 'P2MDIA_N'
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(154.94 mm, 78.74 mm): Vertical Wire, length 21.59 mm
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 142.24 mm): Global Label 'P2MDIB_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 142.24 mm): Global Label 'P2MDIB_P'
+    @(448.31 mm, 121.92 mm): Label 'P2MDIB_P'
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(157.48 mm, 78.74 mm): Vertical Wire, length 21.59 mm
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 144.78 mm): Global Label 'P2MDIB_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 144.78 mm): Global Label 'P2MDIB_N'
+    @(448.31 mm, 114.30 mm): Label 'P2MDIB_N'
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(160.02 mm, 78.74 mm): Vertical Wire, length 21.59 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(162.56 mm, 78.74 mm): Vertical Wire, length 21.59 mm
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 149.86 mm): Global Label 'P2MDIC_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 149.86 mm): Global Label 'P2MDIC_P'
+    @(448.31 mm, 111.76 mm): Label 'P2MDIC_P'
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(165.10 mm, 78.74 mm): Vertical Wire, length 21.59 mm
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 152.40 mm): Global Label 'P2MDIC_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 152.40 mm): Global Label 'P2MDIC_N'
+    @(448.31 mm, 104.14 mm): Label 'P2MDIC_N'
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(167.64 mm, 78.74 mm): Vertical Wire, length 21.59 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(170.18 mm, 78.74 mm): Vertical Wire, length 21.59 mm
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 157.48 mm): Global Label 'P2MDID_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 157.48 mm): Global Label 'P2MDID_P'
+    @(448.31 mm, 101.60 mm): Label 'P2MDID_P'
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(172.72 mm, 78.74 mm): Vertical Wire, length 21.59 mm
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(87.63 mm, 160.02 mm): Global Label 'P2MDID_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(87.63 mm, 160.02 mm): Global Label 'P2MDID_N'
+    @(448.31 mm, 93.98 mm): Label 'P2MDID_N'
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(175.26 mm, 78.74 mm): Vertical Wire, length 21.59 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(177.80 mm, 78.74 mm): Vertical Wire, length 21.59 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(180.34 mm, 78.74 mm): Vertical Wire, length 21.59 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(182.88 mm, 78.74 mm): Vertical Wire, length 21.59 mm
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(119.38 mm, 179.07 mm): Global Label 'P3MDIA_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(119.38 mm, 179.07 mm): Global Label 'P3MDIA_P'
+    @(54.61 mm, 337.82 mm): Label 'P3MDIA_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(121.92 mm, 179.07 mm): Global Label 'P3MDIA_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(121.92 mm, 179.07 mm): Global Label 'P3MDIA_N'
+    @(54.61 mm, 330.20 mm): Label 'P3MDIA_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(124.46 mm, 179.07 mm): Global Label 'P3MDIB_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(124.46 mm, 179.07 mm): Global Label 'P3MDIB_P'
+    @(54.61 mm, 325.12 mm): Label 'P3MDIB_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(127.00 mm, 179.07 mm): Global Label 'P3MDIB_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(127.00 mm, 179.07 mm): Global Label 'P3MDIB_N'
+    @(54.61 mm, 317.50 mm): Label 'P3MDIB_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(132.08 mm, 179.07 mm): Global Label 'P3MDIC_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(132.08 mm, 179.07 mm): Global Label 'P3MDIC_P'
+    @(54.61 mm, 314.96 mm): Label 'P3MDIC_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(134.62 mm, 179.07 mm): Global Label 'P3MDIC_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(134.62 mm, 179.07 mm): Global Label 'P3MDIC_N'
+    @(54.61 mm, 307.34 mm): Label 'P3MDIC_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(137.16 mm, 179.07 mm): Global Label 'P3MDID_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(137.16 mm, 179.07 mm): Global Label 'P3MDID_P'
+    @(54.61 mm, 304.80 mm): Label 'P3MDID_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(139.70 mm, 179.07 mm): Global Label 'P3MDID_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(139.70 mm, 179.07 mm): Global Label 'P3MDID_N'
+    @(54.61 mm, 297.18 mm): Label 'P3MDID_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(170.18 mm, 179.07 mm): Global Label 'P4MDIA_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(170.18 mm, 179.07 mm): Global Label 'P4MDIA_P'
+    @(264.16 mm, 339.09 mm): Label 'P4MDIA_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(172.72 mm, 179.07 mm): Global Label 'P4MDIA_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(172.72 mm, 179.07 mm): Global Label 'P4MDIA_N'
+    @(264.16 mm, 331.47 mm): Label 'P4MDIA_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(177.80 mm, 179.07 mm): Global Label 'P4MDIB_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(177.80 mm, 179.07 mm): Global Label 'P4MDIB_P'
+    @(264.16 mm, 326.39 mm): Label 'P4MDIB_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(180.34 mm, 179.07 mm): Global Label 'P4MDIB_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(180.34 mm, 179.07 mm): Global Label 'P4MDIB_N'
+    @(264.16 mm, 318.77 mm): Label 'P4MDIB_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(185.42 mm, 179.07 mm): Global Label 'P4MDIC_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(185.42 mm, 179.07 mm): Global Label 'P4MDIC_P'
+    @(264.16 mm, 316.23 mm): Label 'P4MDIC_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(187.96 mm, 179.07 mm): Global Label 'P4MDIC_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(187.96 mm, 179.07 mm): Global Label 'P4MDIC_N'
+    @(264.16 mm, 308.61 mm): Label 'P4MDIC_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(190.50 mm, 179.07 mm): Global Label 'P4MDID_P'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(190.50 mm, 179.07 mm): Global Label 'P4MDID_P'
+    @(264.16 mm, 306.07 mm): Label 'P4MDID_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(193.04 mm, 179.07 mm): Global Label 'P4MDID_N'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(193.04 mm, 179.07 mm): Global Label 'P4MDID_N'
+    @(264.16 mm, 298.45 mm): Label 'P4MDID_N'
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(242.57 mm, 93.98 mm): Horizontal Wire, length 12.70 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(40.64 mm, 283.21 mm): Horizontal Wire, length 12.70 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(86.36 mm, 278.13 mm): Horizontal Wire, length 12.70 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(179.07 mm, 347.98 mm): Horizontal Wire, length 1.27 mm
+[lib_symbol_mismatch]: Symbol 'Sheet-Symbol_A4' doesn't match copy in library 'YT9215S-5--easyedapro'
+    ; warning
+    @(0.00 mm, 420.37 mm): Symbol ? [Sheet-Symbol_A4]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(185.42 mm, 392.43 mm): Horizontal Wire, length 1.27 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(337.82 mm, 345.44 mm): Horizontal Wire, length 21.59 mm
+[lib_symbol_mismatch]: Symbol 'MT2492' doesn't match copy in library 'YT9215S-5--easyedapro'
+    ; warning
+    @(474.98 mm, 49.53 mm): Symbol U1 [MT2492]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(57.15 mm, 60.96 mm): Horizontal Wire, length 12.70 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(64.77 mm, 93.98 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(64.77 mm, 101.60 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(64.77 mm, 104.14 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(64.77 mm, 111.76 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(64.77 mm, 114.30 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(64.77 mm, 121.92 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(64.77 mm, 127.00 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(64.77 mm, 134.62 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(135.89 mm, 60.96 mm): Horizontal Wire, length 15.24 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(245.11 mm, 60.96 mm): Horizontal Wire, length 12.70 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(242.57 mm, 93.98 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(242.57 mm, 101.60 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(242.57 mm, 104.14 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(242.57 mm, 111.76 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(242.57 mm, 114.30 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(64.77 mm, 264.16 mm): Horizontal Wire, length 12.70 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(242.57 mm, 121.92 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(242.57 mm, 127.00 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(242.57 mm, 134.62 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(143.51 mm, 264.16 mm): Horizontal Wire, length 15.24 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(49.53 mm, 297.18 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(49.53 mm, 304.80 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(49.53 mm, 307.34 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(49.53 mm, 314.96 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(49.53 mm, 317.50 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(49.53 mm, 325.12 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(49.53 mm, 330.20 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(49.53 mm, 337.82 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(336.55 mm, 60.96 mm): Horizontal Wire, length 15.24 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(274.32 mm, 265.43 mm): Horizontal Wire, length 12.70 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(281.94 mm, 298.45 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(281.94 mm, 306.07 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(281.94 mm, 308.61 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(281.94 mm, 316.23 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(281.94 mm, 318.77 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(281.94 mm, 326.39 mm): Horizontal Wire, length 22.86 mm
+[lib_symbol_mismatch]: Symbol 'Sheet-Symbol_A4' doesn't match copy in library 'YT9215S-5--easyedapro'
+    ; warning
+    @(0.00 mm, 420.37 mm): Symbol ? [Sheet-Symbol_A4]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(281.94 mm, 331.47 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(281.94 mm, 339.09 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(353.06 mm, 265.43 mm): Horizontal Wire, length 15.24 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(458.47 mm, 60.96 mm): Horizontal Wire, length 12.70 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(443.23 mm, 93.98 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(443.23 mm, 101.60 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(443.23 mm, 104.14 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(443.23 mm, 111.76 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(443.23 mm, 114.30 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(443.23 mm, 121.92 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(443.23 mm, 127.00 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(443.23 mm, 134.62 mm): Horizontal Wire, length 22.86 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(537.21 mm, 60.96 mm): Horizontal Wire, length 15.24 mm
+
+***** Sheet /P2/
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(57.15 mm, 60.96 mm): Symbol R15 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(74.93 mm, 60.96 mm): Symbol R21 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(64.77 mm, 93.98 mm): Symbol RJ1 Pin P9 [MDI3-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(102.87 mm, 60.96 mm): Symbol R22 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(64.77 mm, 101.60 mm): Symbol RJ1 Pin P8 [MDI3+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(64.77 mm, 104.14 mm): Symbol RJ1 Pin P6 [MDI2-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(64.77 mm, 111.76 mm): Symbol RJ1 Pin P5 [MDI2+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(64.77 mm, 114.30 mm): Symbol RJ1 Pin P7 [MDI1-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(120.65 mm, 60.96 mm): Symbol R16 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(64.77 mm, 121.92 mm): Symbol RJ1 Pin P4 [MDI1+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(64.77 mm, 127.00 mm): Symbol RJ1 Pin P3 [MDI0-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(64.77 mm, 134.62 mm): Symbol RJ1 Pin P2 [MDI0+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(64.77 mm, 139.70 mm): Symbol C52 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(257.81 mm, 60.96 mm): Symbol R17 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(64.77 mm, 264.16 mm): Symbol R27 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(82.55 mm, 264.16 mm): Symbol R31 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(265.43 mm, 93.98 mm): Symbol RJ2 Pin P9 [MDI3-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(275.59 mm, 60.96 mm): Symbol R23 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(265.43 mm, 101.60 mm): Symbol RJ2 Pin P8 [MDI3+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(265.43 mm, 104.14 mm): Symbol RJ2 Pin P6 [MDI2-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(110.49 mm, 264.16 mm): Symbol R32 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(265.43 mm, 111.76 mm): Symbol RJ2 Pin P5 [MDI2+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(265.43 mm, 114.30 mm): Symbol RJ2 Pin P7 [MDI1-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(265.43 mm, 121.92 mm): Symbol RJ2 Pin P4 [MDI1+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(128.27 mm, 264.16 mm): Symbol R28 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(265.43 mm, 127.00 mm): Symbol RJ2 Pin P3 [MDI0-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(265.43 mm, 134.62 mm): Symbol RJ2 Pin P2 [MDI0+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(265.43 mm, 139.70 mm): Symbol C53 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(72.39 mm, 297.18 mm): Symbol RJ4 Pin P9 [MDI3-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(303.53 mm, 60.96 mm): Symbol R24 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(72.39 mm, 304.80 mm): Symbol RJ4 Pin P8 [MDI3+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(72.39 mm, 307.34 mm): Symbol RJ4 Pin P6 [MDI2-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(72.39 mm, 314.96 mm): Symbol RJ4 Pin P5 [MDI2+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(72.39 mm, 317.50 mm): Symbol RJ4 Pin P7 [MDI1-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(321.31 mm, 60.96 mm): Symbol R18 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(72.39 mm, 325.12 mm): Symbol RJ4 Pin P4 [MDI1+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(72.39 mm, 330.20 mm): Symbol RJ4 Pin P3 [MDI0-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(72.39 mm, 337.82 mm): Symbol RJ4 Pin P2 [MDI0+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(72.39 mm, 342.90 mm): Symbol C55 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(274.32 mm, 265.43 mm): Symbol R29 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(292.10 mm, 265.43 mm): Symbol R33 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(281.94 mm, 298.45 mm): Symbol RJ5 Pin P9 [MDI3-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(320.04 mm, 265.43 mm): Symbol R34 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(281.94 mm, 306.07 mm): Symbol RJ5 Pin P8 [MDI3+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(281.94 mm, 308.61 mm): Symbol RJ5 Pin P6 [MDI2-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(281.94 mm, 316.23 mm): Symbol RJ5 Pin P5 [MDI2+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(281.94 mm, 318.77 mm): Symbol RJ5 Pin P7 [MDI1-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(337.82 mm, 265.43 mm): Symbol R30 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(281.94 mm, 326.39 mm): Symbol RJ5 Pin P4 [MDI1+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(281.94 mm, 331.47 mm): Symbol RJ5 Pin P3 [MDI0-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(281.94 mm, 339.09 mm): Symbol RJ5 Pin P2 [MDI0+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(281.94 mm, 344.17 mm): Symbol C56 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(458.47 mm, 60.96 mm): Symbol R19 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(466.09 mm, 93.98 mm): Symbol RJ3 Pin P9 [MDI3-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(466.09 mm, 101.60 mm): Symbol RJ3 Pin P8 [MDI3+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(466.09 mm, 104.14 mm): Symbol RJ3 Pin P6 [MDI2-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(466.09 mm, 111.76 mm): Symbol RJ3 Pin P5 [MDI2+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(466.09 mm, 114.30 mm): Symbol RJ3 Pin P7 [MDI1-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(476.25 mm, 60.96 mm): Symbol R25 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(466.09 mm, 121.92 mm): Symbol RJ3 Pin P4 [MDI1+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(466.09 mm, 127.00 mm): Symbol RJ3 Pin P3 [MDI0-, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(466.09 mm, 134.62 mm): Symbol RJ3 Pin P2 [MDI0+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(466.09 mm, 139.70 mm): Symbol C54 Pin 2 [2, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(504.19 mm, 60.96 mm): Symbol R26 Pin 1 [1, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(521.97 mm, 60.96 mm): Symbol R20 Pin 1 [1, Input, Line]
+
+***** Sheet /
+
+ ** ERC messages: 344  Errors 188  Warnings 156

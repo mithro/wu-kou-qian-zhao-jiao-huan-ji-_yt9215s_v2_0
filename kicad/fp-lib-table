@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "YT9215S-5-port-switch")(type "KiCad")(uri "$(KIPRJMOD)/YT9215S-5-port-switch.pretty")(options "")(descr ""))
+)
