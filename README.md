@@ -57,8 +57,8 @@ See the full description: [English translation](docs/description.en.md) ·
 
 | Path | Contents |
 | --- | --- |
-| [`easyeda/`](easyeda/) | Full EasyEDA Pro project source: `.epro2` (current format) and `.epro` (older Pro format). Open with EasyEDA Pro / 嘉立创EDA专业版 (File → Import / Open project); A KiCad conversion is in [`kicad/`](kicad/). |
-| [`kicad/`](kicad/) | KiCad 9 project (schematic, PCB, libraries) converted from the `.epro` with KiCad's own importer, plus renders and ERC/DRC reports. See [`kicad/README.md`](kicad/README.md) for what was fixed after import and what still differs. |
+| [`easyeda/`](easyeda/) | Full EasyEDA Pro project source: [`.epro2`](easyeda/YT9215S-5-port-switch.epro2) (current format) and [`.epro`](easyeda/YT9215S-5-port-switch.epro) (older Pro format). Open with EasyEDA Pro / 嘉立创EDA专业版 (File → Import / Open project); A KiCad conversion is in [`kicad/`](kicad/). |
+| [`kicad/`](kicad/) | KiCad 9 project (schematic, PCB, libraries) converted from the [`.epro`](easyeda/YT9215S-5-port-switch.epro) with KiCad's own importer, plus renders and ERC/DRC reports. See [`kicad/README.md`](kicad/README.md) for what was fixed after import and what still differs. |
 | [`schematic/`](schematic/) | Schematic as PDF (both sheets), per-sheet SVG and PNG, and EasyEDA netlist (`.enet`). Sheet 1: switch chip, power, crystal, LED, reset, fan header, fuse, inputs. Sheet 2: the five RJ45 ports. |
 | [`pcb/`](pcb/) | PCB as PDF, 3D model (STEP), DXF, IPC-D-356A netlist, pick-and-place (XLSX and CSV), interactive BOM (HTML), board statistics and an editor screenshot. |
 | [`gerber/`](gerber/) | Gerber and drill fabrication files (zip as exported by EasyEDA Pro, plus the extracted layers). See [`gerber/README.md`](gerber/README.md) for the file list, provenance and checks. |
@@ -72,7 +72,7 @@ See the full description: [English translation](docs/description.en.md) ·
 ### Not included
 
 * **ODB++ files.** Not exported for this mirror; they can be generated from
-  `easyeda/*.epro2` in EasyEDA Pro via *Export → ODB++*.
+  [`easyeda/*.epro2`](easyeda/YT9215S-5-port-switch.epro2) in EasyEDA Pro via *Export → ODB++*.
 * The OSHWHub page lists no separate BOM or 3D-model attachments; the BOM and STEP here
   were exported from the design itself.
 * User comments on the OSHWHub page (written by other people, not the author).
