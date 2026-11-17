@@ -1,0 +1,31 @@
+** Drc report for YT9215S-5-port-switch.kicad_pcb **
+** Created on 2026-11-17T05:50:37+0000 **
+** Report includes: Exclusions **
+
+** Found 4 DRC violations **
+[holes_co_located]: Drilled holes co-located
+    Local override; warning (excluded)
+    @(136.7030 mm, 120.8905 mm): PTH pad SHIELD1 [GND] of RJ3
+    @(136.7030 mm, 120.8905 mm): PTH pad SHIELD0 [GND] of RJ2
+    RJ3.SHIELD1 / RJ2.SHIELD0: ganged RJ45 jacks share one shield hole, as in the EasyEDA design
+[holes_co_located]: Drilled holes co-located
+    Local override; warning (excluded)
+    @(120.7010 mm, 120.8905 mm): PTH pad SHIELD0 [GND] of RJ1
+    @(120.7010 mm, 120.8905 mm): PTH pad SHIELD1 [GND] of RJ2
+    RJ1.SHIELD0 / RJ2.SHIELD1: ganged RJ45 jacks share one shield hole, as in the EasyEDA design
+[holes_co_located]: Drilled holes co-located
+    Local override; warning (excluded)
+    @(168.7070 mm, 120.8905 mm): PTH pad SHIELD1 [GND] of RJ5
+    @(168.7070 mm, 120.8905 mm): PTH pad SHIELD0 [GND] of RJ4
+    RJ5.SHIELD1 / RJ4.SHIELD0: ganged RJ45 jacks share one shield hole, as in the EasyEDA design
+[holes_co_located]: Drilled holes co-located
+    Local override; warning (excluded)
+    @(152.7050 mm, 120.8905 mm): PTH pad SHIELD0 [GND] of RJ3
+    @(152.7050 mm, 120.8905 mm): PTH pad SHIELD1 [GND] of RJ4
+    RJ3.SHIELD0 / RJ4.SHIELD1: ganged RJ45 jacks share one shield hole, as in the EasyEDA design
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

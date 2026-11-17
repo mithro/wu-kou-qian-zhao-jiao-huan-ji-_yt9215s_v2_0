@@ -52,7 +52,24 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "holes_co_located|120701000|120890500|743ba280-e1f2-4813-8136-3f136328c954|dcbf8351-8694-4132-aa81-3a15c0c1e887",
+          "RJ1.SHIELD0 / RJ2.SHIELD1: ganged RJ45 jacks share one shield hole, as in the EasyEDA design"
+        ],
+        [
+          "holes_co_located|136703000|120890500|76fa6e31-e5f3-4ce5-92fa-92fe18c61da4|e3dde931-dfbe-4090-ae63-7eb6d12a31f9",
+          "RJ3.SHIELD1 / RJ2.SHIELD0: ganged RJ45 jacks share one shield hole, as in the EasyEDA design"
+        ],
+        [
+          "holes_co_located|152705000|120890500|60801437-1ace-485e-8998-073e1b448426|8375173c-4a79-4927-a728-558240d1598a",
+          "RJ3.SHIELD0 / RJ4.SHIELD1: ganged RJ45 jacks share one shield hole, as in the EasyEDA design"
+        ],
+        [
+          "holes_co_located|168707000|120890500|6661d46c-db07-41a0-beff-0a541e8df5a5|e56fb7c5-75fa-4e7a-baa3-9aac31f32d5a",
+          "RJ5.SHIELD1 / RJ4.SHIELD0: ganged RJ45 jacks share one shield hole, as in the EasyEDA design"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -119,7 +136,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.29972,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,

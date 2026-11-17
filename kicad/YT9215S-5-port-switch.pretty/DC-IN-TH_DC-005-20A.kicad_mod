@@ -3,18 +3,20 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
-		(at 0 0 0)
+	(property "Reference" "DC1"
+		(at 4.0995 -6.858 270)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "194506bb-f98a-4b82-a842-3c9ae39a5322")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.686 0.6285)
+				(thickness 0.1525)
 			)
+			(justify left bottom)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "DC-005-20A"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "7cfba9ec-44b2-47bd-bca8-7938e4ef6732")
@@ -85,13 +87,13 @@
 	)
 	(fp_line
 		(start -10.511 -6.773)
-		(end 3.7065 -6.7725)
+		(end 2.26574 -6.772551)
 		(stroke
 			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "c4b0a55d-100d-4479-ad02-6d226092bedf")
+		(uuid "10441fd4-a43d-40ed-a97b-9153585e4cad")
 	)
 	(fp_line
 		(start -10.51 2.231)
@@ -144,14 +146,14 @@
 		(uuid "fcd81eb9-b44f-400b-b88c-62f86bd8eeb2")
 	)
 	(fp_line
-		(start 3.7 -6.776)
+		(start 3.7 -6.144236)
 		(end 3.7 -4.269)
 		(stroke
 			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "03854b29-7338-4fff-913b-9c25805e685f")
+		(uuid "e0f9c608-52ae-4c8b-88be-82da47d86b83")
 	)
 	(fp_line
 		(start 3.7 -0.2825)
