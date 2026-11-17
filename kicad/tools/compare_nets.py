@@ -1,47 +1,57 @@
-"""Compare schematic connectivity (kicad-cli netlist) with PCB pad nets."""
-import sys, re, subprocess, collections, tempfile, os
+#!/usr/bin/env python3
+"""Compare schematic connectivity (kicad-cli netlist) with the PCB's pad nets.
+
+Usage: compare_nets.py <project>.kicad_sch <project>.kicad_pcb
+
+Every pin is assigned to a group on each side (its net, or a group of its own
+if it is unconnected). The two partitions of the pins present on both sides are
+compared; any schematic net that is split or merged on the PCB is listed.
+"""
+import collections, re, subprocess, sys, tempfile
 import pcbnew
+
 sch, pcb = sys.argv[1], sys.argv[2]
 tmp = tempfile.mktemp(suffix='.net')
-subprocess.run(['kicad-cli','sch','export','netlist','--format','kicadsexpr','-o',tmp,sch],check=True,capture_output=True)
-txt=open(tmp).read()
-snets={}
+subprocess.run(['kicad-cli', 'sch', 'export', 'netlist', '--format', 'kicadsexpr', '-o', tmp, sch],
+               check=True, capture_output=True)
+txt = open(tmp).read()
+snet = {}
 for m in re.finditer(r'\(net \(code "\d+"\) \(name "([^"]*)"\)(.*?)\)\s*(?=\(net |\)\s*\)\s*$)', txt, re.S):
-    nodes=re.findall(r'\(node \(ref "([^"]+)"\) \(pin "([^"]+)"', m.group(2))
-    snets[m.group(1)]=frozenset(f"{r}.{p}" for r,p in nodes)
-b=pcbnew.LoadBoard(pcb)
-pn=collections.defaultdict(set)
+    for r, p in re.findall(r'\(node \(ref "([^"]+)"\) \(pin "([^"]+)"', m.group(2)):
+        snet[f'{r}.{p}'] = m.group(1)
+
+b = pcbnew.LoadBoard(pcb)
+pnet = {}
 for f in b.GetFootprints():
     for p in f.Pads():
-        if p.GetNumber() and p.GetNetname():
-            pn[p.GetNetname()].add(f"{f.GetReference()}.{p.GetNumber()}")
-pnets={k:frozenset(v) for k,v in pn.items()}
-def part(nets):
-    m={}
-    for n,s in nets.items():
-        if len(s)<2: continue
-        for x in s: m[x]=s
-    return m
-sm,pm=part(snets),part(pnets)
-spins=set().union(*snets.values()); ppins=set().union(*pnets.values())
-print(f"schematic: {len(snets)} nets, {len(spins)} pins; pcb: {len(pnets)} nets, {len(ppins)} pads")
-sname={v:k for k,v in snets.items()}; pname={v:k for k,v in pnets.items()}
-same=0; diff=[]
-for s in set(snets.values()):
-    if len(s)<2: continue
-    ps={pm.get(x,frozenset([x])) for x in s if x in ppins}
-    if len(ps)==1 and next(iter(ps))==s: same+=1
-    else: diff.append(s)
-print(f"multi-pin schematic nets identical on PCB: {same}; differing: {len(diff)}")
-for s in sorted(diff,key=lambda s:sname[s]):
-    print(f"  SCH {sname[s]}: {sorted(s)}")
+        if not p.GetNumber():
+            continue
+        k = f'{f.GetReference()}.{p.GetNumber()}'
+        n = p.GetNetname()
+        if k in pnet and pnet[k] != n:   # several pads with one number
+            n = pnet[k] if n == '' else n
+        pnet[k] = n or f'<unconnected {k}>'
+
+both = sorted(set(snet) & set(pnet))
+print(f'schematic pins: {len(snet)}, PCB pads (by number): {len(pnet)}, compared: {len(both)}')
+print('only in schematic:', sorted(set(snet) - set(pnet)))
+print('only on PCB:', sorted(set(pnet) - set(snet)))
+
+
+def groups(m):
+    g = collections.defaultdict(set)
+    for k in both:
+        g[m[k]].add(k)
+    return {k: frozenset(v) for k, v in g.items()}
+
+
+sg, pg = groups(snet), groups(pnet)
+pset = set(pg.values())
+bad = [(n, s) for n, s in sorted(sg.items()) if s not in pset]
+print(f'schematic nets: {len(sg)}; identical on the PCB: {len(sg) - len(bad)}; different: {len(bad)}')
+for n, s in bad:
+    print(f'  {n}: {sorted(s)}')
     for x in sorted(s):
-        if x in pm: print(f"     {x} -> PCB {pname[pm[x]]} {sorted(pm[x]-s)[:8]}")
-        elif x not in ppins: print(f"     {x} -> not on PCB")
-print("pins only in schematic:", sorted(spins-ppins)[:40])
-print("pads only on pcb (with net):", sorted(ppins-spins)[:40])
-print("--- reverse: PCB nets split across schematic nets")
-for s in sorted(set(pnets.values()), key=lambda s: pname[s]):
-    if len(s)<2: continue
-    ss={sname[sm[x]] if x in sm else ('single' if x in spins else 'absent') for x in s}
-    if len(ss)>1: print(f"  PCB {pname[s]}: -> {sorted(ss)}")
+        other = pg[pnet[x]] - s
+        if other:
+            print(f'    {x} is on PCB net {pnet[x]} which also has {sorted(other)[:10]}')

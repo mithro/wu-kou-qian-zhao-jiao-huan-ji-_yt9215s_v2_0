@@ -5,6 +5,107 @@
 	(uuid "0b2a8300-5d5e-46dc-9c06-61dad4fb5270")
 	(paper "User" 594.106 419.862)
 	(lib_symbols
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "YT9215S-5--easyedapro:0.1uf"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -101,7 +202,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -119,7 +220,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -282,7 +383,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "1"
@@ -300,7 +401,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "2"
@@ -463,7 +564,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "1"
@@ -481,7 +582,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "2"
@@ -644,7 +745,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "1"
@@ -662,7 +763,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "2"
@@ -825,7 +926,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -843,7 +944,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1006,7 +1107,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1024,7 +1125,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1150,7 +1251,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1168,7 +1269,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1294,7 +1395,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1312,7 +1413,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1438,7 +1539,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1456,7 +1557,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1619,7 +1720,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "1"
@@ -1637,7 +1738,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "2"
@@ -1717,7 +1818,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1735,7 +1836,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1852,7 +1953,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1870,7 +1971,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1950,7 +2051,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1968,7 +2069,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -2121,7 +2222,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "K"
@@ -2139,7 +2240,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "A"
@@ -2256,7 +2357,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -2274,7 +2375,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -2391,7 +2492,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -2409,7 +2510,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -2489,7 +2590,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -2507,7 +2608,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -2664,7 +2765,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 0.762)
 					(name "1"
@@ -2682,7 +2783,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 0.762)
 					(name "2"
@@ -2945,7 +3046,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 0.762)
 					(name "1"
@@ -2963,7 +3064,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 0.762)
 					(name "2"
@@ -3100,7 +3201,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -3118,7 +3219,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -3327,7 +3428,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 6.35 1.27 180)
 					(length 5.08)
 					(name "1"
@@ -3345,7 +3446,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 6.35 -1.27 180)
 					(length 5.08)
 					(name "3"
@@ -3363,7 +3464,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 6.35 -3.81 180)
 					(length 5.08)
 					(name "2"
@@ -3549,7 +3650,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "-"
@@ -3567,7 +3668,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
 					(name "+"
@@ -3853,7 +3954,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "YT9215S-5--easyedapro:MT2492"
+		(symbol "YT9215S-5--easyedapro:MT2492_P1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3936,7 +4037,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MT2492_1_0"
+			(symbol "MT2492_P1_1_0"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -3948,7 +4049,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -12.7 2.54 0)
 					(length 5.08)
 					(name "BS"
@@ -3966,7 +4067,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -12.7 0 0)
 					(length 5.08)
 					(name "GND"
@@ -3984,7 +4085,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -12.7 -2.54 0)
 					(length 5.08)
 					(name "FB"
@@ -4002,7 +4103,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 12.7 2.54 180)
 					(length 5.08)
 					(name "SW"
@@ -4020,7 +4121,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 12.7 0 180)
 					(length 5.08)
 					(name "IN"
@@ -4038,7 +4139,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 12.7 -2.54 180)
 					(length 5.08)
 					(name "EN"
@@ -4174,7 +4275,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 1.27 0)
 					(length 2.54)
 					(name "1"
@@ -4192,7 +4293,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 -1.27 0)
 					(length 2.54)
 					(name "2"
@@ -4420,7 +4521,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -4438,7 +4539,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -4564,7 +4665,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -4582,7 +4683,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -4718,7 +4819,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 54.61 0)
 					(length 2.54)
 					(name "GND"
@@ -4736,7 +4837,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 52.07 0)
 					(length 2.54)
 					(name "P3MDIAP"
@@ -4754,7 +4855,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 49.53 0)
 					(length 2.54)
 					(name "P3MDIAN"
@@ -4772,7 +4873,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 46.99 0)
 					(length 2.54)
 					(name "P3MDIBP"
@@ -4790,7 +4891,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 44.45 0)
 					(length 2.54)
 					(name "P3MDIBN"
@@ -4808,7 +4909,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 41.91 0)
 					(length 2.54)
 					(name "AVDDL"
@@ -4826,7 +4927,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 39.37 0)
 					(length 2.54)
 					(name "P3MDICP"
@@ -4844,7 +4945,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 36.83 0)
 					(length 2.54)
 					(name "P3MDICN"
@@ -4862,7 +4963,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 34.29 0)
 					(length 2.54)
 					(name "P3MDIDP"
@@ -4880,7 +4981,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 31.75 0)
 					(length 2.54)
 					(name "P3MDIDN"
@@ -4898,7 +4999,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 29.21 0)
 					(length 2.54)
 					(name "AVDDH"
@@ -4916,7 +5017,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 26.67 0)
 					(length 2.54)
 					(name "AGND"
@@ -4934,7 +5035,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 24.13 0)
 					(length 2.54)
 					(name "MDIREF"
@@ -4952,7 +5053,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 21.59 0)
 					(length 2.54)
 					(name "AVDDL"
@@ -4970,7 +5071,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 19.05 0)
 					(length 2.54)
 					(name "RTT1"
@@ -4988,7 +5089,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 16.51 0)
 					(length 2.54)
 					(name "RTT2"
@@ -5006,7 +5107,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 13.97 0)
 					(length 2.54)
 					(name "AVDDH"
@@ -5024,7 +5125,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 11.43 0)
 					(length 2.54)
 					(name "GND"
@@ -5042,7 +5143,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 8.89 0)
 					(length 2.54)
 					(name "INTERRUPT/GPIO57"
@@ -5060,7 +5161,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 6.35 0)
 					(length 2.54)
 					(name "DVDDL"
@@ -5078,7 +5179,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 3.81 0)
 					(length 2.54)
 					(name "AVDDH"
@@ -5096,7 +5197,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 1.27 0)
 					(length 2.54)
 					(name "P4MDIAP"
@@ -5114,7 +5215,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 -1.27 0)
 					(length 2.54)
 					(name "P4MDIAN"
@@ -5132,7 +5233,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 -3.81 0)
 					(length 2.54)
 					(name "GND"
@@ -5150,7 +5251,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 -6.35 0)
 					(length 2.54)
 					(name "P4MDIBP"
@@ -5168,7 +5269,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 -8.89 0)
 					(length 2.54)
 					(name "P4MDIBN"
@@ -5186,7 +5287,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 -11.43 0)
 					(length 2.54)
 					(name "AVDDL"
@@ -5204,7 +5305,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 -13.97 0)
 					(length 2.54)
 					(name "P4MDICP"
@@ -5222,7 +5323,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 -16.51 0)
 					(length 2.54)
 					(name "P4MDICN"
@@ -5240,7 +5341,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 -19.05 0)
 					(length 2.54)
 					(name "P4MDIDP"
@@ -5258,7 +5359,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 -21.59 0)
 					(length 2.54)
 					(name "P4MDIDN"
@@ -5276,7 +5377,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -44.45 -24.13 0)
 					(length 2.54)
 					(name "GND"
@@ -5294,7 +5395,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -39.37 72.39 270)
 					(length 2.54)
 					(name "AVDDH"
@@ -5312,7 +5413,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -39.37 -71.12 90)
 					(length 2.54)
 					(name "AVDDH"
@@ -5330,7 +5431,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -36.83 72.39 270)
 					(length 2.54)
 					(name "P2MDIDN"
@@ -5348,7 +5449,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -36.83 -71.12 90)
 					(length 2.54)
 					(name "SGND"
@@ -5366,7 +5467,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -34.29 72.39 270)
 					(length 2.54)
 					(name "P2MDIDP"
@@ -5384,7 +5485,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -34.29 -71.12 90)
 					(length 2.54)
 					(name "HSON"
@@ -5402,7 +5503,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -31.75 72.39 270)
 					(length 2.54)
 					(name "GND"
@@ -5420,7 +5521,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -31.75 -71.12 90)
 					(length 2.54)
 					(name "HSOP"
@@ -5438,7 +5539,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -29.21 72.39 270)
 					(length 2.54)
 					(name "P2MDICN"
@@ -5456,7 +5557,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -29.21 -71.12 90)
 					(length 2.54)
 					(name "SVDDL"
@@ -5474,7 +5575,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -26.67 72.39 270)
 					(length 2.54)
 					(name "P2MDICP"
@@ -5492,7 +5593,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -26.67 -71.12 90)
 					(length 2.54)
 					(name "HSIP"
@@ -5510,7 +5611,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -24.13 72.39 270)
 					(length 2.54)
 					(name "AVDDL"
@@ -5528,7 +5629,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -24.13 -71.12 90)
 					(length 2.54)
 					(name "HSIN"
@@ -5546,7 +5647,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -21.59 72.39 270)
 					(length 2.54)
 					(name "P2MDIBN"
@@ -5564,7 +5665,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -21.59 -71.12 90)
 					(length 2.54)
 					(name "SGND"
@@ -5582,7 +5683,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -19.05 72.39 270)
 					(length 2.54)
 					(name "P2MDIBP"
@@ -5600,7 +5701,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -19.05 -71.12 90)
 					(length 2.54)
 					(name "SVDDH"
@@ -5618,7 +5719,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -16.51 72.39 270)
 					(length 2.54)
 					(name "GND"
@@ -5636,7 +5737,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -16.51 -71.12 90)
 					(length 2.54)
 					(name "DVDDIO_2"
@@ -5654,7 +5755,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -13.97 72.39 270)
 					(length 2.54)
 					(name "P2MDIAN"
@@ -5672,7 +5773,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -13.97 -71.12 90)
 					(length 2.54)
 					(name "GND"
@@ -5690,7 +5791,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -11.43 72.39 270)
 					(length 2.54)
 					(name "P2MDIAP"
@@ -5708,7 +5809,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -11.43 -71.12 90)
 					(length 2.54)
 					(name "GND"
@@ -5726,7 +5827,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -8.89 72.39 270)
 					(length 2.54)
 					(name "AVDDH"
@@ -5744,7 +5845,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -8.89 -71.12 90)
 					(length 2.54)
 					(name "UART_RX/M2P_RXD3/M2M_TXD3/RG2_TXD3/GPIO01"
@@ -5762,7 +5863,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -6.35 72.39 270)
 					(length 2.54)
 					(name "PLLGND"
@@ -5780,7 +5881,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -6.35 -71.12 90)
 					(length 2.54)
 					(name "UART_TX/M2P_RXD2/M2M_TXD2/RG2_TXD2/GPIO02"
@@ -5798,7 +5899,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -3.81 72.39 270)
 					(length 2.54)
 					(name "PLLVDDL"
@@ -5816,7 +5917,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -3.81 -71.12 90)
 					(length 2.54)
 					(name "M2P_RXD1/M2M_TXD1/RG2_TXD1/GPIO03"
@@ -5834,7 +5935,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -1.27 72.39 270)
 					(length 2.54)
 					(name "P1MDIDN"
@@ -5852,7 +5953,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -1.27 -71.12 90)
 					(length 2.54)
 					(name "SPIF_CLK/M2P_RXD0/M2M_TXD0/RG2_TXD0/GPIO04"
@@ -5870,7 +5971,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 1.27 72.39 270)
 					(length 2.54)
 					(name "P1MDIDP"
@@ -5888,7 +5989,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 1.27 -71.12 90)
 					(length 2.54)
 					(name "SPIF_D0/M2P_RXDV/M2M_TXEN/RG2_TXCTL/GPIO05"
@@ -5906,7 +6007,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 3.81 72.39 270)
 					(length 2.54)
 					(name "GND"
@@ -5924,7 +6025,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 3.81 -71.12 90)
 					(length 2.54)
 					(name "M2P_RXCLK/M2M_TXCLK/RG2_TXCLK/GPIO06"
@@ -5942,7 +6043,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 6.35 72.39 270)
 					(length 2.54)
 					(name "P1MDICN"
@@ -5960,7 +6061,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 6.35 -71.12 90)
 					(length 2.54)
 					(name "M2P_TXCLK/M2M_RXCLK/RG2_RXCLK/GPIO07"
@@ -5978,7 +6079,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 8.89 72.39 270)
 					(length 2.54)
 					(name "P1MDICP"
@@ -5996,7 +6097,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 8.89 -71.12 90)
 					(length 2.54)
 					(name "M2P_TXEN/M2M_RXDV/RG2_RXCTL/GPIO08"
@@ -6014,7 +6115,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 11.43 72.39 270)
 					(length 2.54)
 					(name "AVDDL"
@@ -6032,7 +6133,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 11.43 -71.12 90)
 					(length 2.54)
 					(name "SPIF_D1/M2P_TXD0/M2M_RXD0/RG2_RXD0/GPIO09"
@@ -6050,7 +6151,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 13.97 72.39 270)
 					(length 2.54)
 					(name "P1MDIBN"
@@ -6068,7 +6169,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 13.97 -71.12 90)
 					(length 2.54)
 					(name "SPIF_CS/M2P_TXD1/M2M_RXD1/RG2_RXD1/GPIO10"
@@ -6086,7 +6187,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 16.51 72.39 270)
 					(length 2.54)
 					(name "P1MDIBP"
@@ -6104,7 +6205,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 16.51 -71.12 90)
 					(length 2.54)
 					(name "M2P_TXD2/M2M_RXD2/RG2_RXD2/GPIO11"
@@ -6122,7 +6223,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 72.39 270)
 					(length 2.54)
 					(name "GND"
@@ -6140,7 +6241,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 19.05 -71.12 90)
 					(length 2.54)
 					(name "M2P_TXD3/M2M_RXD3/RG2_RXD3/GPIO12"
@@ -6158,7 +6259,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 21.59 72.39 270)
 					(length 2.54)
 					(name "P1MDIAN"
@@ -6176,7 +6277,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 21.59 -71.12 90)
 					(length 2.54)
 					(name "GND"
@@ -6194,7 +6295,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 24.13 72.39 270)
 					(length 2.54)
 					(name "P1MDIAP"
@@ -6212,7 +6313,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 24.13 -71.12 90)
 					(length 2.54)
 					(name "DVDDL"
@@ -6230,7 +6331,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 26.67 72.39 270)
 					(length 2.54)
 					(name "AVDDH"
@@ -6248,7 +6349,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 26.67 -71.12 90)
 					(length 2.54)
 					(name "DVDDIO_2"
@@ -6266,7 +6367,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 29.21 72.39 270)
 					(length 2.54)
 					(name "P0MDIDN"
@@ -6284,7 +6385,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 29.21 -71.12 90)
 					(length 2.54)
 					(name "EN_SWR"
@@ -6302,7 +6403,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 31.75 72.39 270)
 					(length 2.54)
 					(name "P0MDIDP"
@@ -6320,7 +6421,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 31.75 -71.12 90)
 					(length 2.54)
 					(name "GND_SWR"
@@ -6338,7 +6439,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 34.29 72.39 270)
 					(length 2.54)
 					(name "GND"
@@ -6356,7 +6457,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 34.29 -71.12 90)
 					(length 2.54)
 					(name "GND_SWR"
@@ -6374,7 +6475,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 36.83 72.39 270)
 					(length 2.54)
 					(name "P0MDICN"
@@ -6392,7 +6493,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 36.83 -71.12 90)
 					(length 2.54)
 					(name "LX"
@@ -6410,7 +6511,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 39.37 72.39 270)
 					(length 2.54)
 					(name "P0MDICP"
@@ -6428,7 +6529,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 39.37 -71.12 90)
 					(length 2.54)
 					(name "LX"
@@ -6446,7 +6547,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 54.61 180)
 					(length 2.54)
 					(name "GND"
@@ -6464,7 +6565,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 52.07 180)
 					(length 2.54)
 					(name "AVDDL"
@@ -6482,7 +6583,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 49.53 180)
 					(length 2.54)
 					(name "P0MDIBN"
@@ -6500,7 +6601,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 46.99 180)
 					(length 2.54)
 					(name "P0MDIBP"
@@ -6518,7 +6619,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 44.45 180)
 					(length 2.54)
 					(name "P0MDIAN"
@@ -6536,7 +6637,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 41.91 180)
 					(length 2.54)
 					(name "P0MDIAP"
@@ -6554,7 +6655,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 39.37 180)
 					(length 2.54)
 					(name "AVDDH"
@@ -6572,7 +6673,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 36.83 180)
 					(length 2.54)
 					(name "GND"
@@ -6590,7 +6691,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 34.29 180)
 					(length 2.54)
 					(name "SDA/GPIO55"
@@ -6608,7 +6709,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 31.75 180)
 					(length 2.54)
 					(name "SCK/GPIO54"
@@ -6626,7 +6727,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 29.21 180)
 					(length 2.54)
 					(name "nRESET"
@@ -6644,7 +6745,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 26.67 180)
 					(length 2.54)
 					(name "GND"
@@ -6662,7 +6763,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 24.13 180)
 					(length 2.54)
 					(name "XTALI"
@@ -6680,7 +6781,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 21.59 180)
 					(length 2.54)
 					(name "XTALO"
@@ -6698,7 +6799,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 19.05 180)
 					(length 2.54)
 					(name "AVDDH"
@@ -6716,7 +6817,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 16.51 180)
 					(length 2.54)
 					(name "SMI_SEL/LED_CK/LAN0LED0/GPO52"
@@ -6734,7 +6835,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 13.97 180)
 					(length 2.54)
 					(name "LED_DA/LAN0LED1/GPO51"
@@ -6752,7 +6853,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 11.43 180)
 					(length 2.54)
 					(name "EN_PHY/LAN1LED0/GPO50"
@@ -6770,7 +6871,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 8.89 180)
 					(length 2.54)
 					(name "LAN1LED1/GPIO49"
@@ -6788,7 +6889,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 6.35 180)
 					(length 2.54)
 					(name "LAN2LED1/GPIO46"
@@ -6806,7 +6907,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 3.81 180)
 					(length 2.54)
 					(name "DISAUTOLOAD/GPO45"
@@ -6824,7 +6925,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 1.27 180)
 					(length 2.54)
 					(name "DIS_8051/LAN2LED0/GPO44"
@@ -6842,7 +6943,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 -1.27 180)
 					(length 2.54)
 					(name "EN_SPIF/LAN3LED0/GPO43"
@@ -6860,7 +6961,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 -3.81 180)
 					(length 2.54)
 					(name "EN_PWRLIGHT/GPO42"
@@ -6878,7 +6979,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 -6.35 180)
 					(length 2.54)
 					(name "LAN3LED1/GPIO41"
@@ -6896,7 +6997,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 -8.89 180)
 					(length 2.54)
 					(name "LAN4LED1/GPIO40"
@@ -6914,7 +7015,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 -11.43 180)
 					(length 2.54)
 					(name "EEPROM_MOD/LAN4LED0/GPO39"
@@ -6932,7 +7033,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 -13.97 180)
 					(length 2.54)
 					(name "DVDDL"
@@ -6950,7 +7051,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 -16.51 180)
 					(length 2.54)
 					(name "GND"
@@ -6968,7 +7069,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 -19.05 180)
 					(length 2.54)
 					(name "DVDDIO"
@@ -6986,7 +7087,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 -21.59 180)
 					(length 2.54)
 					(name "HV_SWR"
@@ -7004,7 +7105,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 44.45 -24.13 180)
 					(length 2.54)
 					(name "HV_SWR"
@@ -7191,7 +7292,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -7209,7 +7310,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -7372,7 +7473,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 0.762)
 					(name "1"
@@ -7390,7 +7491,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 0.762)
 					(name "2"
@@ -7411,7 +7512,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "YT9215S-5--easyedapro:Sheet-Symbol_A4"
+		(symbol "YT9215S-5--easyedapro:Sheet-Symbol_A4_P1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7458,7 +7559,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Sheet-Symbol_A4_1_0"
+			(symbol "Sheet-Symbol_A4_P1_1_0"
 				(rectangle
 					(start 0 419.608)
 					(end 593.852 0)
@@ -8215,7 +8316,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -12.7 7.62 0)
 					(length 2.54)
 					(name "GND"
@@ -8233,7 +8334,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -12.7 5.08 0)
 					(length 2.54)
 					(name "VBUS"
@@ -8251,7 +8352,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -12.7 2.54 0)
 					(length 2.54)
 					(name "CC1"
@@ -8269,7 +8370,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -12.7 0 0)
 					(length 2.54)
 					(name "CC2"
@@ -8287,7 +8388,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -12.7 -2.54 0)
 					(length 2.54)
 					(name "VBUS"
@@ -8305,7 +8406,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -12.7 -5.08 0)
 					(length 2.54)
 					(name "GND"
@@ -8323,7 +8424,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 10.16 7.62 180)
 					(length 2.54)
 					(name "SHELL"
@@ -8341,7 +8442,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 10.16 -5.08 180)
 					(length 2.54)
 					(name "SHELL"
@@ -8447,7 +8548,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 0 0 90)
 					(length 0.254)
 					(name "1"
@@ -8681,7 +8782,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "GND"
@@ -8699,7 +8800,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "OSC1"
@@ -8717,7 +8818,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "OSC2"
@@ -8735,7 +8836,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name "GND"
@@ -8749,6 +8850,2096 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:5-Voltage_SVDDL"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5-Voltage_SVDDL_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "SVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:5-Voltage_3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5-Voltage_3V3_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:5-Voltage_AVDDH"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5-Voltage_AVDDH_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "AVDDH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:Ground-GND_GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Ground-GND_GND_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:5-Voltage_V_BUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5-Voltage_V_BUS_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "V_BUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:5-Voltage_SVDDH"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5-Voltage_SVDDH_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "SVDDH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:5-Voltage_HV_SWR"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5-Voltage_HV_SWR_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "HV_SWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:Power-VCC_AVDDL"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power-VCC_AVDDL_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "AVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:5-Voltage_DVDDIO_2"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5-Voltage_DVDDIO_2_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "DVDDIO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:Power-VCC_AVDDH"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power-VCC_AVDDH_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "AVDDH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:5-Voltage_AVDDL"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5-Voltage_AVDDL_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "AVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:Power-VCC_DVDDIO"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power-VCC_DVDDIO_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "DVDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:5-Voltage_DVDDIO"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5-Voltage_DVDDIO_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "DVDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:5-Voltage_DVDDL"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5-Voltage_DVDDL_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "DVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:Power-VCC_DVDDL"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power-VCC_DVDDL_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "DVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:Power-VCC_V_BUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power-VCC_V_BUS_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "V_BUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:5-Voltage_VDDL"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5-Voltage_VDDL_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "VDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:Power-VCC_HV_SWR"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power-VCC_HV_SWR_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "HV_SWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:Power-VCC_VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power-VCC_VBUS_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YT9215S-5--easyedapro:GND_GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.0414 1.0414)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_GND_1_0"
+				(polyline
+					(pts
+						(xy -2.286 -2.54) (xy 2.286 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -3.048) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -3.556) (xy 0.762 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.064) (xy 0.254 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0.0254 0.0254)
 							)
 						)
 					)
@@ -9765,6 +11956,30 @@
 		(at 154.94 167.64)
 		(uuid "f6424970-b5c0-4db6-aef8-f5566052097d")
 	)
+	(no_connect
+		(at 137.16 78.74)
+		(uuid "664da66b-cd54-4025-bf15-20d97343001f")
+	)
+	(no_connect
+		(at 139.7 78.74)
+		(uuid "07f0b63c-d8d9-4fac-ad08-e40ea6d3fbb1")
+	)
+	(no_connect
+		(at 242.57 147.32)
+		(uuid "be51d984-fa9b-45ff-a7f9-397c2b96b3bd")
+	)
+	(no_connect
+		(at 242.57 149.86)
+		(uuid "0b699ecc-3cc8-4a66-ab82-72d6744f1acf")
+	)
+	(no_connect
+		(at 242.57 154.94)
+		(uuid "08877b62-dd96-4d24-a849-ce0905702d02")
+	)
+	(no_connect
+		(at 242.57 157.48)
+		(uuid "2bcc0cf5-bc50-47df-9762-841a869efb59")
+	)
 	(wire
 		(pts
 			(xy 469.9 116.84) (xy 481.33 116.84)
@@ -10414,16 +12629,6 @@
 			(type default)
 		)
 		(uuid "2c81caf7-520b-47bf-95fa-5d56c233fbf1")
-	)
-	(wire
-		(pts
-			(xy 185.42 392.43) (xy 186.69 392.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d44d6cb-e253-43d1-9dd6-ea3c7402bfab")
 	)
 	(wire
 		(pts
@@ -12587,16 +14792,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 347.98) (xy 180.34 347.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbb310bb-675a-464d-a76b-c729af91b092")
-	)
-	(wire
-		(pts
 			(xy 499.11 46.99) (xy 500.38 46.99)
 		)
 		(stroke
@@ -13057,7 +15252,7 @@
 	)
 	(global_label "P1_LED0"
 		(shape passive)
-		(at 160.02 67.945 90)
+		(at 160.02 57.15 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13077,7 +15272,7 @@
 	)
 	(global_label "P1_LED1"
 		(shape passive)
-		(at 162.56 67.945 90)
+		(at 162.56 57.15 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13097,7 +15292,7 @@
 	)
 	(global_label "P3_LED1"
 		(shape passive)
-		(at 177.8 67.945 90)
+		(at 177.8 57.15 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13116,7 +15311,7 @@
 		)
 	)
 	(label "PLLGND"
-		(at 85.725 129.54 0)
+		(at 85.09 129.54 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13126,7 +15321,7 @@
 		(uuid "1bc89194-c8e8-4fee-acb5-147d8b602ddc")
 	)
 	(label "EN_SWR"
-		(at 245.11 93.98 0)
+		(at 255.27 93.98 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13137,7 +15332,7 @@
 	)
 	(global_label "P2_LED0"
 		(shape passive)
-		(at 170.18 67.945 90)
+		(at 170.18 57.15 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13167,7 +15362,7 @@
 	)
 	(global_label "P0_LED1"
 		(shape passive)
-		(at 157.48 67.945 90)
+		(at 157.48 57.15 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13186,7 +15381,7 @@
 		)
 	)
 	(label "PLLVDDL"
-		(at 85.725 127 0)
+		(at 85.09 127 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13197,7 +15392,7 @@
 	)
 	(global_label "P3_LED0"
 		(shape passive)
-		(at 172.72 67.945 90)
+		(at 172.72 57.15 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13216,7 +15411,7 @@
 		)
 	)
 	(label "XTAL_OUT"
-		(at 149.86 67.945 90)
+		(at 149.86 57.15 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13227,7 +15422,7 @@
 	)
 	(global_label "P4_LED1"
 		(shape passive)
-		(at 180.34 67.945 90)
+		(at 180.34 57.15 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13247,7 +15442,7 @@
 	)
 	(global_label "P2_LED1"
 		(shape passive)
-		(at 165.1 67.945 90)
+		(at 165.1 57.15 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13266,7 +15461,7 @@
 		)
 	)
 	(label "XTAL_IN"
-		(at 147.32 67.945 90)
+		(at 147.32 57.15 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13276,7 +15471,7 @@
 		(uuid "90468a94-4c90-4b56-8769-864e140e738e")
 	)
 	(label "XTAL_IN"
-		(at 88.265 278.13 0)
+		(at 99.06 278.13 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13287,7 +15482,7 @@
 	)
 	(global_label "P4_LED0"
 		(shape passive)
-		(at 182.88 67.945 90)
+		(at 182.88 57.15 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13336,7 +15531,7 @@
 		(uuid "b0ae15e5-2e4c-4bb0-ba15-5c57e0ded424")
 	)
 	(label "NRST"
-		(at 142.24 67.945 90)
+		(at 142.24 57.15 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13346,7 +15541,7 @@
 		(uuid "b1349791-8aae-4c21-80e6-625580db7192")
 	)
 	(label "XTAL_OUT"
-		(at 41.275 283.21 0)
+		(at 40.64 283.21 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13356,7 +15551,7 @@
 		(uuid "c029a799-5260-4815-9940-18ecc10c5c42")
 	)
 	(label "DISAUTOLOAD"
-		(at 167.64 74.93 90)
+		(at 167.64 57.15 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13366,7 +15561,7 @@
 		(uuid "c87fb8cf-24a6-4703-9bf4-bd6d45729a23")
 	)
 	(label "EN_PWRLIGHT"
-		(at 320.04 345.44 0)
+		(at 316.23 345.44 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13386,7 +15581,7 @@
 		(uuid "d01f2919-9fc5-44b1-aad4-18f551d3be8c")
 	)
 	(label "EN_PWRLIGHT"
-		(at 175.26 74.295 90)
+		(at 175.26 57.15 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13397,7 +15592,7 @@
 	)
 	(global_label "P0_LED0"
 		(shape passive)
-		(at 154.94 67.945 90)
+		(at 154.94 57.15 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -14216,7 +16411,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_SVDDL")
 		(at 519.43 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14224,7 +16419,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "026b5b0f-b751-480f-a00e-b2f1439eac56")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0001"
 			(at 519.43 182.88 0)
 			(effects
 				(font
@@ -14274,7 +16469,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0001")
 					(unit 1)
 				)
 			)
@@ -14298,7 +16493,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TestPoint"
 			(at 525.78 30.48 0)
 			(effects
 				(font
@@ -14356,7 +16551,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_3V3")
 		(at 499.11 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14364,7 +16559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03d0fed8-3832-4506-9a1f-186bbb672d4b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0002"
 			(at 499.11 114.3 0)
 			(effects
 				(font
@@ -14414,14 +16609,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0002")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_AVDDH")
 		(at 255.27 162.56 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14429,7 +16624,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0497dff8-a823-4f27-a09a-08bc1603c1e5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0003"
 			(at 255.27 162.56 0)
 			(effects
 				(font
@@ -14479,7 +16674,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0003")
 					(unit 1)
 				)
 			)
@@ -14975,7 +17170,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_AVDDH")
 		(at 424.18 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14983,7 +17178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "125cd627-173d-4fa0-88ca-f69d0dcd0d28")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0004"
 			(at 424.18 92.71 0)
 			(effects
 				(font
@@ -15033,7 +17228,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0004")
 					(unit 1)
 				)
 			)
@@ -15154,7 +17349,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 497.84 298.45 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15162,7 +17357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1315e852-2e20-451c-8273-633ba788cc46")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0005"
 			(at 497.84 298.45 0)
 			(effects
 				(font
@@ -15212,7 +17407,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0005")
 					(unit 1)
 				)
 			)
@@ -15447,7 +17642,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_V_BUS")
 		(at 508 295.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15455,7 +17650,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13d380a7-b41a-4a90-91ee-b3ab5f7665dc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0006"
 			(at 508 295.91 0)
 			(effects
 				(font
@@ -15505,7 +17700,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0006")
 					(unit 1)
 				)
 			)
@@ -15740,7 +17935,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_3V3")
 		(at 400.05 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15748,7 +17943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "185d241f-d31c-4bfe-805f-a4a1b8d5c7c6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0007"
 			(at 400.05 182.88 0)
 			(effects
 				(font
@@ -15798,14 +17993,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0007")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_SVDDH")
 		(at 468.63 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15813,7 +18008,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bab05a8-7318-420e-8d35-e6a90dd9388e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0008"
 			(at 468.63 182.88 0)
 			(effects
 				(font
@@ -15863,7 +18058,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0008")
 					(unit 1)
 				)
 			)
@@ -16373,7 +18568,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 500.38 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16381,7 +18576,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2204adaa-08ce-43fd-b976-fff172c2ea26")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0009"
 			(at 500.38 64.77 0)
 			(effects
 				(font
@@ -16431,7 +18626,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0009")
 					(unit 1)
 				)
 			)
@@ -16552,7 +18747,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_HV_SWR")
 		(at 523.24 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16560,7 +18755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25a4f0f5-7c17-46bb-80ff-cad7e4a52cae")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0010"
 			(at 523.24 115.57 0)
 			(effects
 				(font
@@ -16610,14 +18805,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0010")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 519.43 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16625,7 +18820,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26322b77-fb6c-44e7-b16e-da4592cd3bc6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0011"
 			(at 519.43 189.23 0)
 			(effects
 				(font
@@ -16675,7 +18870,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0011")
 					(unit 1)
 				)
 			)
@@ -16910,7 +19105,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 251.46 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16918,7 +19113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28d05f42-7d02-4816-b155-200acca576c4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0012"
 			(at 251.46 167.64 0)
 			(effects
 				(font
@@ -16968,14 +19163,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0012")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_AVDDL")
 		(at 149.86 200.66 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16983,7 +19178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29ebc873-c685-4461-962c-a866f4600c09")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0013"
 			(at 149.86 200.66 0)
 			(effects
 				(font
@@ -17034,14 +19229,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0013")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_DVDDIO_2")
 		(at 255.27 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17049,7 +19244,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c31522f-c0a6-4a91-b539-d31b17a512bd")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0014"
 			(at 255.27 96.52 0)
 			(effects
 				(font
@@ -17099,14 +19294,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:MT2492")
+		(lib_id "YT9215S-5--easyedapro:MT2492_P1")
 		(at 474.98 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17276,7 +19471,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_3V3")
 		(at 527.05 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17284,7 +19479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3045cc91-c2be-4905-b7bc-278ce7831541")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0015"
 			(at 527.05 30.48 0)
 			(effects
 				(font
@@ -17334,7 +19529,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0015")
 					(unit 1)
 				)
 			)
@@ -17569,7 +19764,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_AVDDH")
 		(at 66.04 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17577,7 +19772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33fe7063-464d-4eb0-aa0a-0649b218f4e7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0016"
 			(at 66.04 132.08 0)
 			(effects
 				(font
@@ -17628,14 +19823,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0016")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 63.5 278.13 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17643,7 +19838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3870c860-85dd-4b59-bedd-44b6557b2c8d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0017"
 			(at 63.5 278.13 0)
 			(effects
 				(font
@@ -17693,14 +19888,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0017")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_AVDDL")
 		(at 424.18 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17708,7 +19903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38878a68-e23e-42e5-83f1-71badb4f78b5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0018"
 			(at 424.18 115.57 0)
 			(effects
 				(font
@@ -17758,14 +19953,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0018")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_3V3")
 		(at 400.05 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17773,7 +19968,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b195549-bdfa-4b45-b0dd-271633005036")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0019"
 			(at 400.05 160.02 0)
 			(effects
 				(font
@@ -17823,14 +20018,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0019")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_DVDDIO")
 		(at 190.5 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17838,7 +20033,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b837b68-e020-4ab0-8116-7190eba2d1cc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0020"
 			(at 190.5 43.18 0)
 			(effects
 				(font
@@ -17889,14 +20084,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0020")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 480.06 303.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17904,7 +20099,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c1b00ec-4b4d-438d-838c-120d6e326027")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0021"
 			(at 480.06 303.53 0)
 			(effects
 				(font
@@ -17954,7 +20149,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0021")
 					(unit 1)
 				)
 			)
@@ -18109,7 +20304,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_DVDDIO")
 		(at 424.18 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18117,7 +20312,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e76ca05-35bd-4a24-8534-cfb97bccdabc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0022"
 			(at 424.18 182.88 0)
 			(effects
 				(font
@@ -18167,7 +20362,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0022")
 					(unit 1)
 				)
 			)
@@ -18402,7 +20597,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_SVDDL")
 		(at 255.27 152.4 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18410,7 +20605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40a2a941-827f-4c2b-818a-8764a81b863c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0023"
 			(at 255.27 152.4 0)
 			(effects
 				(font
@@ -18460,14 +20655,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0023")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 461.01 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18475,7 +20670,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4255d029-fe2a-4c7b-9905-6db2a3a8ed03")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0024"
 			(at 461.01 49.53 0)
 			(effects
 				(font
@@ -18525,7 +20720,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0024")
 					(unit 1)
 				)
 			)
@@ -18663,7 +20858,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TestPoint"
 			(at 452.12 201.93 0)
 			(effects
 				(font
@@ -18852,7 +21047,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_AVDDL")
 		(at 400.05 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18860,7 +21055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4654aa1f-3ecb-4d5f-b23e-ab90133708c2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0025"
 			(at 400.05 201.93 0)
 			(effects
 				(font
@@ -18910,7 +21105,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0025")
 					(unit 1)
 				)
 			)
@@ -19048,7 +21243,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TestPoint"
 			(at 292.1 83.82 0)
 			(effects
 				(font
@@ -19106,7 +21301,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_3V3")
 		(at 444.5 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19114,7 +21309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c219b9c-59f7-4e35-b49e-4d552c20406d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0026"
 			(at 444.5 182.88 0)
 			(effects
 				(font
@@ -19164,14 +21359,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0026")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_DVDDL")
 		(at 424.18 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19179,7 +21374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cb100dc-77f1-4ce8-b9cd-c5fd47c1ddfa")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0027"
 			(at 424.18 138.43 0)
 			(effects
 				(font
@@ -19229,7 +21424,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0027")
 					(unit 1)
 				)
 			)
@@ -19350,7 +21545,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_3V3")
 		(at 81.28 372.11 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19358,7 +21553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e3570ea-144c-4302-919e-1ef398b642d3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0028"
 			(at 81.28 372.11 0)
 			(effects
 				(font
@@ -19408,14 +21603,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0028")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 424.18 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19423,7 +21618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "514dcf6a-650d-4432-a531-1b16f46cb39d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0029"
 			(at 424.18 101.6 0)
 			(effects
 				(font
@@ -19473,7 +21668,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0029")
 					(unit 1)
 				)
 			)
@@ -19888,7 +22083,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 255.27 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19896,7 +22091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59095fa8-19ce-4f11-9472-b38b5c965263")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0030"
 			(at 255.27 90.17 0)
 			(effects
 				(font
@@ -19946,7 +22141,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0030")
 					(unit 1)
 				)
 			)
@@ -20813,7 +23008,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 90.17 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20821,7 +23016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64339a6d-4b0d-4487-8616-d34229472a3b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0031"
 			(at 90.17 165.1 0)
 			(effects
 				(font
@@ -20871,7 +23066,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0031")
 					(unit 1)
 				)
 			)
@@ -21253,7 +23448,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 424.18 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21261,7 +23456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6908aca3-07fc-4f29-bc75-92a73020c8da")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0032"
 			(at 424.18 168.91 0)
 			(effects
 				(font
@@ -21311,7 +23506,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0032")
 					(unit 1)
 				)
 			)
@@ -21563,7 +23758,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TestPoint"
 			(at 186.69 392.43 0)
 			(effects
 				(font
@@ -21621,7 +23816,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_DVDDL")
 		(at 165.1 200.66 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21629,7 +23824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b791d03-03f3-432c-acdc-015e1ebc9233")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0033"
 			(at 165.1 200.66 0)
 			(effects
 				(font
@@ -21680,7 +23875,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0033")
 					(unit 1)
 				)
 			)
@@ -21704,7 +23899,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TestPoint"
 			(at 450.85 218.44 0)
 			(effects
 				(font
@@ -21990,7 +24185,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 514.35 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21998,7 +24193,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ce58687-38d5-48e6-9968-ad99f53c773f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0034"
 			(at 514.35 41.91 0)
 			(effects
 				(font
@@ -22048,7 +24243,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0034")
 					(unit 1)
 				)
 			)
@@ -22169,7 +24364,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_AVDDL")
 		(at 66.04 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22177,7 +24372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "740f47fe-40ba-4642-a0a2-e7be44a13348")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0035"
 			(at 66.04 111.76 0)
 			(effects
 				(font
@@ -22228,14 +24423,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0035")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_V_BUS")
 		(at 323.85 387.35 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22243,7 +24438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74f3fc2d-1027-4996-b847-ee4af61f37c4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0036"
 			(at 323.85 387.35 0)
 			(effects
 				(font
@@ -22294,7 +24489,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0036")
 					(unit 1)
 				)
 			)
@@ -22415,7 +24610,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 113.03 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22423,7 +24618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79038928-63b9-499e-939c-7151c5b8a9f4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0037"
 			(at 113.03 69.85 0)
 			(effects
 				(font
@@ -22473,7 +24668,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0037")
 					(unit 1)
 				)
 			)
@@ -22611,7 +24806,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TestPoint"
 			(at 430.53 139.7 0)
 			(effects
 				(font
@@ -22900,7 +25095,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_3V3")
 		(at 224.79 347.98 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22908,7 +25103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81167eac-baef-4805-8131-a3c4cf6cdd8d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0038"
 			(at 224.79 347.98 0)
 			(effects
 				(font
@@ -22958,7 +25153,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0038")
 					(unit 1)
 				)
 			)
@@ -23193,7 +25388,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_DVDDL")
 		(at 255.27 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23201,7 +25396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81f63849-285e-4e90-a324-d242f6b43826")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0039"
 			(at 255.27 99.06 0)
 			(effects
 				(font
@@ -23251,7 +25446,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0039")
 					(unit 1)
 				)
 			)
@@ -23372,7 +25567,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_VDDL")
 		(at 400.05 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23380,7 +25575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86425b8d-cafb-4517-920c-60cb4b8263b6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0040"
 			(at 400.05 115.57 0)
 			(effects
 				(font
@@ -23430,7 +25625,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0040")
 					(unit 1)
 				)
 			)
@@ -23454,7 +25649,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TestPoint"
 			(at 508 182.88 0)
 			(effects
 				(font
@@ -23512,7 +25707,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 212.09 285.75 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23520,7 +25715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8765ae23-871e-4630-b12f-329aceaf7ec6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0041"
 			(at 212.09 285.75 0)
 			(effects
 				(font
@@ -23570,7 +25765,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0041")
 					(unit 1)
 				)
 			)
@@ -23691,7 +25886,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_AVDDL")
 		(at 66.04 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23699,7 +25894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8974c75b-682c-4508-9056-22b0da42f855")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0042"
 			(at 66.04 147.32 0)
 			(effects
 				(font
@@ -23750,7 +25945,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0042")
 					(unit 1)
 				)
 			)
@@ -23921,7 +26116,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TestPoint"
 			(at 530.86 116.84 0)
 			(effects
 				(font
@@ -24093,7 +26288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_V_BUS")
 		(at 520.7 332.74 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24101,7 +26296,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c6531e3-38d5-48b1-b4a5-7d283d3f08b7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0043"
 			(at 520.7 332.74 0)
 			(effects
 				(font
@@ -24151,14 +26346,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0043")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 530.86 285.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24166,7 +26361,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d1805ef-69fa-49c8-80d6-f6ea99296138")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0044"
 			(at 530.86 285.75 0)
 			(effects
 				(font
@@ -24216,14 +26411,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0044")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_HV_SWR")
 		(at 194.31 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24231,7 +26426,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d19a44a-b461-4769-bb97-3231647c9aef")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0045"
 			(at 194.31 45.72 0)
 			(effects
 				(font
@@ -24282,7 +26477,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0045")
 					(unit 1)
 				)
 			)
@@ -24403,7 +26598,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_AVDDH")
 		(at 152.4 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24411,7 +26606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d775636-14b0-40cb-8750-7f70c17486e4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0046"
 			(at 152.4 45.72 0)
 			(effects
 				(font
@@ -24462,14 +26657,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0046")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 523.24 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24477,7 +26672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ee18c87-ad63-4e53-a2d8-c69d4d2dcf84")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0047"
 			(at 523.24 127 0)
 			(effects
 				(font
@@ -24527,14 +26722,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0047")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_AVDDL")
 		(at 182.88 200.66 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24542,7 +26737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90024973-401e-4dc8-b2cc-872ad88cecb7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0048"
 			(at 182.88 200.66 0)
 			(effects
 				(font
@@ -24593,14 +26788,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0048")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_DVDDL")
 		(at 185.42 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24608,7 +26803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90dadf61-d2de-4668-9f76-c3b2e262caf5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0049"
 			(at 185.42 45.72 0)
 			(effects
 				(font
@@ -24659,7 +26854,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0049")
 					(unit 1)
 				)
 			)
@@ -24683,7 +26878,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TestPoint"
 			(at 180.34 347.98 0)
 			(effects
 				(font
@@ -24741,7 +26936,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_DVDDIO_2")
 		(at 255.27 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24749,7 +26944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92656de0-5550-4b53-9559-e6221aa1a24e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0050"
 			(at 255.27 139.7 0)
 			(effects
 				(font
@@ -24799,7 +26994,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0050")
 					(unit 1)
 				)
 			)
@@ -24920,7 +27115,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_AVDDH")
 		(at 66.04 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24928,7 +27123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93be59a1-c3d9-4b2d-9f40-05800bab4b51")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0051"
 			(at 66.04 96.52 0)
 			(effects
 				(font
@@ -24979,7 +27174,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0051")
 					(unit 1)
 				)
 			)
@@ -25214,7 +27409,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_3V3")
 		(at 361.95 345.44 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25222,7 +27417,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9996c120-3f7e-48ff-b228-6658c9e39ba8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0052"
 			(at 361.95 345.44 0)
 			(effects
 				(font
@@ -25272,7 +27467,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0052")
 					(unit 1)
 				)
 			)
@@ -25426,7 +27621,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 280.67 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25434,7 +27629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f896944-a161-44b4-a81e-510e1aefe51f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0053"
 			(at 280.67 91.44 0)
 			(effects
 				(font
@@ -25484,7 +27679,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0053")
 					(unit 1)
 				)
 			)
@@ -25833,7 +28028,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_3V3")
 		(at 212.09 288.29 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25841,7 +28036,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a22d6a91-37fc-42ab-a219-3dcdbbffde08")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0054"
 			(at 212.09 288.29 0)
 			(effects
 				(font
@@ -25891,14 +28086,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0054")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_AVDDL")
 		(at 119.38 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25906,7 +28101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5329935-36ac-464b-b4c0-7ebf1febae0b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0055"
 			(at 119.38 45.72 0)
 			(effects
 				(font
@@ -25957,19 +28152,19 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0055")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Sheet-Symbol_A4")
+		(lib_id "YT9215S-5--easyedapro:Sheet-Symbol_A4_P1")
 		(at 0 420.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "a6072b3f-870e-4310-b12b-2d603171ef94")
 		(property "Reference" "?"
@@ -26107,7 +28302,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_AVDDH")
 		(at 142.24 200.66 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26115,7 +28310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a662812f-a1a4-450d-b8ab-17218ee7e279")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0056"
 			(at 142.24 200.66 0)
 			(effects
 				(font
@@ -26166,7 +28361,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0056")
 					(unit 1)
 				)
 			)
@@ -26190,7 +28385,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TestPoint"
 			(at 501.65 49.53 0)
 			(effects
 				(font
@@ -26590,7 +28785,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 468.63 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26598,7 +28793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae3d8cd9-2813-47a0-9018-66a129a2109c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0057"
 			(at 468.63 190.5 0)
 			(effects
 				(font
@@ -26648,14 +28843,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0057")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 424.18 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26663,7 +28858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae57d762-de92-495a-9d42-019eb56c9e28")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0058"
 			(at 424.18 124.46 0)
 			(effects
 				(font
@@ -26713,14 +28908,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0058")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_AVDDH")
 		(at 66.04 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26728,7 +28923,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aec57242-1fb5-40bc-b909-d8ff19d49237")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0059"
 			(at 66.04 162.56 0)
 			(effects
 				(font
@@ -26779,14 +28974,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0059")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 424.18 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26794,7 +28989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2162311-3841-44ba-bc79-32d0c3a66d4b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0060"
 			(at 424.18 147.32 0)
 			(effects
 				(font
@@ -26844,7 +29039,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0060")
 					(unit 1)
 				)
 			)
@@ -27226,7 +29421,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 497.84 285.75 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27234,7 +29429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd3d3e84-dc0c-4e67-849d-8549f60821f4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0061"
 			(at 497.84 285.75 0)
 			(effects
 				(font
@@ -27284,14 +29479,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0061")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_3V3")
 		(at 217.17 392.43 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27299,7 +29494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd6b7895-b0f0-4ddf-8a82-eeef1818ca1e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0062"
 			(at 217.17 392.43 0)
 			(effects
 				(font
@@ -27349,7 +29544,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0062")
 					(unit 1)
 				)
 			)
@@ -27470,7 +29665,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 530.86 298.45 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27478,7 +29673,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c146d514-a868-43d5-8dd3-20d178197eeb")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0063"
 			(at 530.86 298.45 0)
 			(effects
 				(font
@@ -27528,7 +29723,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0063")
 					(unit 1)
 				)
 			)
@@ -27666,7 +29861,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TestPoint"
 			(at 474.98 182.88 0)
 			(effects
 				(font
@@ -27838,7 +30033,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_VDDL")
 		(at 488.95 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27846,7 +30041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6b6382e-6bef-4f83-8540-7e3a6f841895")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0064"
 			(at 488.95 182.88 0)
 			(effects
 				(font
@@ -27896,14 +30091,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0064")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 77.47 283.21 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27911,7 +30106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6c364f8-ab73-4aff-9b6c-30e9f3a58ed0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0065"
 			(at 77.47 283.21 0)
 			(effects
 				(font
@@ -27961,7 +30156,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0065")
 					(unit 1)
 				)
 			)
@@ -28099,7 +30294,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TestPoint"
 			(at 57.15 372.11 0)
 			(effects
 				(font
@@ -28157,7 +30352,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_VBUS")
 		(at 359.41 387.35 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28165,7 +30360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8543e40-feb9-464e-a1fc-d8db275f42be")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0066"
 			(at 359.41 387.35 0)
 			(effects
 				(font
@@ -28216,14 +30411,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0066")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_AVDDH")
 		(at 132.08 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28231,7 +30426,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cac25711-d4f0-4d27-9085-f7ebdfcafd95")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0067"
 			(at 132.08 45.72 0)
 			(effects
 				(font
@@ -28282,7 +30477,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0067")
 					(unit 1)
 				)
 			)
@@ -28517,7 +30712,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 360.68 285.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28525,7 +30720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d17351cc-4541-466b-b821-82b3325afe11")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0068"
 			(at 360.68 285.75 0)
 			(effects
 				(font
@@ -28575,14 +30770,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0068")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 147.32 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28590,7 +30785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d21b09a3-cfa2-4392-b48c-a7fa77ccdc84")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0069"
 			(at 147.32 204.47 0)
 			(effects
 				(font
@@ -28640,14 +30835,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0069")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 53.34 293.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28655,7 +30850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3e9df26-2dd4-4d62-9a50-702def446cc7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0070"
 			(at 53.34 293.37 0)
 			(effects
 				(font
@@ -28705,7 +30900,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0070")
 					(unit 1)
 				)
 			)
@@ -28729,7 +30924,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TestPoint"
 			(at 430.53 93.98 0)
 			(effects
 				(font
@@ -28787,7 +30982,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_AVDDL")
 		(at 129.54 200.66 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28795,7 +30990,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4199a26-dc5e-4c75-a02b-c722e875727e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0071"
 			(at 129.54 200.66 0)
 			(effects
 				(font
@@ -28846,14 +31041,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0071")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_DVDDIO_2")
 		(at 424.18 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28861,7 +31056,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d41e8d48-7ece-4450-b6c0-d6262c2c894b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0072"
 			(at 424.18 161.29 0)
 			(effects
 				(font
@@ -28911,7 +31106,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0072")
 					(unit 1)
 				)
 			)
@@ -29374,7 +31569,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 424.18 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29382,7 +31577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dae5045b-a0de-4b04-81e1-f8543a054e3c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0073"
 			(at 424.18 190.5 0)
 			(effects
 				(font
@@ -29432,7 +31627,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0073")
 					(unit 1)
 				)
 			)
@@ -29553,7 +31748,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_V_BUS")
 		(at 508 288.29 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29561,7 +31756,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dee7515f-9209-4f36-9a32-e1a0b1d77ccc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0074"
 			(at 508 288.29 0)
 			(effects
 				(font
@@ -29611,14 +31806,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0074")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_3V3")
 		(at 400.05 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29626,7 +31821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfc1180e-1fdf-499a-8a03-4ebaf8a884ce")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0075"
 			(at 400.05 92.71 0)
 			(effects
 				(font
@@ -29676,7 +31871,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0075")
 					(unit 1)
 				)
 			)
@@ -29700,7 +31895,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TestPoint"
 			(at 429.26 182.88 0)
 			(effects
 				(font
@@ -29872,7 +32067,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 86.36 293.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29880,7 +32075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1c3b57b-1252-4b1a-ada6-6d002ad4f13f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0076"
 			(at 86.36 293.37 0)
 			(effects
 				(font
@@ -29930,7 +32125,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0076")
 					(unit 1)
 				)
 			)
@@ -29954,7 +32149,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TestPoint"
 			(at 429.26 116.84 0)
 			(effects
 				(font
@@ -30126,7 +32321,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 400.05 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30134,7 +32329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5153bb1-d06e-4431-99df-4d94041d73e4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0077"
 			(at 400.05 218.44 0)
 			(effects
 				(font
@@ -30184,14 +32379,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0077")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 106.68 176.53 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30199,7 +32394,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6abab29-a5e5-4800-963a-abc0f0d37455")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0078"
 			(at 106.68 176.53 0)
 			(effects
 				(font
@@ -30249,7 +32444,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0078")
 					(unit 1)
 				)
 			)
@@ -30501,7 +32696,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TestPoint"
 			(at 430.53 161.29 0)
 			(effects
 				(font
@@ -30706,7 +32901,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_VDDL")
 		(at 400.05 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30714,7 +32909,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed085314-b73d-4fb9-bb3d-a5fb8e535c35")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0079"
 			(at 400.05 138.43 0)
 			(effects
 				(font
@@ -30764,14 +32959,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0079")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_VDDL")
 		(at 269.24 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30779,7 +32974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee54b877-3430-4f4e-9833-6c0af178bafd")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0080"
 			(at 269.24 83.82 0)
 			(effects
 				(font
@@ -30829,14 +33024,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0080")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_AVDDH")
 		(at 167.64 204.47 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30844,7 +33039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2306d59-9f81-492f-9e2e-41fe04e9a644")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0081"
 			(at 167.64 204.47 0)
 			(effects
 				(font
@@ -30895,7 +33090,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0081")
 					(unit 1)
 				)
 			)
@@ -31049,7 +33244,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_3V3")
 		(at 320.04 285.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31057,7 +33252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f37d2b2f-7a6c-41cb-a28f-5d3099fafd04")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0082"
 			(at 320.04 285.75 0)
 			(effects
 				(font
@@ -31107,7 +33302,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0082")
 					(unit 1)
 				)
 			)
@@ -31228,7 +33423,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:GND")
+		(lib_id "YT9215S-5--easyedapro:GND_GND")
 		(at 68.58 382.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31236,7 +33431,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa0400fe-4ae3-4c22-9a47-d847f6812af9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0083"
 			(at 68.58 382.27 0)
 			(effects
 				(font
@@ -31288,14 +33483,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0083")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 430.53 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31303,7 +33498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb32b07a-7ca3-41bd-bde4-23e73fcc667f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0084"
 			(at 430.53 63.5 0)
 			(effects
 				(font
@@ -31353,14 +33548,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0084")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 480.06 280.67 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31368,7 +33563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd022bdd-0058-4765-95fa-40646e52de7b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0085"
 			(at 480.06 280.67 0)
 			(effects
 				(font
@@ -31418,14 +33613,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0085")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:5-Voltage")
+		(lib_id "YT9215S-5--easyedapro:5-Voltage_SVDDH")
 		(at 255.27 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31433,7 +33628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd8b42ce-bf33-4138-94cd-2040d88f4abe")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0086"
 			(at 255.27 142.24 0)
 			(effects
 				(font
@@ -31483,7 +33678,7 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0086")
 					(unit 1)
 				)
 			)
@@ -31604,7 +33799,7 @@
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Ground-GND")
+		(lib_id "YT9215S-5--easyedapro:Ground-GND_GND")
 		(at 520.7 337.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31612,7 +33807,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe1a9d4a-5c5c-4d1b-bc72-09ea89c3f37b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0087"
 			(at 520.7 337.82 0)
 			(effects
 				(font
@@ -31662,14 +33857,14 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0087")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "YT9215S-5--easyedapro:Power-VCC")
+		(lib_id "YT9215S-5--easyedapro:Power-VCC_AVDDH")
 		(at 157.48 200.66 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31677,7 +33872,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffe1bff6-68d8-4e23-9fef-30f7ea7fff74")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0088"
 			(at 157.48 200.66 0)
 			(effects
 				(font
@@ -31728,7 +33923,748 @@
 		(instances
 			(project "YT9215S-5-port-switch"
 				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
-					(reference "#PWR?")
+					(reference "#PWR0088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 499.11 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43e56b57-47c0-4605-9bd9-6ba902c523d2")
+		(property "Reference" "#FLG001"
+			(at 499.11 111.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 499.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 499.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 499.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e1d7136-8958-4769-8c7e-5ae1b5329570")
+		)
+		(instances
+			(project "YT9215S-5-port-switch"
+				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
+					(reference "#FLG001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 255.27 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d61b503-83f7-4560-bfd4-02b17b3037aa")
+		(property "Reference" "#FLG002"
+			(at 255.27 159.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 255.27 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56100b5f-e8cc-45f6-acef-2d47b7f5fe1c")
+		)
+		(instances
+			(project "YT9215S-5-port-switch"
+				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
+					(reference "#FLG002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 149.86 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bd3cf63-4b6d-45bb-b2d8-61340ac68f88")
+		(property "Reference" "#FLG003"
+			(at 149.86 197.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 149.86 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02799bc1-14b8-4c5f-8a5c-2b0bfcffb2dd")
+		)
+		(instances
+			(project "YT9215S-5-port-switch"
+				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
+					(reference "#FLG003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 190.5 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00f101c5-03ae-4715-a1e9-1682c86374fc")
+		(property "Reference" "#FLG004"
+			(at 190.5 40.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63d690f7-9a4f-40ea-b346-04e438374934")
+		)
+		(instances
+			(project "YT9215S-5-port-switch"
+				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
+					(reference "#FLG004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 255.27 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab522c5c-7422-4877-9a00-4d8d5bc5cf00")
+		(property "Reference" "#FLG005"
+			(at 255.27 93.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 255.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02ea62d8-c1de-4728-913a-004fc411485d")
+		)
+		(instances
+			(project "YT9215S-5-port-switch"
+				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
+					(reference "#FLG005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 424.18 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "281d9307-1f7d-4701-b8fe-518829b58cb8")
+		(property "Reference" "#FLG006"
+			(at 424.18 135.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 424.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 424.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 424.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d813763a-23f2-40fd-9070-a05fca4c416d")
+		)
+		(instances
+			(project "YT9215S-5-port-switch"
+				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
+					(reference "#FLG006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 497.84 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a32d42ed-39d2-42e3-af3e-954035b76dad")
+		(property "Reference" "#FLG007"
+			(at 497.84 295.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 497.84 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 497.84 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 497.84 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14f1fd2b-6c33-43d7-8ef0-0dbd984e812d")
+		)
+		(instances
+			(project "YT9215S-5-port-switch"
+				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
+					(reference "#FLG007")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 523.24 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "766431e4-3075-4a5b-81b6-2c3fcb0101ed")
+		(property "Reference" "#FLG008"
+			(at 523.24 112.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 523.24 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 523.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 523.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa5c114d-9e65-47f3-920d-e8c4191fa36d")
+		)
+		(instances
+			(project "YT9215S-5-port-switch"
+				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
+					(reference "#FLG008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 468.63 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b199f0bb-7c3d-4e63-93be-4d51ece66c7b")
+		(property "Reference" "#FLG009"
+			(at 468.63 179.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 468.63 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 468.63 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 468.63 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ab0984e-229d-4c31-bc00-c0e0048eaaad")
+		)
+		(instances
+			(project "YT9215S-5-port-switch"
+				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
+					(reference "#FLG009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 519.43 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "636b8928-2eec-4582-9ec1-efedcaa005fd")
+		(property "Reference" "#FLG010"
+			(at 519.43 179.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 519.43 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 519.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 519.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cdd0d9d-cc94-4c8b-89a0-0b486be03a45")
+		)
+		(instances
+			(project "YT9215S-5-port-switch"
+				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
+					(reference "#FLG010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 359.41 387.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2dba796-c86d-46c3-b546-df98fe7832a4")
+		(property "Reference" "#FLG011"
+			(at 359.41 384.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 359.41 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 359.41 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 359.41 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88f3177c-d842-437a-ad08-8e32f79497eb")
+		)
+		(instances
+			(project "YT9215S-5-port-switch"
+				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
+					(reference "#FLG011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 400.05 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3918c8b-671b-4453-a0d4-4d820b212bee")
+		(property "Reference" "#FLG012"
+			(at 400.05 112.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 400.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 400.05 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 400.05 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d32cd763-2a80-4994-9eb5-ec4a87666875")
+		)
+		(instances
+			(project "YT9215S-5-port-switch"
+				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
+					(reference "#FLG012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 508 295.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "201cb4b9-85a3-400a-8f1f-da42ccddbebd")
+		(property "Reference" "#FLG013"
+			(at 508 292.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 508 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 508 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 508 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d1a8fcd-9897-4e71-b95b-3ffce7830915")
+		)
+		(instances
+			(project "YT9215S-5-port-switch"
+				(path "/5c03d748-616a-4d5f-91ee-bf9d7d7c3f15/7a6950ec-31cd-4ad9-a227-28693eca52b0"
+					(reference "#FLG013")
 					(unit 1)
 				)
 			)

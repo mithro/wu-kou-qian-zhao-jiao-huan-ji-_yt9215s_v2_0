@@ -18,8 +18,8 @@ Open `YT9215S-5-port-switch.kicad_pro` in KiCad 9.0 or newer.
 | `YT9215S-5-port-switch.kicad_pcb` | PCB, 2 layers, 100 × 65 mm, zones filled |
 | `YT9215S-5--easyedapro.kicad_sym`, `YT9215S-5-port-switch.pretty/` | Project symbol and footprint libraries written by the importer |
 | [`render/`](render/) | `schematic.pdf` and per-sheet PNGs, `pcb-layers.pdf` (one page per layer), top/bottom copper PNGs, top/bottom 3D renders |
-| [`reports/`](reports/) | KiCad ERC and DRC (with schematic parity) reports, and `net-compare.txt` |
-| [`tools/`](tools/) | `fixup_import.py` (the post-import fixes below) and `compare_nets.py` (schematic vs PCB connectivity check) |
+| [`reports/`](reports/) | KiCad ERC and DRC (with schematic parity) reports, the DRC exclusions, and `net-compare.txt` |
+| [`tools/`](tools/) | The fix scripts described below, and `compare_nets.py` (schematic vs PCB connectivity check) |
 
 ## How it was made
 
@@ -30,53 +30,112 @@ Open `YT9215S-5-port-switch.kicad_pro` in KiCad 9.0 or newer.
    that added this directory.
 2. `tools/fixup_import.py` (run with KiCad's Python) fixes the importer problems below.
    It is the second commit, so the diff shows exactly what changed.
+3. `tools/fix_schematic_erc.py` then `tools/fix_pcb_drc.py` clear the remaining ERC,
+   DRC and schematic-parity reports (third commit). Both scripts list each change with
+   its reason at the top of each step.
 
-### Importer problems found and fixed
+### Rule checks
+
+| Check | Raw import | After step 2 | Now |
+| --- | --- | --- | --- |
+| ERC | 613 | 353 | 0 |
+| DRC | 1448 | 140 | 0 (4 excluded) |
+| Unconnected | – | 1 | 0 |
+| Schematic parity | – | 165 | 0 |
+| Nets same in schematic and PCB | – | 77 of 157 | 117 of 117 |
+
+The last row counts every net, including single-pin ones. An earlier version of this
+README said the schematic and PCB matched; the check then skipped single-pin nets and
+missed that the 40 Ethernet MDI nets were split in the schematic (see below).
+
+The four DRC exclusions (in the project file, each with a comment, listed in
+`reports/drc-exclusions.rpt`) are the shield holes that neighbouring RJ45 jacks share.
+The five jacks are ganged at a 16 mm pitch and each jack's shield pin sits on its
+edge, so RJ1's right shield and RJ2's left shield are one hole. EasyEDA's own drill file
+drills these four holes twice as well. Changing that would mean redesigning the jack
+footprint, so it is recorded as reviewed rather than changed.
+
+### Importer problems found and fixed (step 2)
 
 | Problem in the raw import | Effect | Fix |
 | --- | --- | --- |
-| The `.epro` stores every SMD pad with a 0.001 mm placeholder hole, and the importer turned all **367 SMD pads into all-layer through-hole pads** | Board unmanufacturable; each SMD pad shorted bottom-layer tracks (61 shorts) | Pads with a hole under 0.01 mm become SMD pads on their footprint's side. Result: 250 top + 117 bottom SMD pads and 89 PTH pads, exactly what EasyEDA's own board statistics report (`../pcb/pcb-info.txt`) |
-| EasyEDA net names are global, but wire net names became KiCad *local* labels | The 10 port-LED nets (`P0_LED0` … `P4_LED1`) were cut between sheet P1 (switch chip) and sheet P2 (RJ45 LEDs) | Local labels used on both sheets with no global label become global labels |
-| Schematic symbols point at a footprint library `YT9215S-5--easyedapro` that doesn't exist (the PCB importer wrote `YT9215S-5-port-switch.pretty`) | 249 ERC footprint-link warnings; no symbol→footprint link | Each symbol's footprint is set to the one the PCB uses for that reference |
-| Footprint library has case-only duplicates (`C0402`/`c0402`, `R0402`/`r0402`, `RJ45-…`/`rj45-…`, `Test-Point-0.5mm`/`test-point-0.5mm`) | Breaks checkouts on macOS/Windows | Unused lowercase copies removed; the used one renamed `Test-Point-0.5mm_1` |
-| PCB footprint Values empty | No values on the board or in a PCB BOM | Copied from the schematic |
-| EasyEDA design rules not imported (KiCad default 0.2 mm clearance) | ~500 false clearance errors | Default net class set to the EasyEDA rules: 4 mil (0.1016 mm) clearance, 10 mil track, 24/12 mil via |
+| SMD pads imported as through-hole[^smd] | Unmanufacturable; 61 shorts | Pads made SMD again |
+| Wire net names became *local* labels | 10 LED nets cut between sheets | Global labels |
+| Symbols point at a missing footprint library | 249 ERC warnings | Footprints set from the PCB |
+| Case-only duplicate footprints | Breaks macOS/Windows checkouts | Duplicates removed |
+| PCB footprint values empty | No values on the board | Copied from the schematic |
+| EasyEDA design rules not imported | ~500 false clearance errors | 4 mil clearance, 10 mil track, 24/12 mil via |
 | Copper zones not filled | | Zones refilled |
 
-### Checks after the fixes
+[^smd]: The `.epro` stores every SMD pad with a 0.001 mm placeholder hole, and the
+importer turned all 367 SMD pads into all-layer through-hole pads. Pads with a hole
+under 0.01 mm become SMD pads on their footprint's side: 250 top, 117 bottom and 89 PTH
+pads, which is what EasyEDA's board statistics report (`../pcb/pcb-info.txt`).
 
-* **Connectivity: schematic and PCB match.** `reports/net-compare.txt` compares every
-  multi-pin net pin by pin: 55 of the 56 schematic nets are identical on the PCB, and
-  the 56th (GND) differs only by the switch chip's exposed GND pad, which the design draws as a free pad
-  (`Pad_e346`, number 129) on the PCB rather than as a symbol pin. Before the fixes,
-  the 10 LED nets differed.
-* **Routing: 0 unrouted connections**, same as EasyEDA (96 nets, 345 vias).
-* **DRC** (`reports/drc.rpt`): 140 violations, down from 1448. What remains is mostly
-  in the original design or cosmetic:
-  * 6 `shorting_items` / 6 `solder_mask_bridge`: GND tracks run into USB1's two
-    unconnected mounting holes (pads 1 and 2 of the USB-C footprint have no net on the
-    PCB). Probably harmless (shell to GND) but worth a look.
-  * Silkscreen overlaps, courtyard overlaps, 11 board-edge clearance hits against
-    KiCad's default 0.5 mm edge rule, 21 tracks in footprint keepout areas, 4 doubled
-    vias, 4 single-spoke thermals, and 1 unconnected item (a top and a bottom
-    GND zone not joined near 98, 68 mm).
-* **Schematic parity** (165): 146 `net_conflict` are only net *names* (EasyEDA's
-  `$1N4948` style names on the PCB vs KiCad's `Net-(U1-BS)` / `/P1/NRST` names);
-  connectivity is the same. Running *Tools → Update PCB from Schematic* (F8) in KiCad
-  renames them. 29 `lib_footprint_mismatch` are board footprints that differ slightly
-  from the library copy (EasyEDA keeps per-instance footprints). Test points have no
-  value in the schematic (16). The two sheet-frame symbols (`?`) show as missing
-  footprints.
-* **ERC** (`reports/erc.rpt`): 353, down from 613. These are typical for an imported
-  design: pins without power-flag drivers, label/wire endpoint warnings from how
-  EasyEDA draws net labels, local and global labels sharing a name, and 6 unconnected
-  U2 pins (I²C `SDA/SCK`, unused GPIO) which are also unconnected on the PCB.
+### Schematic fixes (step 3, `fix_schematic_erc.py`)
+
+* **Ethernet nets joined.** EasyEDA net labels are global across sheets. The importer
+  made them local, so the 40 MDI nets between the switch chip (sheet P1) and the RJ45
+  jacks (sheet P2) were cut in two. Labels used on more than one sheet are now global.
+  This was a real connectivity error in the step 2 version, not just a warning.
+* **Pin types.** EasyEDA gives every pin the default type "IN". These carry no design
+  intent and became passive.
+* **Power symbols.** The importer gave every power port one shared symbol whose pin was
+  named after the first net it saw. Each power net now has its own power symbol, and a
+  PWR_FLAG marks each power net that has no driving pin (13 nets).
+* **Label wiring.** EasyEDA lets a net label sit part-way along a wire or just past its
+  end. 21 labels moved to the wire end, and 2 dangling stubs were removed.
+* **Unused pins.** No-connect flags on the 6 U2 pins that are unconnected on the PCB
+  too (I²C, unused GPIO).
+* Test points get the value "TestPoint". The two drawing-frame symbols are excluded
+  from the board and BOM. MT2492 and the frame symbol, which existed in two versions
+  under one name, get one library symbol per version.
+
+### PCB fixes (step 3, `fix_pcb_drc.py`)
+
+Fixed in the board:
+
+* **USB-C shell.** The four shell tabs are GND in EasyEDA, but the importer kept the net
+  on only two, so GND tracks into the other two were reported as shorts.
+* **Keepouts.** EasyEDA "no copper pour" regions became full keepouts, which flagged the
+  routed buck-converter and crystal tracks. They now keep out pour only.
+* **Holes.** The four 3.2 mm mounting holes were imported as drawings on Edge.Cuts,
+  so the board had none. They are NPTH holes again (MH1–MH4), and so are the RJ45
+  plastic pegs. Two doubled vias were removed.
+* **Crystal ground (design flaw).** X1's GND pads 2 and 4 are joined to each other but
+  to nothing else. No pour reaches them in the EasyEDA design either, so the crystal's
+  ground pads float. A GND via next to pad 2 now ties them to the bottom ground pour.
+* **Names and values.** Nets renamed and values updated as *Update PCB from
+  Schematic* would (33 nets, 16 values). Unused U2 pins get KiCad's
+  `unconnected-(…)` nets. U2's exposed pad, a free pad in EasyEDA, is footprint EP1.
+* **Placement.** RJ3 sat 0.034 mm off the jack pitch, so its shield holes were
+  0.034 mm off the neighbours'. It is moved onto the pitch. Test pad TP10 moved 0.3 mm
+  off C43's outline. The JLC order-number text moved off U2's exposed pad to the top
+  left.
+* **Rules.** Board-edge clearance is EasyEDA's 11.8 mil (0.3 mm), not KiCad's 0.5 mm
+  default. One GND track sits 0.36 mm from the edge.
+* The title text uses KiCad's font (Century Gothic isn't available). Three pads with a
+  single thermal spoke into the GND pour are connected solidly.
+
+Fixed in the footprint library:
+
+* **RJ45 jack.** The library copy now has the NPTH pegs. Its outline sat on the edge
+  line it shares with the next jack and ran over the shield pads. It is moved in by
+  0.15 mm and broken around the pads. The courtyard follows the jack body, so ganged
+  jacks no longer overlap.
+* **USB-C and DC jack.** Outline clipped at the board edge (the USB-C receptacle
+  overhangs it) and around RJ5's shield pad.
+* **Test points** have no courtyard. They are bare pads with no part body.
+* **6.3 mm electrolytic** (C2, C6) courtyard uses IPC-7351's 0.1 mm margin. The pads
+  are 0.21 mm apart, as designed.
+* **Library sync.** EasyEDA keeps a separate copy of each placed footprint, and rotation
+  left sub-micron differences from the library copy (52 footprints). They are given the
+  library graphics, as *Update Footprints from Library* would do. Pad positions are
+  checked to match first.
 
 ### Not converted
 
 * **3D models.** The `.epro` has no component 3D models, so KiCad's 3D view shows bare
   pads. The board's STEP model is in [`../pcb/pcb-3d.step`](../pcb/).
-* The EasyEDA fonts (Century Gothic) aren't available; KiCad substitutes its own font
-  for the board title text.
 * The U2 symbol is still the RTL8367S-CG symbol from the original design; fit a YT9215S
   (see the top-level README).
