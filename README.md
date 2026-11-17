@@ -66,6 +66,7 @@ See the full description: [English translation](docs/description.en.md) ·
 | [`images/`](images/) | Photos and screenshots from the project page (built board, layout, strap pin table, test results). |
 | [`attachments/`](attachments/) | Files attached to the project page: `YT9215S_Datasheet_draft_V0.1.pdf` and `裕太微电子产品选型20230308.pdf` (Motorcomm product selection guide, 2023-03-08). |
 | [`docs/`](docs/) | Project description, original Chinese and English translation. |
+| [`research/`](research/) | Notes that are not part of the mirrored design: Motorcomm YT9215 JTAG, SPI flash and UART pins ([`motorcomm-debug-pins.md`](research/motorcomm-debug-pins.md)), and annotated photos of a bought LX-IS601F V2.0 board with a YT9215SCH ([`lx-is601f-board/`](research/lx-is601f-board/)). |
 | [`source/oshwhub/`](source/oshwhub/) | Raw project metadata and description HTML as returned by OSHWHub / EasyEDA, for provenance. |
 
 ### Not included
