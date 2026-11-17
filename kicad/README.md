@@ -1,11 +1,11 @@
 # KiCad version of the YT9215S 5-port switch
 
 A KiCad 9 conversion of pankanwen's design, made with **KiCad's own EasyEDA Pro
-importer** from [`../easyeda/YT9215S-5-port-switch.epro`](../easyeda/), not redrawn by
+importer** from [`../easyeda/YT9215S-5-port-switch.epro`](../easyeda/YT9215S-5-port-switch.epro), not redrawn by
 hand. Same author, credit and licence (CC BY-NC-SA 3.0) as the rest of this repository;
 see the [top-level README](../README.md).
 
-Open `YT9215S-5-port-switch.kicad_pro` in KiCad 9.0 or newer.
+Open [`YT9215S-5-port-switch.kicad_pro`](YT9215S-5-port-switch.kicad_pro) in KiCad 9.0 or newer.
 
 ![PCB, top (KiCad 3D render)](render/pcb-3d-top.png)
 
@@ -13,24 +13,24 @@ Open `YT9215S-5-port-switch.kicad_pro` in KiCad 9.0 or newer.
 
 | Path | Contents |
 | --- | --- |
-| `YT9215S-5-port-switch.kicad_pro` | Project (open this) |
-| `YT9215S-5-port-switch.kicad_sch`, `1_P1.kicad_sch`, `2_P2.kicad_sch` | Schematic: root sheet, P1 (switch chip, power, crystal, LED, reset), P2 (five RJ45 ports) |
-| `YT9215S-5-port-switch.kicad_pcb` | PCB, 2 layers, 100 × 65 mm, zones filled |
-| `YT9215S-5--easyedapro.kicad_sym`, `YT9215S-5-port-switch.pretty/` | Project symbol and footprint libraries written by the importer |
-| [`render/`](render/) | `schematic.pdf` and per-sheet PNGs, `pcb-layers.pdf` (one page per layer), top/bottom copper PNGs, top/bottom 3D renders |
-| [`reports/`](reports/) | KiCad ERC and DRC (with schematic parity) reports, the DRC exclusions, and `net-compare.txt` |
-| [`tools/`](tools/) | The fix scripts described below, and `compare_nets.py` (schematic vs PCB connectivity check) |
+| [`YT9215S-5-port-switch.kicad_pro`](YT9215S-5-port-switch.kicad_pro) | Project (open this) |
+| [`YT9215S-5-port-switch.kicad_sch`](YT9215S-5-port-switch.kicad_sch), [`1_P1.kicad_sch`](1_P1.kicad_sch), [`2_P2.kicad_sch`](2_P2.kicad_sch) | Schematic: root sheet, P1 (switch chip, power, crystal, LED, reset), P2 (five RJ45 ports) |
+| [`YT9215S-5-port-switch.kicad_pcb`](YT9215S-5-port-switch.kicad_pcb) | PCB, 2 layers, 100 × 65 mm, zones filled |
+| [`YT9215S-5--easyedapro.kicad_sym`](YT9215S-5--easyedapro.kicad_sym), [`YT9215S-5-port-switch.pretty/`](YT9215S-5-port-switch.pretty/) | Project symbol and footprint libraries written by the importer |
+| [`render/`](render/) | Schematic [`schematic.pdf`](render/schematic.pdf), [`P1`](render/schematic-P1.png) and [`P2`](render/schematic-P2.png) PNGs; PCB [`pcb-layers.pdf`](render/pcb-layers.pdf) (one page per layer), [`top`](render/pcb-top-copper.png) and [`bottom`](render/pcb-bottom-copper.png) copper, [`top`](render/pcb-3d-top.png) and [`bottom`](render/pcb-3d-bottom.png) 3D |
+| [`reports/`](reports/) | [`erc.rpt`](reports/erc.rpt), [`drc.rpt`](reports/drc.rpt) (with schematic parity), [`drc-exclusions.rpt`](reports/drc-exclusions.rpt), [`net-compare.txt`](reports/net-compare.txt) |
+| [`tools/`](tools/) | Fix scripts [`fixup_import.py`](tools/fixup_import.py), [`fix_schematic_erc.py`](tools/fix_schematic_erc.py), [`fix_pcb_drc.py`](tools/fix_pcb_drc.py) (with helper [`sch_geometry.py`](tools/sch_geometry.py)), and [`compare_nets.py`](tools/compare_nets.py) (connectivity check) |
 
 ## How it was made
 
 1. KiCad 9.0.9 (Ubuntu PPA), *Import Non-KiCad Project → EasyEDA (JLCEDA) Pro Project*
-   on the `.epro` for the PCB, and *Schematic Editor → File → Import → Non-KiCad
-   Schematic* on the same `.epro` for the schematic. The `.epro2` file is a newer
+   on the [`.epro`](../easyeda/YT9215S-5-port-switch.epro) for the PCB, and *Schematic Editor → File → Import → Non-KiCad
+   Schematic* on the same `.epro` for the schematic. The [`.epro2`](../easyeda/YT9215S-5-port-switch.epro2) file is a newer
    format that KiCad 9 can't read. The untouched importer output is the first commit
    that added this directory.
-2. `tools/fixup_import.py` (run with KiCad's Python) fixes the importer problems below.
+2. [`tools/fixup_import.py`](tools/fixup_import.py) (run with KiCad's Python) fixes the importer problems below.
    It is the second commit, so the diff shows exactly what changed.
-3. `tools/fix_schematic_erc.py` then `tools/fix_pcb_drc.py` clear the remaining ERC,
+3. [`tools/fix_schematic_erc.py`](tools/fix_schematic_erc.py) then [`tools/fix_pcb_drc.py`](tools/fix_pcb_drc.py) clear the remaining ERC,
    DRC and schematic-parity reports (third commit). Both scripts list each change with
    its reason at the top of each step.
 
@@ -44,12 +44,12 @@ Open `YT9215S-5-port-switch.kicad_pro` in KiCad 9.0 or newer.
 | Schematic parity | – | 165 | 0 |
 | Nets same in schematic and PCB | – | 77 of 157 | 117 of 117 |
 
-The last row counts every net, including single-pin ones. An earlier version of this
+The last row comes from [`compare_nets.py`](tools/compare_nets.py) ([`report`](reports/net-compare.txt)) and counts every net, including single-pin ones. An earlier version of this
 README said the schematic and PCB matched; the check then skipped single-pin nets and
 missed that the 40 Ethernet MDI nets were split in the schematic (see below).
 
-The four DRC exclusions (in the project file, each with a comment, listed in
-`reports/drc-exclusions.rpt`) are the shield holes that neighbouring RJ45 jacks share.
+The four DRC exclusions (in the [`project file`](YT9215S-5-port-switch.kicad_pro), each with a comment, listed in
+[`reports/drc-exclusions.rpt`](reports/drc-exclusions.rpt)) are the shield holes that neighbouring RJ45 jacks share.
 The five jacks are ganged at a 16 mm pitch and each jack's shield pin sits on its
 edge, so RJ1's right shield and RJ2's left shield are one hole. EasyEDA's own drill file
 drills these four holes twice as well. Changing that would mean redesigning the jack
@@ -67,12 +67,12 @@ footprint, so it is recorded as reviewed rather than changed.
 | EasyEDA design rules not imported | ~500 false clearance errors | 4 mil clearance, 10 mil track, 24/12 mil via |
 | Copper zones not filled | | Zones refilled |
 
-[^smd]: The `.epro` stores every SMD pad with a 0.001 mm placeholder hole, and the
+[^smd]: The [`.epro`](../easyeda/YT9215S-5-port-switch.epro) stores every SMD pad with a 0.001 mm placeholder hole, and the
 importer turned all 367 SMD pads into all-layer through-hole pads. Pads with a hole
 under 0.01 mm become SMD pads on their footprint's side: 250 top, 117 bottom and 89 PTH
-pads, which is what EasyEDA's board statistics report (`../pcb/pcb-info.txt`).
+pads, which is what EasyEDA's board statistics report ([`../pcb/pcb-info.txt`](../pcb/pcb-info.txt)).
 
-### Schematic fixes (step 3, `fix_schematic_erc.py`)
+### Schematic fixes (step 3, [`fix_schematic_erc.py`](tools/fix_schematic_erc.py))
 
 * **Ethernet nets joined.** EasyEDA net labels are global across sheets. The importer
   made them local, so the 40 MDI nets between the switch chip (sheet P1) and the RJ45
@@ -91,7 +91,7 @@ pads, which is what EasyEDA's board statistics report (`../pcb/pcb-info.txt`).
   from the board and BOM. MT2492 and the frame symbol, which existed in two versions
   under one name, get one library symbol per version.
 
-### PCB fixes (step 3, `fix_pcb_drc.py`)
+### PCB fixes (step 3, [`fix_pcb_drc.py`](tools/fix_pcb_drc.py))
 
 Fixed in the board:
 
@@ -135,7 +135,7 @@ Fixed in the footprint library:
 
 ### Not converted
 
-* **3D models.** The `.epro` has no component 3D models, so KiCad's 3D view shows bare
-  pads. The board's STEP model is in [`../pcb/pcb-3d.step`](../pcb/).
+* **3D models.** The [`.epro`](../easyeda/YT9215S-5-port-switch.epro) has no component 3D models, so KiCad's 3D view shows bare
+  pads. The board's STEP model is in [`../pcb/pcb-3d.step`](../pcb/pcb-3d.step).
 * The U2 symbol is still the RTL8367S-CG symbol from the original design; fit a YT9215S
-  (see the top-level README).
+  (see the [top-level README](../README.md)).
